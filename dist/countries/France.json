@@ -1,0 +1,48 @@
+{
+  "id": "56418c171383bf163f20fbc4191f7b44",
+  "name": "Страна | France",
+  "protocol": "vless",
+  "server": "82.202.179.106",
+  "port": 11443,
+  "password": "54f22246-cc9c-4315-907a-6c94c901d20f",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "smartcaptcha.yandexcloud.net",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "WWmwRoB2K7xonT6jzbhKen_Rp-UM7QCr_vMgmNZuggc",
+  "shortId": "044a5e06faf5",
+  "entryPool": [
+    {
+      "id": "56418c171383bf163f20fbc4191f7b44",
+      "name": "🇫🇷 Франция",
+      "protocol": "vless",
+      "server": "82.202.179.106",
+      "port": 11443,
+      "password": "54f22246-cc9c-4315-907a-6c94c901d20f",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "smartcaptcha.yandexcloud.net",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "WWmwRoB2K7xonT6jzbhKen_Rp-UM7QCr_vMgmNZuggc",
+      "shortId": "044a5e06faf5"
+    },
+    {
+      "id": "7960c2b04e666c9169076626e35c9a32",
+      "name": "🇫🇷 Франция",
+      "protocol": "vless",
+      "server": "82.202.179.111",
+      "port": 15443,
+      "password": "1ba0439d-384c-4a6e-9560-0439698beb2a",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "smartcaptcha.yandexcloud.net",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "MNmqM2p3nUYZIqo0sTMXRXGzB5HquF-czSycvdqn3U4",
+      "shortId": "b74f54b7"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

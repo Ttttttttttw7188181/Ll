@@ -1,0 +1,48 @@
+{
+  "id": "cab9284b76828f3ef10620880fe09eb4",
+  "name": "Страна | Egypt",
+  "protocol": "vless",
+  "server": "80.66.65.40",
+  "port": 443,
+  "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "eg.api.nurcloud.org",
+  "fingerPrint": "chrome",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "ds-unSW4f8mhJ5CVtkGQ-7GSPQJ3zoEs1qbXsU76I2c",
+  "shortId": "811f57d83ace01ec",
+  "entryPool": [
+    {
+      "id": "cab9284b76828f3ef10620880fe09eb4",
+      "name": "🇪🇬 Египет",
+      "protocol": "vless",
+      "server": "80.66.65.40",
+      "port": 443,
+      "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "eg.api.nurcloud.org",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "ds-unSW4f8mhJ5CVtkGQ-7GSPQJ3zoEs1qbXsU76I2c",
+      "shortId": "811f57d83ace01ec"
+    },
+    {
+      "id": "b31a8b64b6a33da2c80d4cfd3be6b2ea",
+      "name": "🇪🇬 Египет",
+      "protocol": "vless",
+      "server": "bridge.nurcloud.org",
+      "port": 443,
+      "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "eg.api.nurcloud.org",
+      "fingerPrint": "android",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "ds-unSW4f8mhJ5CVtkGQ-7GSPQJ3zoEs1qbXsU76I2c",
+      "shortId": "811f57d83ace01ec"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

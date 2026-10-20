@@ -1,0 +1,31 @@
+{
+  "id": "647a22e1f73ca94f18c6b0d235fc2a0f",
+  "name": "Страна | Japan",
+  "protocol": "vless",
+  "server": "176.53.162.32",
+  "port": 443,
+  "password": "d86e6fda-e519-03ea-98eb-9ff9a9da5984",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "8qxtze29d5kf.cdn.cachefleet.com",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "3kmVb84_3QhYp5xfYbxEmF6w43teAWKd-p9tvAMGVS4",
+  "entryPool": [
+    {
+      "id": "647a22e1f73ca94f18c6b0d235fc2a0f",
+      "name": "🇯🇵 Япония",
+      "protocol": "vless",
+      "server": "176.53.162.32",
+      "port": 443,
+      "password": "d86e6fda-e519-03ea-98eb-9ff9a9da5984",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "8qxtze29d5kf.cdn.cachefleet.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "3kmVb84_3QhYp5xfYbxEmF6w43teAWKd-p9tvAMGVS4"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
