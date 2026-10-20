@@ -1,5 +1,5 @@
 {
-  "id": "6e95bdd793b62463668229e91e1d95b8",
+  "id": "31d196b12c11e9dcaca871580e1f7f33",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "chrome",
+  "fingerPrint": "qq",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "6e95bdd793b62463668229e91e1d95b8",
+      "id": "31d196b12c11e9dcaca871580e1f7f33",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,51 +22,9 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
+      "fingerPrint": "qq",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
-    },
-    {
-      "id": "f3e7f6dca209a9d29e52dfb423332328",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "rus1.justnable.xyz",
-      "port": 443,
-      "password": "5d7e07ba-f460-4638-af79-bbcde67fcb6b",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
-    },
-    {
-      "id": "47b8e45664891bb5468fa3433ae5ad9b",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "81.26.182.128",
-      "port": 443,
-      "password": "38332d09-bf62-4178-9d87-a1e11a5c0ea3",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
-    },
-    {
-      "id": "27589a64cd0eee6d1b210e6a22b6cb9b",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "194.87.143.19",
-      "port": 443,
-      "password": "e7a4decb-631e-422b-9749-7e8f54618308",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.google.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc"
     }
   ],
   "poolUrltestIntervalSec": 120

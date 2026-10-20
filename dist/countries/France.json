@@ -1,5 +1,5 @@
 {
-  "id": "30063f918d2c24b59ea2c5eff6132fca",
+  "id": "afee13582cbf6c748acaaf94f0d1b25b",
   "name": "Страна | France",
   "protocol": "vless",
   "server": "82.202.179.106",
@@ -14,7 +14,7 @@
   "shortId": "044a5e06faf5",
   "entryPool": [
     {
-      "id": "30063f918d2c24b59ea2c5eff6132fca",
+      "id": "afee13582cbf6c748acaaf94f0d1b25b",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "82.202.179.106",
@@ -29,7 +29,7 @@
       "shortId": "044a5e06faf5"
     },
     {
-      "id": "7bdd6e06de59c2e6ddb6804fa28fbedd",
+      "id": "44cc979b9f408080803eb380a0554b19",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "82.202.179.111",
