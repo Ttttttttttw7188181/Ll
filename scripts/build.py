@@ -285,18 +285,22 @@ def main():
         f.write("\n")
     os.replace(SINGBOX_OUT + ".tmp", SINGBOX_OUT)
 
-    # Antinet format: one top-level entry per group, each with its own entryPool.
-    antinet_groups = []
+    # Antinet expects one top-level object with entryPool; arrays are rejected.
+    # Publish Auto as the main subscription and country-specific import files separately.
     all_entries = [entry for country in sorted(country_entries) for entry in country_entries[country]]
     auto_group = antinet_group("⚡ Авто", all_entries)
-    if auto_group: antinet_groups.append(auto_group)
-    for country in sorted(country_entries):
-        group = antinet_group("Страна | " + country, country_entries[country])
-        if group: antinet_groups.append(group)
     with open(OUT + ".tmp", "w", encoding="utf-8") as f:
-        json.dump(antinet_groups, f, ensure_ascii=False, indent=2)
+        json.dump(auto_group, f, ensure_ascii=False, indent=2)
         f.write("\n")
     os.replace(OUT + ".tmp", OUT)
+    country_dir = "dist/countries"
+    os.makedirs(country_dir, exist_ok=True)
+    for country in sorted(country_entries):
+        group = antinet_group("Страна | " + country, country_entries[country])
+        filename = re.sub(r"[^A-Za-z0-9_-]+", "-", country).strip("-")
+        with open(os.path.join(country_dir, filename + ".json"), "w", encoding="utf-8") as f:
+            json.dump(group, f, ensure_ascii=False, indent=2)
+            f.write("\n")
     report = {"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
               "unique_vless_uris":len(uris),"compatible_nodes":len(nodes),
               "countries":{c:len(tags) for c,tags in country_tags.items()},
