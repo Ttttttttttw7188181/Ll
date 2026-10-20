@@ -27,6 +27,20 @@
       "shortId": "23103e1e"
     },
     {
+      "id": "f3e7f6dca209a9d29e52dfb423332328",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "rus1.justnable.xyz",
+      "port": 443,
+      "password": "5d7e07ba-f460-4638-af79-bbcde67fcb6b",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
+    },
+    {
       "id": "2489604e29abe9740eb8e22182101340",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
@@ -81,21 +95,6 @@
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
       "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
-    },
-    {
-      "id": "6e7591dbb978ca99b878bb837e55ea1f",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "72.56.241.75",
-      "port": 57443,
-      "password": "c1e3b665-4447-4759-93cc-c2e8e8a62160",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "grpc",
-      "security": "reality",
-      "sni": "media.polina.lol",
-      "fingerPrint": "firefox",
-      "publicKey": "SPX2Uhw5AAifbNUjZf2zwpfvDUlUw3C7waDNMO48lSE"
     }
   ],
   "poolUrltestIntervalSec": 120
