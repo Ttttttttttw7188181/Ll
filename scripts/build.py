@@ -48,7 +48,7 @@ def uri_country(uri):
     aliases = {"uk":"United Kingdom", "england":"United Kingdom", "usa":"United States",
                "holland":"Netherlands", "uae":"United Arab Emirates", "korea":"South Korea"}
     for alias, country in aliases.items():
-        if re.search(r"\\b" + re.escape(alias) + r"\\b", low):
+        if re.search(r"\b" + re.escape(alias) + r"\b", low):
             return country
     return None
 
@@ -216,7 +216,7 @@ def main():
     tmp = OUT + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
-        f.write("\\n")
+        f.write("\n")
     os.replace(tmp, OUT)
     report = {"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
               "unique_vless_uris":len(uris),"compatible_nodes":len(nodes),
@@ -224,7 +224,7 @@ def main():
               "dropped_unsupported_or_invalid":dropped,"sources":source_status}
     with open("dist/report.json","w",encoding="utf-8") as f:
         json.dump(report,f,ensure_ascii=False,indent=2)
-        f.write("\\n")
+        f.write("\n")
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__ == "__main__":
