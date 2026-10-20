@@ -32,6 +32,29 @@
   ],
   "outbounds": [
     {
+      "type": "selector",
+      "tag": "По странам",
+      "outbounds": [
+        "Авто",
+        "Страна | Czechia",
+        "Страна | Egypt",
+        "Страна | Estonia",
+        "Страна | Finland",
+        "Страна | France",
+        "Страна | Germany",
+        "Страна | Iceland",
+        "Страна | Japan",
+        "Страна | Netherlands",
+        "Страна | Poland",
+        "Страна | Russia",
+        "Страна | Spain",
+        "Страна | Sweden",
+        "Страна | Turkey",
+        "Страна | United States"
+      ],
+      "default": "Авто"
+    },
+    {
       "type": "urltest",
       "tag": "Авто",
       "outbounds": [
@@ -3535,6 +3558,6 @@
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "Авто"
+    "final": "По странам"
   }
 }
