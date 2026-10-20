@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/antinet-countries.json dist/report.json
+          git add dist/antinet-countries.json dist/sing-box.json dist/report.json dist/countries/
           if git diff --cached --quiet; then
             echo "No changes to publish"
           else
