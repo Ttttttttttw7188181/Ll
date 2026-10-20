@@ -197,9 +197,8 @@ def main():
 
     if not nodes:
         raise SystemExit("No compatible, country-labelled VLESS servers found; refusing to overwrite output.")
-    # Keep Auto and country selectors as peer outbounds. A wrapper selector can cause
-    # some Sing-box clients to expose only its current child (often just "Авто") in the UI.
-    outbounds = []
+    # Parent selector offers Auto and each country as explicit choices.
+    outbounds = [{"type":"selector","tag":"По странам","outbounds":["Авто"] + ["Страна | " + c for c in country_tags],"default":"Авто"}]
     outbounds.append({"type":"urltest","tag":"Авто","outbounds":[n["tag"] for n in nodes],
                       "url":"https://www.gstatic.com/generate_204","interval":"5m","tolerance":50,"interrupt_exist_connections":False})
     for country, tags in country_tags.items():
@@ -212,7 +211,7 @@ def main():
              "final":"dns-remote","strategy":"prefer_ipv4"},
       "inbounds":[{"type":"tun","tag":"tun-in","address":["172.19.0.1/30"],"auto_route":True,"strict_route":True,"stack":"mixed"}],
       "outbounds":outbounds,
-      "route":{"auto_detect_interface":True,"final":"Авто"}
+      "route":{"auto_detect_interface":True,"final":"По странам"}
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     tmp = OUT + ".tmp"
