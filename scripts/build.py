@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build a country-grouped Sing-box config from public VLESS URI lists."""
-import json, os, re, socket, sys, time
+import hashlib, json, os, re, socket, sys, time
 from urllib.parse import urlsplit, parse_qs, unquote
 from urllib.request import Request, urlopen
 
@@ -10,6 +10,7 @@ SOURCES = [
     "https://hub.mos.ru/rkp/sub-roskompozor/raw/main/wl",
 ]
 OUT = "dist/antinet-countries.json"
+SINGBOX_OUT = "dist/sing-box.json"
 UA = "AntinetCountryBuilder/1.0"
 FLAGS = {
  "US":"United States","GB":"United Kingdom","DE":"Germany","FI":"Finland","FR":"France",
@@ -138,6 +139,69 @@ def node_from_uri(uri, index, country):
         return None
     return out
 
+def antinet_entry(uri, country, index):
+    """Convert VLESS URI to Antinet's entryPool schema (based on the supplied example)."""
+    p = urlsplit(uri)
+    if p.scheme.lower() != "vless" or not p.hostname or not p.port or not p.username:
+        return None
+    q = parse_qs(p.query, keep_blank_values=True)
+    def one(*keys, default=""):
+        for key in keys:
+            if q.get(key):
+                return q[key][0]
+        return default
+    network = one("type", default="tcp").lower()
+    if network in ("raw", ""): network = "tcp"
+    if network in ("xhttp", "splithttp"): return None
+    security = one("security", default="none").lower()
+    if security not in ("none", "tls", "reality"): return None
+    flags = {"Germany":"🇩🇪 Германия","Finland":"🇫🇮 Финляндия","United States":"🇺🇸 США",
+             "Netherlands":"🇳🇱 Нидерланды","France":"🇫🇷 Франция","Estonia":"🇪🇪 Эстония",
+             "Sweden":"🇸🇪 Швеция","Poland":"🇵🇱 Польша","Russia":"🇷🇺 Россия",
+             "Japan":"🇯🇵 Япония","Turkey":"🇹🇷 Турция","Spain":"🇪🇸 Испания",
+             "Czechia":"🇨🇿 Чехия","Egypt":"🇪🇬 Египет","Iceland":"🇮🇸 Исландия"}
+    name = flags.get(country, country)
+    node = {"id":hashlib.sha256(uri.encode("utf-8")).hexdigest()[:32],"name":name,
+            "protocol":"vless","server":p.hostname,"port":p.port,"password":unquote(p.username),
+            "network":"grpc" if network == "grpc" else network}
+    if network == "grpc":
+        node["mode"] = "gun"
+        service = one("serviceName", "service_name")
+        if service: node["serviceName"] = service
+    elif network == "ws":
+        host, path = one("host"), one("path")
+        if host: node["host"] = host
+        if path: node["path"] = path
+    elif network in ("httpupgrade", "http-upgrade", "http", "h2"):
+        node["network"] = "httpupgrade" if network in ("httpupgrade", "http-upgrade") else "http"
+        host, path = one("host"), one("path")
+        if host: node["host"] = host
+        if path: node["path"] = path
+    elif network != "tcp": return None
+    if security != "none":
+        node["security"] = security
+        node["sni"] = one("sni", default=p.hostname)
+        fp = one("fp")
+        if fp: node["fingerPrint"] = fp
+        alpn = one("alpn")
+        if alpn: node["alpn"] = alpn.split(",")
+    flow = one("flow")
+    if flow: node["flow"] = flow
+    if security == "reality":
+        pub, sid = one("pbk"), one("sid")
+        if not pub: return None
+        node["publicKey"] = pub
+        if sid: node["shortId"] = sid
+    return node
+
+def antinet_group(name, entries):
+    if not entries: return None
+    group = dict(entries[0])
+    group["name"] = name
+    group["entryPool"] = entries
+    group["poolUrltestIntervalSec"] = 120
+    return group
+
 def main():
     uris, seen = [], set()
     source_status = []
@@ -180,27 +244,29 @@ def main():
         if country:
             grouped.setdefault(country, []).append(uri)
 
-    nodes, country_tags = [], {}
+    nodes, country_tags, country_entries = [], {}, {}
     dropped = 0
     for country in sorted(grouped):
-        country_nodes = []
+        country_nodes, country_pool = [], []
         for uri in grouped[country]:
             node = node_from_uri(uri, len(nodes) + len(country_nodes) + 1, country)
-            if node:
+            entry = antinet_entry(uri, country, len(nodes) + len(country_nodes) + 1)
+            if node and entry:
                 country_nodes.append(node)
+                country_pool.append(entry)
             else:
                 dropped += 1
-        if not country_nodes:
-            continue
+        if not country_nodes: continue
         nodes.extend(country_nodes)
         country_tags[country] = [n["tag"] for n in country_nodes]
-
+        country_entries[country] = country_pool
     if not nodes:
         raise SystemExit("No compatible, country-labelled VLESS servers found; refusing to overwrite output.")
-    # Keep Auto and country selectors as top-level outbounds so clients can expose each as a group.
-    outbounds = []
-    outbounds.append({"type":"urltest","tag":"Авто","outbounds":[n["tag"] for n in nodes],
-                      "url":"https://www.gstatic.com/generate_204","interval":"5m","tolerance":50,"interrupt_exist_connections":False})
+
+    # Conventional Sing-box JSON remains available separately.
+    outbounds = [{"type":"urltest","tag":"Авто","outbounds":[n["tag"] for n in nodes],
+                  "url":"https://www.gstatic.com/generate_204","interval":"5m","tolerance":50,
+                  "interrupt_exist_connections":False}]
     for country, tags in country_tags.items():
         outbounds.append({"type":"selector","tag":"Страна | " + country,"outbounds":tags,"default":tags[0]})
     outbounds.extend(nodes)
@@ -214,11 +280,23 @@ def main():
       "route":{"auto_detect_interface":True,"final":"Авто"}
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    tmp = OUT + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
+    with open(SINGBOX_OUT + ".tmp", "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    os.replace(tmp, OUT)
+        f.write("\\n")
+    os.replace(SINGBOX_OUT + ".tmp", SINGBOX_OUT)
+
+    # Antinet format: one top-level entry per group, each with its own entryPool.
+    antinet_groups = []
+    all_entries = [entry for country in sorted(country_entries) for entry in country_entries[country]]
+    auto_group = antinet_group("⚡ Авто", all_entries)
+    if auto_group: antinet_groups.append(auto_group)
+    for country in sorted(country_entries):
+        group = antinet_group("Страна | " + country, country_entries[country])
+        if group: antinet_groups.append(group)
+    with open(OUT + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(antinet_groups, f, ensure_ascii=False, indent=2)
+        f.write("\\n")
+    os.replace(OUT + ".tmp", OUT)
     report = {"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
               "unique_vless_uris":len(uris),"compatible_nodes":len(nodes),
               "countries":{c:len(tags) for c,tags in country_tags.items()},
