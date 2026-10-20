@@ -33,30 +33,30 @@
   "outbounds": [
     {
       "type": "selector",
-      "tag": "Select country",
+      "tag": "По странам",
       "outbounds": [
-        "Auto",
-        "Country | Czechia",
-        "Country | Egypt",
-        "Country | Estonia",
-        "Country | Finland",
-        "Country | France",
-        "Country | Germany",
-        "Country | Iceland",
-        "Country | Japan",
-        "Country | Netherlands",
-        "Country | Poland",
-        "Country | Russia",
-        "Country | Spain",
-        "Country | Sweden",
-        "Country | Turkey",
-        "Country | United States"
+        "Авто",
+        "Страна | Czechia",
+        "Страна | Egypt",
+        "Страна | Estonia",
+        "Страна | Finland",
+        "Страна | France",
+        "Страна | Germany",
+        "Страна | Iceland",
+        "Страна | Japan",
+        "Страна | Netherlands",
+        "Страна | Poland",
+        "Страна | Russia",
+        "Страна | Spain",
+        "Страна | Sweden",
+        "Страна | Turkey",
+        "Страна | United States"
       ],
-      "default": "Auto"
+      "default": "Авто"
     },
     {
       "type": "urltest",
-      "tag": "Auto",
+      "tag": "Авто",
       "outbounds": [
         "Czechia 001",
         "Czechia 002",
@@ -198,7 +198,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Czechia",
+      "tag": "Страна | Czechia",
       "outbounds": [
         "Czechia 001",
         "Czechia 002",
@@ -211,7 +211,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Egypt",
+      "tag": "Страна | Egypt",
       "outbounds": [
         "Egypt 007",
         "Egypt 008"
@@ -220,7 +220,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Estonia",
+      "tag": "Страна | Estonia",
       "outbounds": [
         "Estonia 009",
         "Estonia 010",
@@ -260,7 +260,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Finland",
+      "tag": "Страна | Finland",
       "outbounds": [
         "Finland 042",
         "Finland 043",
@@ -283,7 +283,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | France",
+      "tag": "Страна | France",
       "outbounds": [
         "France 058",
         "France 059"
@@ -292,7 +292,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Germany",
+      "tag": "Страна | Germany",
       "outbounds": [
         "Germany 060",
         "Germany 061",
@@ -319,7 +319,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Iceland",
+      "tag": "Страна | Iceland",
       "outbounds": [
         "Iceland 080",
         "Iceland 081",
@@ -332,7 +332,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Japan",
+      "tag": "Страна | Japan",
       "outbounds": [
         "Japan 086"
       ],
@@ -340,7 +340,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Netherlands",
+      "tag": "Страна | Netherlands",
       "outbounds": [
         "Netherlands 087",
         "Netherlands 088",
@@ -357,7 +357,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Poland",
+      "tag": "Страна | Poland",
       "outbounds": [
         "Poland 097",
         "Poland 098",
@@ -370,7 +370,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Russia",
+      "tag": "Страна | Russia",
       "outbounds": [
         "Russia 103",
         "Russia 104",
@@ -383,7 +383,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Spain",
+      "tag": "Страна | Spain",
       "outbounds": [
         "Spain 109",
         "Spain 110",
@@ -395,7 +395,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Sweden",
+      "tag": "Страна | Sweden",
       "outbounds": [
         "Sweden 114",
         "Sweden 115",
@@ -409,7 +409,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | Turkey",
+      "tag": "Страна | Turkey",
       "outbounds": [
         "Turkey 121",
         "Turkey 122",
@@ -422,7 +422,7 @@
     },
     {
       "type": "selector",
-      "tag": "Country | United States",
+      "tag": "Страна | United States",
       "outbounds": [
         "United States 127",
         "United States 128",
@@ -3558,6 +3558,6 @@
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "Auto"
+    "final": "По странам"
   }
 }
