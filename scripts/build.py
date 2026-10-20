@@ -282,7 +282,7 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(SINGBOX_OUT + ".tmp", "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
-        f.write("\\n")
+        f.write("\n")
     os.replace(SINGBOX_OUT + ".tmp", SINGBOX_OUT)
 
     # Antinet format: one top-level entry per group, each with its own entryPool.
@@ -295,7 +295,7 @@ def main():
         if group: antinet_groups.append(group)
     with open(OUT + ".tmp", "w", encoding="utf-8") as f:
         json.dump(antinet_groups, f, ensure_ascii=False, indent=2)
-        f.write("\\n")
+        f.write("\n")
     os.replace(OUT + ".tmp", OUT)
     report = {"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
               "unique_vless_uris":len(uris),"compatible_nodes":len(nodes),
