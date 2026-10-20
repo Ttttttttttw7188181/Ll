@@ -1,19 +1,35 @@
 {
-  "id": "da2a0249b8110c496f40054f25bfd5af",
+  "id": "2176ccb825a0e5072299050ed69bcc38",
   "name": "Страна | Germany",
   "protocol": "vless",
-  "server": "185.141.227.223",
+  "server": "185.76.241.99",
   "port": 443,
-  "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-  "network": "ws",
-  "host": "z1q3pv4g78.rucdncomp.pro",
-  "path": "/useraction/events/b892639b7195/",
-  "security": "tls",
-  "sni": "z1q3pv4g78.rucdncomp.pro",
-  "fingerPrint": "safari",
+  "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "ru-in-de-4vp.movietop24.site",
+  "fingerPrint": "android",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "cRFU83ShR1JHDtNNiZfqGFyAKwWK5CR6vhuuBcoSRUE",
+  "shortId": "fda703d9b877e57f",
   "entryPool": [
     {
-      "id": "da2a0249b8110c496f40054f25bfd5af",
+      "id": "2176ccb825a0e5072299050ed69bcc38",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "185.76.241.99",
+      "port": 443,
+      "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ru-in-de-4vp.movietop24.site",
+      "fingerPrint": "android",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "cRFU83ShR1JHDtNNiZfqGFyAKwWK5CR6vhuuBcoSRUE",
+      "shortId": "fda703d9b877e57f"
+    },
+    {
+      "id": "cd416479e765d738852996c97aa8d61b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "185.141.227.223",
@@ -27,34 +43,66 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "e057cdb69ef16cc0092095f298ab6022",
+      "id": "6018c17b30e7c32060bb39ffd3d95ed4",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
-      "server": "186.246.29.249",
-      "port": 25443,
-      "password": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "grpc",
-      "security": "reality",
-      "sni": "media.uzumaki.lol",
-      "fingerPrint": "firefox",
-      "publicKey": "3RAtCvqClGsqdQO2RXS91mG_FfEaHEF5RJ9bU1QtqWk"
+      "server": "185.141.227.223",
+      "port": 443,
+      "password": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+      "network": "ws",
+      "host": "z1q3pv4g78.rucdncomp.pro",
+      "path": "/useraction/events/b892639b7195/",
+      "security": "tls",
+      "sni": "z1q3pv4g78.rucdncomp.pro",
+      "fingerPrint": "random",
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
-      "id": "6f52179919aa208c1a7c53f82ee152b7",
+      "id": "b24b0d1a31cd5ad35deee20b634c2e73",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
-      "server": "186.246.29.249",
-      "port": 39443,
-      "password": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "grpc",
-      "security": "reality",
-      "sni": "static.polina.mom",
+      "server": "z1q3pv4g78.rucdncomp.pro",
+      "port": 443,
+      "password": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+      "network": "ws",
+      "host": "z1q3pv4g78.rucdncomp.pro",
+      "path": "/useraction/events/b892639b7195/",
+      "security": "tls",
+      "sni": "z1q3pv4g78.rucdncomp.pro",
       "fingerPrint": "firefox",
-      "publicKey": "YPsphGkQvosdhqZwi_RJDzFIwjZnt9duNWAOAcqKoUc"
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "bfaaf54399d79a1fc6809a0dac24b433",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "185.141.227.223",
+      "port": 443,
+      "password": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+      "network": "ws",
+      "host": "z1q3pv4g78.rucdncomp.pro",
+      "path": "/useraction/events/b892639b7195/",
+      "security": "tls",
+      "sni": "z1q3pv4g78.rucdncomp.pro",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "d2d10934a03bc143f1a7d929270dfd0f",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "185.141.227.223",
+      "port": 443,
+      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+      "network": "ws",
+      "host": "z1q3pv4g78.rucdncomp.pro",
+      "path": "/useraction/events/b892639b7195/",
+      "security": "tls",
+      "sni": "z1q3pv4g78.rucdncomp.pro",
+      "fingerPrint": "firefox"
     },
     {
       "id": "21095b6bcd218cac9a577215b862f6df",
@@ -72,6 +120,21 @@
       "publicKey": "3RAtCvqClGsqdQO2RXS91mG_FfEaHEF5RJ9bU1QtqWk"
     },
     {
+      "id": "2c9072a7f2efd0c51c4b7aea29cbc123",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "94.228.112.60",
+      "port": 39443,
+      "password": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc",
+      "security": "reality",
+      "sni": "static.polina.mom",
+      "fingerPrint": "firefox",
+      "publicKey": "YPsphGkQvosdhqZwi_RJDzFIwjZnt9duNWAOAcqKoUc"
+    },
+    {
       "id": "c7f9fff89667db2bc1243cfd5e53e5a5",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
@@ -85,54 +148,6 @@
       "sni": "static.nyx53.shop",
       "fingerPrint": "firefox",
       "publicKey": "vi1vP3RJQgLsRgzaiKvjr44iNRzI62lSYMipnrTMAUs"
-    },
-    {
-      "id": "c4cd7395624f77e2d2586460db0c7033",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "uzs9w3bg6u.rucdncomp.pro",
-      "port": 443,
-      "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
-      "network": "ws",
-      "host": "uzs9w3bg6u.rucdncomp.pro",
-      "path": "/service/telemetry/e6dc0bd08cb1/",
-      "security": "tls",
-      "sni": "uzs9w3bg6u.rucdncomp.pro",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "edb39c135ec7d2356cd7169be4d74e57",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "46.243.232.167",
-      "port": 443,
-      "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
-      "network": "ws",
-      "host": "uzs9w3bg6u.rucdncomp.pro",
-      "path": "/service/telemetry/e6dc0bd08cb1/",
-      "security": "tls",
-      "sni": "uzs9w3bg6u.rucdncomp.pro",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "387cd8dfe33d38876c4879a01cb0b0fb",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "renderer-bridge-2-121.mirra.now",
-      "port": 443,
-      "password": "27653b37-603c-4c90-b1f5-25c4d23f8932",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "VideoRenderer",
-      "security": "tls",
-      "sni": "renderer-bridge-2-121.mirra.now",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2"
-      ]
     }
   ],
   "poolUrltestIntervalSec": 120

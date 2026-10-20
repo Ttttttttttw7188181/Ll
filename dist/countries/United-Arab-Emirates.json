@@ -1,0 +1,33 @@
+{
+  "id": "03f3e831e0d19c05562142a1116460af",
+  "name": "Страна | United Arab Emirates",
+  "protocol": "vless",
+  "server": "213.165.60.99",
+  "port": 443,
+  "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "ru-in-uk-4vp.movietop24.site",
+  "fingerPrint": "android",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
+  "shortId": "17e8f4e38e421c68",
+  "entryPool": [
+    {
+      "id": "03f3e831e0d19c05562142a1116460af",
+      "name": "United Arab Emirates",
+      "protocol": "vless",
+      "server": "213.165.60.99",
+      "port": 443,
+      "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ru-in-uk-4vp.movietop24.site",
+      "fingerPrint": "android",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
+      "shortId": "17e8f4e38e421c68"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

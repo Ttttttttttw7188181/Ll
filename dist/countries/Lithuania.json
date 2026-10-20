@@ -1,0 +1,33 @@
+{
+  "id": "15b48174c0a0336b7479c576d835b353",
+  "name": "Страна | Lithuania",
+  "protocol": "vless",
+  "server": "89.23.113.11",
+  "port": 443,
+  "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "ru-in-lt-4vp.movietop24.site",
+  "fingerPrint": "android",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "DP_8vX-l2ugAHn828ZGa4wHp4Y7YOZrhGKiTMaFoCDc",
+  "shortId": "4ea43db267b5fd8b",
+  "entryPool": [
+    {
+      "id": "15b48174c0a0336b7479c576d835b353",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "89.23.113.11",
+      "port": 443,
+      "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ru-in-lt-4vp.movietop24.site",
+      "fingerPrint": "android",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "DP_8vX-l2ugAHn828ZGa4wHp4Y7YOZrhGKiTMaFoCDc",
+      "shortId": "4ea43db267b5fd8b"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

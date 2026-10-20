@@ -1,0 +1,33 @@
+{
+  "id": "c7e99e7a41fa186d4e3b8618b338ffac",
+  "name": "Страна | Latvia",
+  "protocol": "vless",
+  "server": "193.233.48.89",
+  "port": 443,
+  "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "ru-in-lv-4vp.movietop24.site",
+  "fingerPrint": "edge",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio",
+  "shortId": "b629457828a7d4bf",
+  "entryPool": [
+    {
+      "id": "c7e99e7a41fa186d4e3b8618b338ffac",
+      "name": "Latvia",
+      "protocol": "vless",
+      "server": "193.233.48.89",
+      "port": 443,
+      "password": "9ab9291e-fd72-4af9-b227-93419e90ff2e",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ru-in-lv-4vp.movietop24.site",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio",
+      "shortId": "b629457828a7d4bf"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

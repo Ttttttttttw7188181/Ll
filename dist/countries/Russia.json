@@ -1,5 +1,5 @@
 {
-  "id": "ea547f76519cb0c02931dbae376bf601",
+  "id": "6e95bdd793b62463668229e91e1d95b8",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "ea547f76519cb0c02931dbae376bf601",
+      "id": "6e95bdd793b62463668229e91e1d95b8",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -41,48 +41,6 @@
       "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
     },
     {
-      "id": "2489604e29abe9740eb8e22182101340",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "81.26.182.128",
-      "port": 443,
-      "password": "5d7e07ba-f460-4638-af79-bbcde67fcb6b",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
-    },
-    {
-      "id": "8de5df61e82c42962d53a464b36fba9b",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "147.45.148.6",
-      "port": 443,
-      "password": "8a9c586c-4b2c-49e5-9e78-97408bf58500",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "yoy-api.bachidze.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-    },
-    {
-      "id": "9a28c171d49d57aad7d59ff0dc886e0a",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "85.193.85.231",
-      "port": 443,
-      "password": "8a9c586c-4b2c-49e5-9e78-97408bf58500",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "yoy-api.bachidze.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
-    },
-    {
       "id": "47b8e45664891bb5468fa3433ae5ad9b",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
@@ -95,6 +53,20 @@
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
       "publicKey": "xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY"
+    },
+    {
+      "id": "27589a64cd0eee6d1b210e6a22b6cb9b",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "194.87.143.19",
+      "port": 443,
+      "password": "e7a4decb-631e-422b-9749-7e8f54618308",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.google.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc"
     }
   ],
   "poolUrltestIntervalSec": 120

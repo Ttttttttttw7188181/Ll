@@ -1,0 +1,31 @@
+{
+  "id": "1de57a01a62d61471ae674d033a4b980",
+  "name": "Страна | Austria",
+  "protocol": "vless",
+  "server": "94.228.162.222",
+  "port": 443,
+  "password": "0c7d0b50-245c-436e-9414-05cf19a73658",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "vena.solomon-planet.ru",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U",
+  "entryPool": [
+    {
+      "id": "1de57a01a62d61471ae674d033a4b980",
+      "name": "Austria",
+      "protocol": "vless",
+      "server": "94.228.162.222",
+      "port": 443,
+      "password": "0c7d0b50-245c-436e-9414-05cf19a73658",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "vena.solomon-planet.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

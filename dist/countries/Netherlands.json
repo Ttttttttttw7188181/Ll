@@ -1,17 +1,31 @@
 {
-  "id": "cb2ffc8f3caad509d01598fada8b6588",
+  "id": "3cb2a90ba1fda09dcc4b2b9cfc2cfb50",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "qq.utiltools.site",
+  "server": "46.243.232.167",
   "port": 443,
-  "password": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "qq.utiltools.site",
-  "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI",
+  "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+  "network": "ws",
+  "host": "uzs9w3bg6u.rucdncomp.pro",
+  "path": "/service/telemetry/e6dc0bd08cb1/",
+  "security": "tls",
+  "sni": "uzs9w3bg6u.rucdncomp.pro",
+  "fingerPrint": "edge",
   "entryPool": [
+    {
+      "id": "3cb2a90ba1fda09dcc4b2b9cfc2cfb50",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "46.243.232.167",
+      "port": 443,
+      "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+      "network": "ws",
+      "host": "uzs9w3bg6u.rucdncomp.pro",
+      "path": "/service/telemetry/e6dc0bd08cb1/",
+      "security": "tls",
+      "sni": "uzs9w3bg6u.rucdncomp.pro",
+      "fingerPrint": "edge"
+    },
     {
       "id": "cb2ffc8f3caad509d01598fada8b6588",
       "name": "🇳🇱 Нидерланды",
@@ -41,6 +55,21 @@
       "publicKey": "drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI"
     },
     {
+      "id": "d601403397159b8a0606f7812008debf",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "94.228.112.60",
+      "port": 8443,
+      "password": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc",
+      "security": "reality",
+      "sni": "assets.uzumaki.lol",
+      "fingerPrint": "firefox",
+      "publicKey": "TLxUogtDgnVgAZaPtiSmsKWeJvLqhSKSmKdGTTxKZSE"
+    },
+    {
       "id": "776b5a09cf8eeac4af505837a0e4480c",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
@@ -56,19 +85,35 @@
       "publicKey": "TLxUogtDgnVgAZaPtiSmsKWeJvLqhSKSmKdGTTxKZSE"
     },
     {
-      "id": "d601403397159b8a0606f7812008debf",
+      "id": "942cfd12b99a357a3c314313ba4f2837",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "94.228.112.60",
-      "port": 8443,
-      "password": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "grpc",
-      "security": "reality",
-      "sni": "assets.uzumaki.lol",
+      "server": "uzs9w3bg6u.rucdncomp.pro",
+      "port": 443,
+      "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+      "network": "ws",
+      "host": "uzs9w3bg6u.rucdncomp.pro",
+      "path": "/service/telemetry/e6dc0bd08cb1/",
+      "security": "tls",
+      "sni": "uzs9w3bg6u.rucdncomp.pro",
       "fingerPrint": "firefox",
-      "publicKey": "TLxUogtDgnVgAZaPtiSmsKWeJvLqhSKSmKdGTTxKZSE"
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "20cae2d5f528a26e8c43211ba5a7f490",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "46.243.232.167",
+      "port": 443,
+      "password": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+      "network": "ws",
+      "host": "uzs9w3bg6u.rucdncomp.pro",
+      "path": "/service/telemetry/e6dc0bd08cb1/",
+      "security": "tls",
+      "sni": "uzs9w3bg6u.rucdncomp.pro",
+      "fingerPrint": "firefox"
     }
   ],
   "poolUrltestIntervalSec": 120

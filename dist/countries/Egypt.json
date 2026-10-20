@@ -1,8 +1,8 @@
 {
-  "id": "cab9284b76828f3ef10620880fe09eb4",
+  "id": "f22a5fbbba215d579df6dfc14a7af755",
   "name": "Страна | Egypt",
   "protocol": "vless",
-  "server": "80.66.65.40",
+  "server": "bridge.nurcloud.org",
   "port": 443,
   "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
   "network": "tcp",
@@ -14,10 +14,10 @@
   "shortId": "811f57d83ace01ec",
   "entryPool": [
     {
-      "id": "cab9284b76828f3ef10620880fe09eb4",
+      "id": "f22a5fbbba215d579df6dfc14a7af755",
       "name": "🇪🇬 Египет",
       "protocol": "vless",
-      "server": "80.66.65.40",
+      "server": "bridge.nurcloud.org",
       "port": 443,
       "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
       "network": "tcp",
@@ -29,10 +29,10 @@
       "shortId": "811f57d83ace01ec"
     },
     {
-      "id": "b31a8b64b6a33da2c80d4cfd3be6b2ea",
+      "id": "35f5104f92f96f66ec474cee3d4a778a",
       "name": "🇪🇬 Египет",
       "protocol": "vless",
-      "server": "bridge.nurcloud.org",
+      "server": "45.151.182.163",
       "port": 443,
       "password": "b91d8200-1b39-41d2-bca0-9ac1a079cd91",
       "network": "tcp",
