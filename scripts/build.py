@@ -197,11 +197,11 @@ def main():
 
     if not nodes:
         raise SystemExit("No compatible, country-labelled VLESS servers found; refusing to overwrite output.")
-    outbounds = [{"type":"selector","tag":"Select country","outbounds":["Auto"] + ["Country | " + c for c in country_tags],"default":"Auto"}]
-    outbounds.append({"type":"urltest","tag":"Auto","outbounds":[n["tag"] for n in nodes],
+    outbounds = [{"type":"selector","tag":"По странам","outbounds":["Авто"] + ["Страна | " + c for c in country_tags],"default":"Авто"}]
+    outbounds.append({"type":"urltest","tag":"Авто","outbounds":[n["tag"] for n in nodes],
                       "url":"https://www.gstatic.com/generate_204","interval":"5m","tolerance":50,"interrupt_exist_connections":False})
     for country, tags in country_tags.items():
-        outbounds.append({"type":"selector","tag":"Country | " + country,"outbounds":tags,"default":tags[0]})
+        outbounds.append({"type":"selector","tag":"Страна | " + country,"outbounds":tags,"default":tags[0]})
     outbounds.extend(nodes)
     outbounds.extend([{"type":"direct","tag":"direct"},{"type":"block","tag":"block"}])
     config = {
@@ -210,7 +210,7 @@ def main():
              "final":"dns-remote","strategy":"prefer_ipv4"},
       "inbounds":[{"type":"tun","tag":"tun-in","address":["172.19.0.1/30"],"auto_route":True,"strict_route":True,"stack":"mixed"}],
       "outbounds":outbounds,
-      "route":{"auto_detect_interface":True,"final":"Auto"}
+      "route":{"auto_detect_interface":True,"final":"По странам"}
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     tmp = OUT + ".tmp"
