@@ -1,5 +1,5 @@
 {
-  "id": "7a003f9e69aa84c4a0ed6ab4083f048e",
+  "id": "b77f032c8a0520cb075822094a71072a",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "7a003f9e69aa84c4a0ed6ab4083f048e",
+      "id": "b77f032c8a0520cb075822094a71072a",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
