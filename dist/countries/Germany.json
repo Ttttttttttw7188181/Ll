@@ -1,5 +1,5 @@
 {
-  "id": "e37ae75f63b88d5a81bf702f75b39428",
+  "id": "262b7b94e520bec0e884794ab08ace8b",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "213.171.24.54",
@@ -8,13 +8,13 @@
   "network": "tcp",
   "security": "reality",
   "sni": "travel.yandex.ru",
-  "fingerPrint": "android",
+  "fingerPrint": "edge",
   "flow": "xtls-rprx-vision",
   "publicKey": "kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A",
   "shortId": "ca6703afd42cadcd",
   "entryPool": [
     {
-      "id": "e37ae75f63b88d5a81bf702f75b39428",
+      "id": "262b7b94e520bec0e884794ab08ace8b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "213.171.24.54",
@@ -23,7 +23,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "travel.yandex.ru",
-      "fingerPrint": "android",
+      "fingerPrint": "edge",
       "flow": "xtls-rprx-vision",
       "publicKey": "kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A",
       "shortId": "ca6703afd42cadcd"

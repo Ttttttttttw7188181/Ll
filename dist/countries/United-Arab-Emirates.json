@@ -1,5 +1,5 @@
 {
-  "id": "d5692a6ac3e685bd81c8fe56c128e030",
+  "id": "d1c9b9049f5da299cd071d3ea00bd2b5",
   "name": "Страна | United Arab Emirates",
   "protocol": "vless",
   "server": "213.165.60.99",
@@ -8,13 +8,13 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ru-in-uk-4vp.movietop24.site",
-  "fingerPrint": "edge",
+  "fingerPrint": "android",
   "flow": "xtls-rprx-vision",
   "publicKey": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
   "shortId": "17e8f4e38e421c68",
   "entryPool": [
     {
-      "id": "d5692a6ac3e685bd81c8fe56c128e030",
+      "id": "d1c9b9049f5da299cd071d3ea00bd2b5",
       "name": "United Arab Emirates",
       "protocol": "vless",
       "server": "213.165.60.99",
@@ -23,7 +23,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ru-in-uk-4vp.movietop24.site",
-      "fingerPrint": "edge",
+      "fingerPrint": "android",
       "flow": "xtls-rprx-vision",
       "publicKey": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
       "shortId": "17e8f4e38e421c68"
