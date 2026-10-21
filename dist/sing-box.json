@@ -35,13 +35,17 @@
       "type": "urltest",
       "tag": "Авто",
       "outbounds": [
-        "France 001",
-        "France 002",
-        "Germany 003",
-        "Germany 004",
+        "Finland 001",
+        "Finland 002",
+        "France 003",
+        "France 004",
         "Germany 005",
-        "Russia 006",
-        "Sweden 007"
+        "Germany 006",
+        "Germany 007",
+        "Netherlands 008",
+        "Russia 009",
+        "Sweden 010",
+        "Sweden 011"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -50,42 +54,106 @@
     },
     {
       "type": "selector",
+      "tag": "Страна | Finland",
+      "outbounds": [
+        "Finland 001",
+        "Finland 002"
+      ],
+      "default": "Finland 001"
+    },
+    {
+      "type": "selector",
       "tag": "Страна | France",
       "outbounds": [
-        "France 001",
-        "France 002"
+        "France 003",
+        "France 004"
       ],
-      "default": "France 001"
+      "default": "France 003"
     },
     {
       "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
-        "Germany 003",
-        "Germany 004",
-        "Germany 005"
+        "Germany 005",
+        "Germany 006",
+        "Germany 007"
       ],
-      "default": "Germany 003"
+      "default": "Germany 005"
+    },
+    {
+      "type": "selector",
+      "tag": "Страна | Netherlands",
+      "outbounds": [
+        "Netherlands 008"
+      ],
+      "default": "Netherlands 008"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
-        "Russia 006"
+        "Russia 009"
       ],
-      "default": "Russia 006"
+      "default": "Russia 009"
     },
     {
       "type": "selector",
       "tag": "Страна | Sweden",
       "outbounds": [
-        "Sweden 007"
+        "Sweden 010",
+        "Sweden 011"
       ],
-      "default": "Sweden 007"
+      "default": "Sweden 010"
     },
     {
       "type": "vless",
-      "tag": "France 001",
+      "tag": "Finland 001",
+      "server": "36a466g.fi1.h1clayd.click",
+      "server_port": 443,
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "36a466g.fi1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+          "short_id": "b3c9d0c6bdd114a6"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "0adb9638509b"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Finland 002",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "server_port": 443,
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "3f8efdt.fi1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+          "short_id": "023a1e6ffc32be10"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "France 003",
       "server": "82.202.179.106",
       "server_port": 11443,
       "uuid": "54f22246-cc9c-4315-907a-6c94c901d20f",
@@ -107,7 +175,7 @@
     },
     {
       "type": "vless",
-      "tag": "France 002",
+      "tag": "France 004",
       "server": "82.202.179.111",
       "server_port": 15443,
       "uuid": "1ba0439d-384c-4a6e-9560-0439698beb2a",
@@ -129,28 +197,29 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 003",
-      "server": "103.24.207.40",
-      "server_port": 8443,
-      "uuid": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
+      "tag": "Germany 005",
+      "server": "185.141.227.201",
+      "server_port": 7445,
+      "uuid": "66217279-de40-4b62-b2bb-9c33b8fb7a01",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "edge-fr.extazy.net",
+        "server_name": "passport.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY"
+          "public_key": "S_s3FVodJIep88KnIgT0cZLUMB2tAJHTJEn0o-J03G8",
+          "short_id": "283f4b51fbe39ad9"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 004",
+      "tag": "Germany 006",
       "server": "185.141.227.223",
       "server_port": 443,
       "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
@@ -173,7 +242,7 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 005",
+      "tag": "Germany 007",
       "server": "185.141.227.223",
       "server_port": 443,
       "uuid": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
@@ -199,7 +268,33 @@
     },
     {
       "type": "vless",
-      "tag": "Russia 006",
+      "tag": "Netherlands 008",
+      "server": "46.243.142.2",
+      "server_port": 443,
+      "uuid": "7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "floweroom.vip",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "floweroom.vip"
+        },
+        "path": "/cart/sync/g-jSjxyhq24P"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Russia 009",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -209,7 +304,7 @@
         "server_name": "ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -220,7 +315,7 @@
     },
     {
       "type": "vless",
-      "tag": "Sweden 007",
+      "tag": "Sweden 010",
       "server": "188.225.77.254",
       "server_port": 8443,
       "uuid": "5473d93b-3cb2-4a10-9fd5-2b98459d9c53",
@@ -231,6 +326,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
+          "short_id": "4951a2313524dd8f"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ozone"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Sweden 011",
+      "server": "188.225.77.254",
+      "server_port": 8443,
+      "uuid": "5473d93b-3cb2-4a10-9fd5-2b98459d9c53",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "io.ozone.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,

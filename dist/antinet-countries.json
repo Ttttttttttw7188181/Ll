@@ -1,20 +1,51 @@
 {
-  "id": "afee13582cbf6c748acaaf94f0d1b25b",
+  "id": "44c61589bc6acd9a8fad42c67bdc4d77",
   "name": "⚡ Авто",
   "protocol": "vless",
-  "server": "82.202.179.106",
-  "port": 11443,
-  "password": "54f22246-cc9c-4315-907a-6c94c901d20f",
-  "network": "tcp",
+  "server": "36a466g.fi1.h1clayd.click",
+  "port": 443,
+  "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "0adb9638509b",
   "security": "reality",
-  "sni": "smartcaptcha.yandexcloud.net",
-  "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "WWmwRoB2K7xonT6jzbhKen_Rp-UM7QCr_vMgmNZuggc",
-  "shortId": "044a5e06faf5",
+  "sni": "36a466g.fi1.h1clayd.click",
+  "fingerPrint": "safari",
+  "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+  "shortId": "b3c9d0c6bdd114a6",
   "entryPool": [
     {
-      "id": "afee13582cbf6c748acaaf94f0d1b25b",
+      "id": "44c61589bc6acd9a8fad42c67bdc4d77",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "36a466g.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "0adb9638509b",
+      "security": "reality",
+      "sni": "36a466g.fi1.h1clayd.click",
+      "fingerPrint": "safari",
+      "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+      "shortId": "b3c9d0c6bdd114a6"
+    },
+    {
+      "id": "98c25b61f656130c89dd64af93d5195a",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "3f8efdt.fi1.h1clayd.click",
+      "fingerPrint": "android",
+      "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+      "shortId": "023a1e6ffc32be10"
+    },
+    {
+      "id": "1eda9e13b8dc0e8b4b61acbfbf1b4a72",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "82.202.179.106",
@@ -29,7 +60,7 @@
       "shortId": "044a5e06faf5"
     },
     {
-      "id": "44cc979b9f408080803eb380a0554b19",
+      "id": "71675bf1c224573e23847f50eafbb867",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "82.202.179.111",
@@ -44,21 +75,22 @@
       "shortId": "b74f54b7"
     },
     {
-      "id": "208e304755d8574d933a7f7cb343b855",
+      "id": "edcd9498b93f8af8a643f5ac389a6b34",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
-      "server": "103.24.207.40",
-      "port": 8443,
-      "password": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
+      "server": "185.141.227.201",
+      "port": 7445,
+      "password": "66217279-de40-4b62-b2bb-9c33b8fb7a01",
       "network": "tcp",
       "security": "reality",
-      "sni": "edge-fr.extazy.net",
-      "fingerPrint": "ios",
+      "sni": "passport.yandex.ru",
+      "fingerPrint": "random",
       "flow": "xtls-rprx-vision",
-      "publicKey": "ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY"
+      "publicKey": "S_s3FVodJIep88KnIgT0cZLUMB2tAJHTJEn0o-J03G8",
+      "shortId": "283f4b51fbe39ad9"
     },
     {
-      "id": "77b8cab718d255f27d78c166d46a268b",
+      "id": "f38d277546ca561072ffc3026cc31399",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "185.141.227.223",
@@ -72,7 +104,7 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "c290ddc55ed0b5ea1243d23110dbb239",
+      "id": "8d34872c3eab58e9fdb72295ff78818f",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "185.141.227.223",
@@ -89,7 +121,24 @@
       ]
     },
     {
-      "id": "31d196b12c11e9dcaca871580e1f7f33",
+      "id": "928b3ef7f30beb372f00ced21308f51a",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "46.243.142.2",
+      "port": 443,
+      "password": "7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25",
+      "network": "ws",
+      "host": "floweroom.vip",
+      "path": "/cart/sync/g-jSjxyhq24P",
+      "security": "tls",
+      "sni": "floweroom.vip",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "7a003f9e69aa84c4a0ed6ab4083f048e",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -98,12 +147,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "qq",
+      "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "e6e1ed50b68573b74e4a7443c4689db4",
+      "id": "c0a6619c1efa626fd05680a175d9b0bc",
       "name": "🇸🇪 Швеция",
       "protocol": "vless",
       "server": "188.225.77.254",
@@ -115,6 +164,22 @@
       "security": "reality",
       "sni": "io.ozone.ru",
       "fingerPrint": "firefox",
+      "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
+      "shortId": "4951a2313524dd8f"
+    },
+    {
+      "id": "8d394343c09cae54353ac230eaf43401",
+      "name": "🇸🇪 Швеция",
+      "protocol": "vless",
+      "server": "188.225.77.254",
+      "port": 8443,
+      "password": "5473d93b-3cb2-4a10-9fd5-2b98459d9c53",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "ozone",
+      "security": "reality",
+      "sni": "io.ozone.ru",
+      "fingerPrint": "safari",
       "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
       "shortId": "4951a2313524dd8f"
     }
