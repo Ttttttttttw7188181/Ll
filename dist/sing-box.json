@@ -35,21 +35,10 @@
       "type": "urltest",
       "tag": "Авто",
       "outbounds": [
-        "Estonia 001",
-        "Estonia 002",
-        "Finland 003",
-        "Finland 004",
-        "Finland 005",
-        "Finland 006",
-        "Finland 007",
-        "France 008",
-        "France 009",
-        "France 010",
-        "Germany 011",
-        "Germany 012",
-        "Indonesia 013",
-        "Russia 014",
-        "Spain 015"
+        "Germany 001",
+        "Russia 002",
+        "Spain 003",
+        "United Arab Emirates 004"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -58,365 +47,61 @@
     },
     {
       "type": "selector",
-      "tag": "Страна | Estonia",
-      "outbounds": [
-        "Estonia 001",
-        "Estonia 002"
-      ],
-      "default": "Estonia 001"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Finland",
-      "outbounds": [
-        "Finland 003",
-        "Finland 004",
-        "Finland 005",
-        "Finland 006",
-        "Finland 007"
-      ],
-      "default": "Finland 003"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | France",
-      "outbounds": [
-        "France 008",
-        "France 009",
-        "France 010"
-      ],
-      "default": "France 008"
-    },
-    {
-      "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
-        "Germany 011",
-        "Germany 012"
+        "Germany 001"
       ],
-      "default": "Germany 011"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Indonesia",
-      "outbounds": [
-        "Indonesia 013"
-      ],
-      "default": "Indonesia 013"
+      "default": "Germany 001"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
-        "Russia 014"
+        "Russia 002"
       ],
-      "default": "Russia 014"
+      "default": "Russia 002"
     },
     {
       "type": "selector",
       "tag": "Страна | Spain",
       "outbounds": [
-        "Spain 015"
+        "Spain 003"
       ],
-      "default": "Spain 015"
+      "default": "Spain 003"
+    },
+    {
+      "type": "selector",
+      "tag": "Страна | United Arab Emirates",
+      "outbounds": [
+        "United Arab Emirates 004"
+      ],
+      "default": "United Arab Emirates 004"
     },
     {
       "type": "vless",
-      "tag": "Estonia 001",
-      "server": "188.225.83.133",
-      "server_port": 443,
-      "uuid": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "xnodtwx.artemida.live",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-          "short_id": "a1b2c3d4e5f6a7b8"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 002",
-      "server": "46.243.235.6",
-      "server_port": 8445,
-      "uuid": "92e135b9-4c04-4e7e-8b28-d8074a202cf8",
+      "tag": "Germany 001",
+      "server": "213.171.24.54",
+      "server_port": 8643,
+      "uuid": "0d55ea1d-5587-4c17-9e85-3ee9b279aa8f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "passport.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SPok5V2FC3pM6iTP7j2gpPQRqreGx73qvlWG1F2Efy0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 003",
-      "server": "263651t.fi3.h1clayd.click",
-      "server_port": 443,
-      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "263651t.fi3.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4",
-          "short_id": "2892e611785bafd1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 004",
-      "server": "8fc752g.fi3.h1clayd.click",
-      "server_port": 443,
-      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "8fc752g.fi3.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18",
-          "short_id": "09d0a94a1c6fc9d5"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "f345a414c040"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 005",
-      "server": "36a466g.fi1.h1clayd.click",
-      "server_port": 443,
-      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "36a466g.fi1.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
-          "short_id": "b3c9d0c6bdd114a6"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "0adb9638509b"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 006",
-      "server": "3f8efdt.fi1.h1clayd.click",
-      "server_port": 443,
-      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "3f8efdt.fi1.h1clayd.click",
+        "server_name": "travel.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "android"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
-          "short_id": "023a1e6ffc32be10"
+          "public_key": "kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A",
+          "short_id": "ca6703afd42cadcd"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Finland 007",
-      "server": "168.222.143.254",
-      "server_port": 443,
-      "uuid": "ebdf87e8-4f75-4b84-94e0-65ce4894993a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "st.avito.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3_Qy1SAtWfbiQbznyhlXxJtqB-5QQ46VF1Uz2h5A7Q4",
-          "short_id": "2dc17935"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "France 008",
-      "server": "188.225.83.133",
-      "server_port": 443,
-      "uuid": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "188.225.83.133",
-        "reality": {
-          "enabled": true,
-          "public_key": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-          "short_id": "a1b2c3d4e5f6a7b8"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "France 009",
-      "server": "82.202.179.106",
-      "server_port": 11443,
-      "uuid": "54f22246-cc9c-4315-907a-6c94c901d20f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WWmwRoB2K7xonT6jzbhKen_Rp-UM7QCr_vMgmNZuggc",
-          "short_id": "044a5e06faf5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "France 010",
-      "server": "82.202.179.111",
-      "server_port": 15443,
-      "uuid": "1ba0439d-384c-4a6e-9560-0439698beb2a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MNmqM2p3nUYZIqo0sTMXRXGzB5HquF-czSycvdqn3U4",
-          "short_id": "b74f54b7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 011",
-      "server": "185.141.227.223",
-      "server_port": 443,
-      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "z1q3pv4g78.rucdncomp.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "z1q3pv4g78.rucdncomp.pro"
-        },
-        "path": "/useraction/events/b892639b7195/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 012",
-      "server": "185.141.227.223",
-      "server_port": 443,
-      "uuid": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "z1q3pv4g78.rucdncomp.pro",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "z1q3pv4g78.rucdncomp.pro"
-        },
-        "path": "/useraction/events/b892639b7195/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Indonesia 013",
-      "server": "185.76.241.186",
-      "server_port": 443,
-      "uuid": "5c8950a3-2142-42c9-b414-fa34526ff25f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru-in-ind-4vp.movietop24.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NUjWUMNrcZKkvXmnK--E7wn_YyhEH6c-YOqjDMHWAxA",
-          "short_id": "686b3e179573a80a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 014",
+      "tag": "Russia 002",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -437,7 +122,7 @@
     },
     {
       "type": "vless",
-      "tag": "Spain 015",
+      "tag": "Spain 003",
       "server": "185.76.241.87",
       "server_port": 443,
       "uuid": "5c8950a3-2142-42c9-b414-fa34526ff25f",
@@ -448,12 +133,34 @@
         "server_name": "ru-in-es-4vp.movietop24.site",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
           "public_key": "DcdLu5TEodox9cSq7WLfV-47vURmKkRc1BO19KJvgkM",
           "short_id": "861215e33e8dba4f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "United Arab Emirates 004",
+      "server": "213.165.60.99",
+      "server_port": 443,
+      "uuid": "5c8950a3-2142-42c9-b414-fa34526ff25f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru-in-uk-4vp.movietop24.site",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
+          "short_id": "17e8f4e38e421c68"
         }
       }
     },
