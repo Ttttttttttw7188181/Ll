@@ -1,0 +1,48 @@
+{
+  "id": "bf4a759c5de262615091f74227b908c9",
+  "name": "Страна | Serbia",
+  "protocol": "vless",
+  "server": "168.113.252.74",
+  "port": 9889,
+  "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "grpc-tunnel",
+  "security": "reality",
+  "sni": "dl.google.com",
+  "fingerPrint": "chrome",
+  "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU",
+  "entryPool": [
+    {
+      "id": "bf4a759c5de262615091f74227b908c9",
+      "name": "Serbia",
+      "protocol": "vless",
+      "server": "168.113.252.74",
+      "port": 9889,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "chrome",
+      "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU"
+    },
+    {
+      "id": "9249f0a6ad84413703d114b06799cca3",
+      "name": "Serbia",
+      "protocol": "vless",
+      "server": "168.113.252.74",
+      "port": 9889,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "firefox",
+      "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

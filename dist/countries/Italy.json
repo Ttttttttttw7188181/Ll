@@ -1,0 +1,48 @@
+{
+  "id": "ba6f92221e59b96c2fb844a11c8bd954",
+  "name": "Страна | Italy",
+  "protocol": "vless",
+  "server": "168.113.252.7",
+  "port": 9892,
+  "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "grpc-tunnel",
+  "security": "reality",
+  "sni": "dl.google.com",
+  "fingerPrint": "chrome",
+  "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU",
+  "entryPool": [
+    {
+      "id": "ba6f92221e59b96c2fb844a11c8bd954",
+      "name": "Italy",
+      "protocol": "vless",
+      "server": "168.113.252.7",
+      "port": 9892,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "chrome",
+      "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU"
+    },
+    {
+      "id": "580fe67d462a4872a94f6d531e4f469d",
+      "name": "Italy",
+      "protocol": "vless",
+      "server": "168.113.252.7",
+      "port": 9892,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "firefox",
+      "publicKey": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

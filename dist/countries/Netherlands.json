@@ -1,36 +1,50 @@
 {
-  "id": "928b3ef7f30beb372f00ced21308f51a",
+  "id": "4584593f1897f8d790d746345e4e6cdf",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "46.243.142.2",
+  "server": "api.mediaklenov.cc",
   "port": 443,
-  "password": "7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25",
-  "network": "ws",
-  "host": "floweroom.vip",
-  "path": "/cart/sync/g-jSjxyhq24P",
+  "password": "8221d527-431a-4a5d-b45a-1af799ebf5e1",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "3e99d50d5740985d",
   "security": "tls",
-  "sni": "floweroom.vip",
-  "fingerPrint": "edge",
+  "sni": "api.mediaklenov.cc",
+  "fingerPrint": "chrome",
   "alpn": [
-    "http/1.1"
+    "h2"
   ],
   "entryPool": [
     {
-      "id": "928b3ef7f30beb372f00ced21308f51a",
+      "id": "4584593f1897f8d790d746345e4e6cdf",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "46.243.142.2",
+      "server": "api.mediaklenov.cc",
       "port": 443,
-      "password": "7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25",
-      "network": "ws",
-      "host": "floweroom.vip",
-      "path": "/cart/sync/g-jSjxyhq24P",
+      "password": "8221d527-431a-4a5d-b45a-1af799ebf5e1",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "3e99d50d5740985d",
       "security": "tls",
-      "sni": "floweroom.vip",
-      "fingerPrint": "edge",
+      "sni": "api.mediaklenov.cc",
+      "fingerPrint": "chrome",
       "alpn": [
-        "http/1.1"
+        "h2"
       ]
+    },
+    {
+      "id": "4d148d23045dfddbb511a4ea1934c0cb",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "api.mediaklenov.cc",
+      "port": 443,
+      "password": "8221d527-431a-4a5d-b45a-1af799ebf5e1",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "3e99d50d5740985d",
+      "security": "tls",
+      "sni": "api.mediaklenov.cc",
+      "fingerPrint": "qq"
     }
   ],
   "poolUrltestIntervalSec": 120

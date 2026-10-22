@@ -1,0 +1,48 @@
+{
+  "id": "afc0cce03bd4a133c41bae4fee279992",
+  "name": "Страна | Kazakhstan",
+  "protocol": "vless",
+  "server": "168.113.254.253",
+  "port": 9882,
+  "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "grpc-tunnel",
+  "security": "reality",
+  "sni": "dl.google.com",
+  "fingerPrint": "ios",
+  "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+  "entryPool": [
+    {
+      "id": "afc0cce03bd4a133c41bae4fee279992",
+      "name": "Kazakhstan",
+      "protocol": "vless",
+      "server": "168.113.254.253",
+      "port": 9882,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "ios",
+      "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+    },
+    {
+      "id": "6e3dbc1831c365608ff360be0a1492c2",
+      "name": "Kazakhstan",
+      "protocol": "vless",
+      "server": "168.113.254.253",
+      "port": 9882,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "firefox",
+      "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

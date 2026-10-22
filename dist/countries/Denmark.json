@@ -1,0 +1,48 @@
+{
+  "id": "41190d1eb8a6eda51fe19d12bd48e0bc",
+  "name": "Страна | Denmark",
+  "protocol": "vless",
+  "server": "168.113.252.62",
+  "port": 9881,
+  "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "grpc-tunnel",
+  "security": "reality",
+  "sni": "dl.google.com",
+  "fingerPrint": "chrome",
+  "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
+  "entryPool": [
+    {
+      "id": "41190d1eb8a6eda51fe19d12bd48e0bc",
+      "name": "Denmark",
+      "protocol": "vless",
+      "server": "168.113.252.62",
+      "port": 9881,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "chrome",
+      "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
+    },
+    {
+      "id": "b56d42ecd25de913002b14bffbd0a0f2",
+      "name": "Denmark",
+      "protocol": "vless",
+      "server": "168.113.252.62",
+      "port": 9881,
+      "password": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "grpc-tunnel",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fingerPrint": "firefox",
+      "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
