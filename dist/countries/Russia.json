@@ -1,5 +1,5 @@
 {
-  "id": "f86af820556bf9fac6f83edded43daca",
+  "id": "9e6be915bb331c2ebd2476ec2f149ec9",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "f86af820556bf9fac6f83edded43daca",
+      "id": "9e6be915bb331c2ebd2476ec2f149ec9",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -27,7 +27,7 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "caeddc902d2e82b0bed56514bc424c10",
+      "id": "21e458603b8e1d9975e64a3f8ef05b80",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "188.225.83.133",
@@ -42,7 +42,7 @@
       "shortId": "a1b2c3d4e5f6a7b8"
     },
     {
-      "id": "42a7a75127ced5429c61219fbc35444f",
+      "id": "fd2f5df3fa0f4f08ceb2dbcb9a76f2a3",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "188.225.83.133",
@@ -56,7 +56,7 @@
       "shortId": "a1b2c3d4e5f6a7b8"
     },
     {
-      "id": "d2fe5a7d42532c61c5c9ddff22c9e237",
+      "id": "827c926a0f263823da71b17d026b6a0c",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.254.17.88",

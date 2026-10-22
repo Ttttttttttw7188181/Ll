@@ -1,5 +1,5 @@
 {
-  "id": "32f41f6846d7f942fae00132c8c4cf19",
+  "id": "12f4eff1edd8f2eefad1292a49a01e57",
   "name": "Страна | Finland",
   "protocol": "vless",
   "server": "36a466g.fi1.h1clayd.click",
@@ -10,12 +10,12 @@
   "serviceName": "0adb9638509b",
   "security": "reality",
   "sni": "36a466g.fi1.h1clayd.click",
-  "fingerPrint": "chrome",
+  "fingerPrint": "edge",
   "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
   "shortId": "b3c9d0c6bdd114a6",
   "entryPool": [
     {
-      "id": "32f41f6846d7f942fae00132c8c4cf19",
+      "id": "12f4eff1edd8f2eefad1292a49a01e57",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "36a466g.fi1.h1clayd.click",
@@ -26,12 +26,12 @@
       "serviceName": "0adb9638509b",
       "security": "reality",
       "sni": "36a466g.fi1.h1clayd.click",
-      "fingerPrint": "chrome",
+      "fingerPrint": "edge",
       "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
       "shortId": "b3c9d0c6bdd114a6"
     },
     {
-      "id": "22de144749c3d36014b3c2f5bc884962",
+      "id": "8859d8a6a81a6ac24d249f64b78583db",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "3f8efdt.fi1.h1clayd.click",
@@ -40,7 +40,21 @@
       "network": "tcp",
       "security": "reality",
       "sni": "3f8efdt.fi1.h1clayd.click",
-      "fingerPrint": "android",
+      "fingerPrint": "chrome",
+      "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+      "shortId": "023a1e6ffc32be10"
+    },
+    {
+      "id": "1f32906336bf3df4328e0de72c515aee",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "3f8efdt.fi1.h1clayd.click",
+      "fingerPrint": "chrome",
       "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
       "shortId": "023a1e6ffc32be10"
     }

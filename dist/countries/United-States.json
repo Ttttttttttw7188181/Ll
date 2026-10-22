@@ -1,5 +1,5 @@
 {
-  "id": "b18fec8b0a25e719e7e6ffbdced77a31",
+  "id": "408044cba34f6d9b2b9b6c3d4903af06",
   "name": "Страна | United States",
   "protocol": "vless",
   "server": "9bc578g.us4.h1clayd.click",
@@ -10,12 +10,12 @@
   "serviceName": "aa7f1b042f73",
   "security": "reality",
   "sni": "9bc578g.us4.h1clayd.click",
-  "fingerPrint": "ios",
+  "fingerPrint": "qq",
   "publicKey": "uUWYLl2Fdhr74k9o5WacesJjvsCwLiOHccgfR23TIk4",
   "shortId": "29b29106d4769e3a",
   "entryPool": [
     {
-      "id": "b18fec8b0a25e719e7e6ffbdced77a31",
+      "id": "408044cba34f6d9b2b9b6c3d4903af06",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "9bc578g.us4.h1clayd.click",
@@ -26,12 +26,12 @@
       "serviceName": "aa7f1b042f73",
       "security": "reality",
       "sni": "9bc578g.us4.h1clayd.click",
-      "fingerPrint": "ios",
+      "fingerPrint": "qq",
       "publicKey": "uUWYLl2Fdhr74k9o5WacesJjvsCwLiOHccgfR23TIk4",
       "shortId": "29b29106d4769e3a"
     },
     {
-      "id": "9a0cf4a5eb54e333a833bba42da4c311",
+      "id": "c2e23cc6b3e9808608127873acfea99a",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "a0688bt.us4.h1clayd.click",
@@ -40,12 +40,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "a0688bt.us4.h1clayd.click",
-      "fingerPrint": "chrome",
+      "fingerPrint": "firefox",
       "publicKey": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
       "shortId": "257420d9d430152a"
     },
     {
-      "id": "cd4e95d95703381fff8a831a22386b81",
+      "id": "d216df14eb654042582984924f5d5e1b",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "a0688bt.us4.h1clayd.click",
@@ -54,20 +54,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "a0688bt.us4.h1clayd.click",
-      "fingerPrint": "ios",
-      "publicKey": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
-      "shortId": "257420d9d430152a"
-    },
-    {
-      "id": "a42a8e966a6bdf314aa1fef6aff468ef",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "a0688bt.us4.h1clayd.click",
-      "port": 443,
-      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a0688bt.us4.h1clayd.click",
+      "fingerPrint": "edge",
       "publicKey": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
       "shortId": "257420d9d430152a"
     }

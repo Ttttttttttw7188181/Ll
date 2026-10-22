@@ -1,8 +1,8 @@
 {
-  "id": "efb4172f8c846537a57e8183c8a5035d",
+  "id": "9f8b84068643acfc0fbbf0de940c5d42",
   "name": "Страна | Estonia",
   "protocol": "vless",
-  "server": "188.225.38.216",
+  "server": "lalibobi.online",
   "port": 443,
   "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
   "network": "grpc",
@@ -10,22 +10,8 @@
   "serviceName": "lalibobi.orbit.v3.Connect",
   "security": "tls",
   "sni": "lalibobi.online",
-  "fingerPrint": "chrome",
+  "fingerPrint": "firefox",
   "entryPool": [
-    {
-      "id": "efb4172f8c846537a57e8183c8a5035d",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "188.225.38.216",
-      "port": 443,
-      "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "lalibobi.orbit.v3.Connect",
-      "security": "tls",
-      "sni": "lalibobi.online",
-      "fingerPrint": "chrome"
-    },
     {
       "id": "9f8b84068643acfc0fbbf0de940c5d42",
       "name": "🇪🇪 Эстония",
@@ -39,6 +25,20 @@
       "security": "tls",
       "sni": "lalibobi.online",
       "fingerPrint": "firefox"
+    },
+    {
+      "id": "0a0c4a4c9b391307bf72dba26a1f8984",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "188.225.38.216",
+      "port": 443,
+      "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "lalibobi.orbit.v3.Connect",
+      "security": "tls",
+      "sni": "lalibobi.online",
+      "fingerPrint": "chrome"
     }
   ],
   "poolUrltestIntervalSec": 120

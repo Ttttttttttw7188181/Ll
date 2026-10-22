@@ -39,18 +39,18 @@
         "Estonia 002",
         "Finland 003",
         "Finland 004",
-        "Germany 005",
+        "Finland 005",
         "Germany 006",
-        "Germany 007",
-        "Germany 008",
-        "Germany 009",
-        "Poland 010",
-        "Poland 011",
+        "Norway 007",
+        "Norway 008",
+        "Poland 009",
+        "Russia 010",
+        "Russia 011",
         "Russia 012",
         "Russia 013",
-        "Russia 014",
-        "Russia 015",
-        "United Arab Emirates 016"
+        "United States 014",
+        "United States 015",
+        "United States 016"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -71,7 +71,8 @@
       "tag": "Страна | Finland",
       "outbounds": [
         "Finland 003",
-        "Finland 004"
+        "Finland 004",
+        "Finland 005"
       ],
       "default": "Finland 003"
     },
@@ -79,65 +80,51 @@
       "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
-        "Germany 005",
-        "Germany 006",
-        "Germany 007",
-        "Germany 008",
-        "Germany 009"
+        "Germany 006"
       ],
-      "default": "Germany 005"
+      "default": "Germany 006"
+    },
+    {
+      "type": "selector",
+      "tag": "Страна | Norway",
+      "outbounds": [
+        "Norway 007",
+        "Norway 008"
+      ],
+      "default": "Norway 007"
     },
     {
       "type": "selector",
       "tag": "Страна | Poland",
       "outbounds": [
-        "Poland 010",
-        "Poland 011"
+        "Poland 009"
       ],
-      "default": "Poland 010"
+      "default": "Poland 009"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
+        "Russia 010",
+        "Russia 011",
         "Russia 012",
-        "Russia 013",
-        "Russia 014",
-        "Russia 015"
+        "Russia 013"
       ],
-      "default": "Russia 012"
+      "default": "Russia 010"
     },
     {
       "type": "selector",
-      "tag": "Страна | United Arab Emirates",
+      "tag": "Страна | United States",
       "outbounds": [
-        "United Arab Emirates 016"
+        "United States 014",
+        "United States 015",
+        "United States 016"
       ],
-      "default": "United Arab Emirates 016"
+      "default": "United States 014"
     },
     {
       "type": "vless",
       "tag": "Estonia 001",
-      "server": "188.225.38.216",
-      "server_port": 443,
-      "uuid": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lalibobi.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "lalibobi.orbit.v3.Connect"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 002",
       "server": "lalibobi.online",
       "server_port": 443,
       "uuid": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
@@ -157,6 +144,26 @@
     },
     {
       "type": "vless",
+      "tag": "Estonia 002",
+      "server": "188.225.38.216",
+      "server_port": 443,
+      "uuid": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "lalibobi.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "lalibobi.orbit.v3.Connect"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "Finland 003",
       "server": "36a466g.fi1.h1clayd.click",
       "server_port": 443,
@@ -167,7 +174,7 @@
         "server_name": "36a466g.fi1.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -192,7 +199,7 @@
         "server_name": "3f8efdt.fi1.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -203,7 +210,28 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 005",
+      "tag": "Finland 005",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "server_port": 443,
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "3f8efdt.fi1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+          "short_id": "023a1e6ffc32be10"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 006",
       "server": "77.95.206.236",
       "server_port": 64563,
       "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
@@ -227,94 +255,49 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 006",
-      "server": "185.72.147.29",
-      "server_port": 2087,
-      "uuid": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+      "tag": "Norway 007",
+      "server": "pl1.h1cloud.net",
+      "server_port": 27591,
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "assets.share.google",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-          "short_id": "1ec515b87b68eab9"
+          "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+          "short_id": "6c5c7900406a1ae7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 007",
-      "server": "185.72.147.29",
-      "server_port": 443,
-      "uuid": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+      "tag": "Norway 008",
+      "server": "pl1.h1cloud.net",
+      "server_port": 27591,
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "assets.share.google",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-          "short_id": "1ec515b87b68eab9"
+          "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+          "short_id": "6c5c7900406a1ae7"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 008",
-      "server": "185.72.147.29",
-      "server_port": 8443,
-      "uuid": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "assets.share.google",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-          "short_id": "1ec515b87b68eab9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 009",
-      "server": "185.91.52.13",
-      "server_port": 30066,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1.eosapp.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Poland 010",
+      "tag": "Poland 009",
       "server": "62.152.58.90",
       "server_port": 443,
       "uuid": "1bb2af63-4472-44ed-9c70-8f316258b68b",
@@ -324,7 +307,7 @@
         "server_name": "360.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -338,31 +321,7 @@
     },
     {
       "type": "vless",
-      "tag": "Poland 011",
-      "server": "62.152.58.90",
-      "server_port": 443,
-      "uuid": "1bb2af63-4472-44ed-9c70-8f316258b68b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "360.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 012",
+      "tag": "Russia 010",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -383,7 +342,7 @@
     },
     {
       "type": "vless",
-      "tag": "Russia 013",
+      "tag": "Russia 011",
       "server": "188.225.83.133",
       "server_port": 443,
       "uuid": "4c346148-ece9-487a-bffb-ba5a399b2d71",
@@ -407,7 +366,7 @@
     },
     {
       "type": "vless",
-      "tag": "Russia 014",
+      "tag": "Russia 012",
       "server": "188.225.83.133",
       "server_port": 443,
       "uuid": "4c346148-ece9-487a-bffb-ba5a399b2d71",
@@ -427,7 +386,7 @@
     },
     {
       "type": "vless",
-      "tag": "Russia 015",
+      "tag": "Russia 013",
       "server": "46.254.17.88",
       "server_port": 30065,
       "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
@@ -448,23 +407,68 @@
     },
     {
       "type": "vless",
-      "tag": "United Arab Emirates 016",
-      "server": "213.165.60.99",
+      "tag": "United States 014",
+      "server": "9bc578g.us4.h1clayd.click",
       "server_port": 443,
-      "uuid": "7ab86f1f-871e-4de6-9dae-7addf6dc976c",
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-in-uk-4vp.movietop24.site",
+        "server_name": "9bc578g.us4.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uUWYLl2Fdhr74k9o5WacesJjvsCwLiOHccgfR23TIk4",
+          "short_id": "29b29106d4769e3a"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "aa7f1b042f73"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "United States 015",
+      "server": "a0688bt.us4.h1clayd.click",
+      "server_port": 443,
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a0688bt.us4.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
+          "short_id": "257420d9d430152a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "United States 016",
+      "server": "a0688bt.us4.h1clayd.click",
+      "server_port": 443,
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a0688bt.us4.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Nu5Tn3Qf0iC8tog-mxqNjl9ckjHgwU0xSOSET605tw0",
-          "short_id": "17e8f4e38e421c68"
+          "public_key": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
+          "short_id": "257420d9d430152a"
         }
       }
     },
