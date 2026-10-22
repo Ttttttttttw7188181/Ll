@@ -1,5 +1,5 @@
 {
-  "id": "3bb3e1f9977bbaac054a288599d4881d",
+  "id": "12ea6e59f95fad628b5b4e34a09276fc",
   "name": "Страна | Norway",
   "protocol": "vless",
   "server": "pl1.h1cloud.net",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.samsung.com",
-  "fingerPrint": "chrome",
+  "fingerPrint": "ios",
   "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
   "shortId": "6c5c7900406a1ae7",
   "entryPool": [
     {
-      "id": "3bb3e1f9977bbaac054a288599d4881d",
+      "id": "12ea6e59f95fad628b5b4e34a09276fc",
       "name": "Norway",
       "protocol": "vless",
       "server": "pl1.h1cloud.net",
@@ -22,7 +22,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.samsung.com",
-      "fingerPrint": "chrome",
+      "fingerPrint": "ios",
       "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
       "shortId": "6c5c7900406a1ae7"
     },

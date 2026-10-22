@@ -39,6 +39,47 @@
       "security": "tls",
       "sni": "lalibobi.online",
       "fingerPrint": "chrome"
+    },
+    {
+      "id": "52d496a58c312c766e30de077f53b73d",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "cdn2.rucdncomp.pro",
+      "port": 443,
+      "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
+      "network": "ws",
+      "host": "cdn2.rucdncomp.pro",
+      "path": "/static/events/27f78b054c54/",
+      "security": "tls",
+      "sni": "cdn2.rucdncomp.pro",
+      "fingerPrint": "chrome"
+    },
+    {
+      "id": "1f6e1db40334de72dbf45832580e2a7a",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "188.225.38.216",
+      "port": 443,
+      "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "lalibobi.orbit.v3.Connect",
+      "security": "tls",
+      "sni": "lalibobi.online"
+    },
+    {
+      "id": "e4efe5249c0776fda0cd19e2faa70ad4",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "217.150.197.67",
+      "port": 443,
+      "password": "21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad",
+      "network": "ws",
+      "host": "cdn2.rucdncomp.pro",
+      "path": "/static/events/27f78b054c54/",
+      "security": "tls",
+      "sni": "cdn2.rucdncomp.pro",
+      "fingerPrint": "qq"
     }
   ],
   "poolUrltestIntervalSec": 120

@@ -1,5 +1,5 @@
 {
-  "id": "9e6be915bb331c2ebd2476ec2f149ec9",
+  "id": "326eca382e5cbc061437a18890fa659c",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "9e6be915bb331c2ebd2476ec2f149ec9",
+      "id": "326eca382e5cbc061437a18890fa659c",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -27,36 +27,7 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "21e458603b8e1d9975e64a3f8ef05b80",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "188.225.83.133",
-      "port": 443,
-      "password": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "xnodtwx.artemida.live",
-      "fingerPrint": "firefox",
-      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-      "shortId": "a1b2c3d4e5f6a7b8"
-    },
-    {
-      "id": "fd2f5df3fa0f4f08ceb2dbcb9a76f2a3",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "188.225.83.133",
-      "port": 443,
-      "password": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "188.225.83.133",
-      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-      "shortId": "a1b2c3d4e5f6a7b8"
-    },
-    {
-      "id": "827c926a0f263823da71b17d026b6a0c",
+      "id": "fc890e9529bef35bf0581b3116ecbdbb",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.254.17.88",
