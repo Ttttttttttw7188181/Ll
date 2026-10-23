@@ -1,5 +1,5 @@
 {
-  "id": "145ffa8677d7b54e3ab536c4cc12e26b",
+  "id": "69c1092d06c112559efff20c1414c683",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "de15.h1cloud.net",
@@ -8,26 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.chip.de",
-  "fingerPrint": "chrome",
+  "fingerPrint": "ios",
   "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
   "shortId": "23732d14a527990d",
   "entryPool": [
     {
-      "id": "145ffa8677d7b54e3ab536c4cc12e26b",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "de15.h1cloud.net",
-      "port": 25362,
-      "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.chip.de",
-      "fingerPrint": "chrome",
-      "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
-      "shortId": "23732d14a527990d"
-    },
-    {
-      "id": "5aa699cda4cf8cb5af59edb4cc3fc303",
+      "id": "69c1092d06c112559efff20c1414c683",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "de15.h1cloud.net",
@@ -41,7 +27,21 @@
       "shortId": "23732d14a527990d"
     },
     {
-      "id": "564d38490e760f29c0931c9e2fb13895",
+      "id": "ab51422369a45baf14f87c946dd8d3d8",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "de15.h1cloud.net",
+      "port": 25362,
+      "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.chip.de",
+      "fingerPrint": "firefox",
+      "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+      "shortId": "23732d14a527990d"
+    },
+    {
+      "id": "9b9c93bd3fa3d4edf3fa2dffe7e9794a",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -55,7 +55,7 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "e5c091e47ec18291c06275dd46599665",
+      "id": "4c0de67a239faefe8e48a261239b9d6b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -72,7 +72,23 @@
       ]
     },
     {
-      "id": "a55221aeac50e9827eadb3f1ac3b3e9a",
+      "id": "35f8fca26665f989fc012abc088bd0a7",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "45.11.27.133",
+      "port": 443,
+      "password": "f1087776-5077-4b2f-9338-687d2787c64e",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "UpdateService",
+      "security": "reality",
+      "sni": "s3.t2.ru",
+      "fingerPrint": "firefox",
+      "publicKey": "_bEA-GWmkPW_YITfFaWHogq_5AsYX4zAqomlhRQouS4",
+      "shortId": "1e853ef7fcad4788"
+    },
+    {
+      "id": "d52736b9f4b53023f10ba368120ea310",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "82.202.179.110",
