@@ -1,5 +1,5 @@
 {
-  "id": "f7ba6cbcf5f9723c282e591f089a7250",
+  "id": "6f4905bc164d03938c29507254424a3b",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "62.152.58.90",
@@ -9,12 +9,12 @@
   "mode": "gun",
   "security": "reality",
   "sni": "360.yandex.ru",
-  "fingerPrint": "firefox",
+  "fingerPrint": "safari",
   "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
   "shortId": "27e53bbcab7593d7",
   "entryPool": [
     {
-      "id": "f7ba6cbcf5f9723c282e591f089a7250",
+      "id": "6f4905bc164d03938c29507254424a3b",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "62.152.58.90",
@@ -24,12 +24,12 @@
       "mode": "gun",
       "security": "reality",
       "sni": "360.yandex.ru",
-      "fingerPrint": "firefox",
+      "fingerPrint": "safari",
       "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
       "shortId": "27e53bbcab7593d7"
     },
     {
-      "id": "14eaa741e7fd2fdee9ce19d138551aa8",
+      "id": "9d2c860a51f2dd80583cfe6d98f5f8f4",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "62.152.58.90",

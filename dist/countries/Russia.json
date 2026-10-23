@@ -1,5 +1,5 @@
 {
-  "id": "326eca382e5cbc061437a18890fa659c",
+  "id": "3425fb6714d46a9dd15c2a05348a351e",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "qq",
+  "fingerPrint": "chrome",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "326eca382e5cbc061437a18890fa659c",
+      "id": "3425fb6714d46a9dd15c2a05348a351e",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,12 +22,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "qq",
+      "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "fc890e9529bef35bf0581b3116ecbdbb",
+      "id": "1e83dea7bc7b3c83a05b37c48fcd9879",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.254.17.88",
