@@ -1,16 +1,45 @@
 {
-  "id": "a2b35e41f15328c62960dfe2ee47beb6",
+  "id": "8859d8a6a81a6ac24d249f64b78583db",
   "name": "Страна | Finland",
   "protocol": "vless",
-  "server": "fast_s78.slopllex.app",
+  "server": "3f8efdt.fi1.h1clayd.click",
   "port": 443,
-  "password": "f85af535-d0ff-437f-ad79-4be0e7c1f350",
+  "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
   "network": "tcp",
-  "security": "tls",
-  "sni": "fast_s78.slopllex.app",
-  "fingerPrint": "ios",
-  "flow": "xtls-rprx-vision",
+  "security": "reality",
+  "sni": "3f8efdt.fi1.h1clayd.click",
+  "fingerPrint": "chrome",
+  "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+  "shortId": "023a1e6ffc32be10",
   "entryPool": [
+    {
+      "id": "8859d8a6a81a6ac24d249f64b78583db",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "3f8efdt.fi1.h1clayd.click",
+      "fingerPrint": "chrome",
+      "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+      "shortId": "023a1e6ffc32be10"
+    },
+    {
+      "id": "aefe26bb76d107fbdb32f4dbab751c3d",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "3f8efdt.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "3f8efdt.fi1.h1clayd.click",
+      "fingerPrint": "firefox",
+      "publicKey": "1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY",
+      "shortId": "023a1e6ffc32be10"
+    },
     {
       "id": "a2b35e41f15328c62960dfe2ee47beb6",
       "name": "🇫🇮 Финляндия",
@@ -25,7 +54,7 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "id": "29b38925709bbe6e60a590ecd2cbb243",
+      "id": "43e92aab2600f3b90dd2ab6d6cbe652d",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "36a466g.fi1.h1clayd.click",
@@ -36,9 +65,22 @@
       "serviceName": "0adb9638509b",
       "security": "reality",
       "sni": "36a466g.fi1.h1clayd.click",
-      "fingerPrint": "android",
+      "fingerPrint": "chrome",
       "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
       "shortId": "b3c9d0c6bdd114a6"
+    },
+    {
+      "id": "737dcf67adcfdcf91c8b0a4f86d0275c",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "fast80.slopllex.app",
+      "port": 443,
+      "password": "f85af535-d0ff-437f-ad79-4be0e7c1f350",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "fast80.slopllex.app",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "poolUrltestIntervalSec": 120

@@ -1,0 +1,33 @@
+{
+  "id": "0e3bd4017f40db0280478bc63e2c6ef0",
+  "name": "Страна | Moldova",
+  "protocol": "vless",
+  "server": "84.201.170.60",
+  "port": 443,
+  "password": "7072eeba-94fd-4fb3-92f2-a4506dd84cd8",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "ads.x5.ru",
+  "fingerPrint": "safari",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "KWltK5E_1XCj4H1zDpJqzrfhqb_PeVdZ4PCqedlBKG0",
+  "shortId": "7760b69926f2e507",
+  "entryPool": [
+    {
+      "id": "0e3bd4017f40db0280478bc63e2c6ef0",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "84.201.170.60",
+      "port": 443,
+      "password": "7072eeba-94fd-4fb3-92f2-a4506dd84cd8",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ads.x5.ru",
+      "fingerPrint": "safari",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "KWltK5E_1XCj4H1zDpJqzrfhqb_PeVdZ4PCqedlBKG0",
+      "shortId": "7760b69926f2e507"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

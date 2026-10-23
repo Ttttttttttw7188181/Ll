@@ -1,50 +1,47 @@
 {
-  "id": "8cb8e657c41ef6b9f82a3df7e028adf9",
+  "id": "145ffa8677d7b54e3ab536c4cc12e26b",
   "name": "Страна | Germany",
   "protocol": "vless",
-  "server": "45.142.44.98",
-  "port": 8443,
-  "password": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+  "server": "de15.h1cloud.net",
+  "port": 25362,
+  "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
   "network": "tcp",
   "security": "reality",
-  "sni": "assets.blogger.com",
-  "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-  "shortId": "1ec515b87b68eab9",
+  "sni": "www.chip.de",
+  "fingerPrint": "chrome",
+  "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+  "shortId": "23732d14a527990d",
   "entryPool": [
     {
-      "id": "8cb8e657c41ef6b9f82a3df7e028adf9",
+      "id": "145ffa8677d7b54e3ab536c4cc12e26b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
-      "server": "45.142.44.98",
-      "port": 8443,
-      "password": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+      "server": "de15.h1cloud.net",
+      "port": 25362,
+      "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
       "network": "tcp",
       "security": "reality",
-      "sni": "assets.blogger.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-      "shortId": "1ec515b87b68eab9"
+      "sni": "www.chip.de",
+      "fingerPrint": "chrome",
+      "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+      "shortId": "23732d14a527990d"
     },
     {
-      "id": "ca7d1c387fe43cc34eb981c0154b5909",
+      "id": "5aa699cda4cf8cb5af59edb4cc3fc303",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
-      "server": "45.142.44.98",
-      "port": 443,
-      "password": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+      "server": "de15.h1cloud.net",
+      "port": 25362,
+      "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
       "network": "tcp",
       "security": "reality",
-      "sni": "assets.blogger.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys",
-      "shortId": "1ec515b87b68eab9"
+      "sni": "www.chip.de",
+      "fingerPrint": "ios",
+      "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+      "shortId": "23732d14a527990d"
     },
     {
-      "id": "e3cf55a65d6b7a3523b18a147ad6476a",
+      "id": "564d38490e760f29c0931c9e2fb13895",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -58,7 +55,7 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "bf0f70081daf52a283d74e4e5f8dda6c",
+      "id": "e5c091e47ec18291c06275dd46599665",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -73,6 +70,21 @@
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "a55221aeac50e9827eadb3f1ac3b3e9a",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "82.202.179.110",
+      "port": 14443,
+      "password": "ccd6419d-6943-4e7c-bc8c-7a157dadff80",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "smartcaptcha.yandexcloud.net",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "JufPPJ3rmM2jvI9g98K87wgUHroz4C-30NHX21UoZns",
+      "shortId": "d29cbe24661f"
     }
   ],
   "poolUrltestIntervalSec": 120
