@@ -25,20 +25,6 @@
       "fingerPrint": "edge",
       "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
       "shortId": "6c5c7900406a1ae7"
-    },
-    {
-      "id": "afde0cd80d167e5f9a6dc17b1a2f9717",
-      "name": "Norway",
-      "protocol": "vless",
-      "server": "pl1.h1cloud.net",
-      "port": 27591,
-      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
-      "fingerPrint": "edge",
-      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
-      "shortId": "6c5c7900406a1ae7"
     }
   ],
   "poolUrltestIntervalSec": 120

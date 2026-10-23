@@ -1,5 +1,5 @@
 {
-  "id": "3425fb6714d46a9dd15c2a05348a351e",
+  "id": "8cf044c0ba1903d2e4e9767b802372e0",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "chrome",
+  "fingerPrint": "qq",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "3425fb6714d46a9dd15c2a05348a351e",
+      "id": "8cf044c0ba1903d2e4e9767b802372e0",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,12 +22,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
+      "fingerPrint": "qq",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "1e83dea7bc7b3c83a05b37c48fcd9879",
+      "id": "c997f326445ac770835efc92014e33be",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.254.17.88",
@@ -39,6 +39,20 @@
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
+    },
+    {
+      "id": "ddf566455733577986bd7bc5cf674230",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "pl1.h1cloud.net",
+      "port": 27591,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "chrome",
+      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+      "shortId": "6c5c7900406a1ae7"
     }
   ],
   "poolUrltestIntervalSec": 120

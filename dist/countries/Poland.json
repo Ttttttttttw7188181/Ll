@@ -1,5 +1,5 @@
 {
-  "id": "6f4905bc164d03938c29507254424a3b",
+  "id": "bf6b4bfcde5abd71a3320caf639f1db5",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "62.152.58.90",
@@ -9,12 +9,12 @@
   "mode": "gun",
   "security": "reality",
   "sni": "360.yandex.ru",
-  "fingerPrint": "safari",
+  "fingerPrint": "android",
   "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
   "shortId": "27e53bbcab7593d7",
   "entryPool": [
     {
-      "id": "6f4905bc164d03938c29507254424a3b",
+      "id": "bf6b4bfcde5abd71a3320caf639f1db5",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "62.152.58.90",
@@ -24,22 +24,7 @@
       "mode": "gun",
       "security": "reality",
       "sni": "360.yandex.ru",
-      "fingerPrint": "safari",
-      "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-      "shortId": "27e53bbcab7593d7"
-    },
-    {
-      "id": "9d2c860a51f2dd80583cfe6d98f5f8f4",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "62.152.58.90",
-      "port": 443,
-      "password": "1bb2af63-4472-44ed-9c70-8f316258b68b",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "360.yandex.ru",
-      "fingerPrint": "random",
+      "fingerPrint": "android",
       "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
       "shortId": "27e53bbcab7593d7"
     }
