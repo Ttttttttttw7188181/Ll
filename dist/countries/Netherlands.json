@@ -1,44 +1,30 @@
 {
-  "id": "04a5679458cce0b3f8f7afb9767e5c2c",
+  "id": "7f038de2ee630d51452f4dc33f526649",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "edge.jagavps.ru",
+  "server": "188.225.44.50",
   "port": 443,
   "password": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
   "network": "tcp",
   "security": "reality",
   "sni": "edge.jagavps.ru",
-  "fingerPrint": "chrome",
+  "fingerPrint": "firefox",
   "flow": "xtls-rprx-vision",
   "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA",
   "entryPool": [
     {
-      "id": "04a5679458cce0b3f8f7afb9767e5c2c",
+      "id": "7f038de2ee630d51452f4dc33f526649",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "edge.jagavps.ru",
+      "server": "188.225.44.50",
       "port": 443,
       "password": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
       "network": "tcp",
       "security": "reality",
       "sni": "edge.jagavps.ru",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA"
-    },
-    {
-      "id": "dfdff99e829046e0e31af21f531f7b24",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "147.45.108.45",
-      "port": 443,
-      "password": "Fluffy_VPN-zKZUa4Ie",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "absolute-disaster.org",
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g"
+      "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA"
     }
   ],
   "poolUrltestIntervalSec": 120

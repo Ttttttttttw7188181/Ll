@@ -1,19 +1,39 @@
 {
-  "id": "2eb0bea40eb6f2087be90f4f2b6f2d3d",
+  "id": "75d0ae64c25017a6fe3dd9156aab27f0",
   "name": "Страна | Russia",
   "protocol": "vless",
-  "server": "45.12.75.242",
-  "port": 26424,
-  "password": "633f424e-2b11-48da-a6b3-a849dd71456f",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "ya.ru",
-  "fingerPrint": "chrome",
-  "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-  "shortId": "23103e1e",
+  "server": "46.243.142.104",
+  "port": 443,
+  "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+  "network": "ws",
+  "host": "santehdv.site",
+  "path": "/media/stream/qUWu2oaFgxAw",
+  "security": "tls",
+  "sni": "santehdv.site",
+  "fingerPrint": "firefox",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "2eb0bea40eb6f2087be90f4f2b6f2d3d",
+      "id": "75d0ae64c25017a6fe3dd9156aab27f0",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "46.243.142.104",
+      "port": 443,
+      "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+      "network": "ws",
+      "host": "santehdv.site",
+      "path": "/media/stream/qUWu2oaFgxAw",
+      "security": "tls",
+      "sni": "santehdv.site",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "2d9bf22d4a9f707ffc5b9b5ebef92802",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,25 +42,22 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "c651f32bb93a68bed1894db332d8516f",
+      "id": "e876b3ebd7f1ebde8539e841cf7e06ca",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "36a466g.fi1.h1clayd.click",
+      "server": "263651t.fi3.h1clayd.click",
       "port": 443,
-      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "0adb9638509b",
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "tcp",
       "security": "reality",
-      "sni": "36a466g.fi1.h1clayd.click",
-      "fingerPrint": "chrome",
-      "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
-      "shortId": "b3c9d0c6bdd114a6"
+      "sni": "263651t.fi3.h1clayd.click",
+      "fingerPrint": "edge",
+      "publicKey": "nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4",
+      "shortId": "2892e611785bafd1"
     }
   ],
   "poolUrltestIntervalSec": 120
