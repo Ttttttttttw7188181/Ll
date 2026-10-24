@@ -1,5 +1,5 @@
 {
-  "id": "5a1b3c7696dd4f5c83e3d2851c6e27e3",
+  "id": "b76686b0e5dded8b0a36605f13e43c53",
   "name": "Страна | Norway",
   "protocol": "vless",
   "server": "pl1.h1cloud.net",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.samsung.com",
-  "fingerPrint": "safari",
+  "fingerPrint": "edge",
   "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
   "shortId": "6c5c7900406a1ae7",
   "entryPool": [
     {
-      "id": "5a1b3c7696dd4f5c83e3d2851c6e27e3",
+      "id": "b76686b0e5dded8b0a36605f13e43c53",
       "name": "Norway",
       "protocol": "vless",
       "server": "pl1.h1cloud.net",
@@ -22,15 +22,29 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.samsung.com",
-      "fingerPrint": "safari",
+      "fingerPrint": "edge",
       "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
       "shortId": "6c5c7900406a1ae7"
     },
     {
-      "id": "56fa274e82c3489c00161cd2ded2677d",
+      "id": "afde0cd80d167e5f9a6dc17b1a2f9717",
       "name": "Norway",
       "protocol": "vless",
       "server": "pl1.h1cloud.net",
+      "port": 27591,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "edge",
+      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+      "shortId": "6c5c7900406a1ae7"
+    },
+    {
+      "id": "947373fd7ee44b2c99c7eb1cb19a5d6b",
+      "name": "Norway",
+      "protocol": "vless",
+      "server": "83.171.241.192",
       "port": 27591,
       "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "network": "tcp",

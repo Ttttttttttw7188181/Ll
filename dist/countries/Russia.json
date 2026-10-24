@@ -1,5 +1,5 @@
 {
-  "id": "7a12d6d9f9105875b1dc2f90c95cebbf",
+  "id": "2eb0bea40eb6f2087be90f4f2b6f2d3d",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "7a12d6d9f9105875b1dc2f90c95cebbf",
+      "id": "2eb0bea40eb6f2087be90f4f2b6f2d3d",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -25,6 +25,22 @@
       "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
+    },
+    {
+      "id": "c651f32bb93a68bed1894db332d8516f",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "36a466g.fi1.h1clayd.click",
+      "port": 443,
+      "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "0adb9638509b",
+      "security": "reality",
+      "sni": "36a466g.fi1.h1clayd.click",
+      "fingerPrint": "chrome",
+      "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+      "shortId": "b3c9d0c6bdd114a6"
     }
   ],
   "poolUrltestIntervalSec": 120
