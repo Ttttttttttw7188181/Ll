@@ -1,25 +1,36 @@
 {
-  "id": "702718b59753615ba3cb567b1ad1c1c1",
+  "id": "f8b565759a93c8050629e60eae2afac6",
   "name": "Страна | United States",
   "protocol": "vless",
-  "server": "deliverya.online",
+  "server": "45.144.221.169",
   "port": 443,
-  "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-  "network": "ws",
-  "host": "deliverya.online",
-  "path": "/adrws",
-  "security": "tls",
-  "sni": "deliverya.online",
-  "fingerPrint": "android",
-  "alpn": [
-    "http/1.1"
-  ],
+  "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "arizona.eosapp.net",
+  "fingerPrint": "safari",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "702718b59753615ba3cb567b1ad1c1c1",
+      "id": "f8b565759a93c8050629e60eae2afac6",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "deliverya.online",
+      "server": "45.144.221.169",
+      "port": 443,
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "arizona.eosapp.net",
+      "fingerPrint": "safari",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
+    },
+    {
+      "id": "bf22d78bbb13011a378d26ec53bbf46e",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "185.86.145.142",
       "port": 443,
       "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
       "network": "ws",
@@ -33,10 +44,23 @@
       ]
     },
     {
-      "id": "8b9a57099b9812ecb79c172b6c02e051",
+      "id": "725d8911383f294089b918f28466bd47",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "185.86.145.142",
+      "port": 443,
+      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+      "network": "ws",
+      "path": "/adrws",
+      "security": "tls",
+      "sni": "deliverya.online",
+      "fingerPrint": "edge"
+    },
+    {
+      "id": "0ac45f270b2d032258b64726dafb79d9",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "deliverya.online",
       "port": 443,
       "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
       "network": "ws",
@@ -50,7 +74,37 @@
       ]
     },
     {
-      "id": "0f318624246f0f875de329a8b2b4f180",
+      "id": "3a6f27834952c959e1b17b8cfe46b575",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "81.222.148.118",
+      "port": 443,
+      "password": "569d1a08-a4b7-4751-89c9-ce57b4b6449f",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "neero1.gorodokmedia.com",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "7TmWuqg4d5YLHzAT4me2YWFLI6Af7ysIxSEX2mnYhn0",
+      "shortId": "ebb47e4bdf4085cf"
+    },
+    {
+      "id": "c5fcbdffb0c931a63e476a5576df7d3b",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "neero1.gorodokmedia.com",
+      "port": 443,
+      "password": "569d1a08-a4b7-4751-89c9-ce57b4b6449f",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "neero1.gorodokmedia.com",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "7TmWuqg4d5YLHzAT4me2YWFLI6Af7ysIxSEX2mnYhn0",
+      "shortId": "ebb47e4bdf4085cf"
+    },
+    {
+      "id": "7d3fa1747181c1995bced3b09b49c112",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.25",
@@ -60,6 +114,22 @@
       "path": "/media/stream/3VTlT49iHS1H",
       "security": "tls",
       "sni": "slivdom-spb.site",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "b73c54d3fcc02be607fd9179218d7a7a",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "46.243.142.104",
+      "port": 443,
+      "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+      "network": "ws",
+      "path": "media/stream/E2QlYgrvniT_",
+      "security": "tls",
+      "sni": "santehdv.site",
       "fingerPrint": "edge",
       "alpn": [
         "http/1.1"

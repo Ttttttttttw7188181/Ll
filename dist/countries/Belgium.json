@@ -1,0 +1,33 @@
+{
+  "id": "0117d0b67114c669f8865ba94a609bd5",
+  "name": "Страна | Belgium",
+  "protocol": "vless",
+  "server": "176.122.25.48",
+  "port": 443,
+  "password": "c5f2f847-d651-459c-9006-3511989ec343",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "eh.vk.ru",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc",
+  "shortId": "95bf544ac3cb0c",
+  "entryPool": [
+    {
+      "id": "0117d0b67114c669f8865ba94a609bd5",
+      "name": "Belgium",
+      "protocol": "vless",
+      "server": "176.122.25.48",
+      "port": 443,
+      "password": "c5f2f847-d651-459c-9006-3511989ec343",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "eh.vk.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "JH1FteoTVW6inmHDUgZATEXXxctafAXV2i7AFq352kc",
+      "shortId": "95bf544ac3cb0c"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
