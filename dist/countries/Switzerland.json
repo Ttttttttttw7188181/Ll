@@ -1,0 +1,33 @@
+{
+  "id": "46cf198678a4961689050efe65dc2a63",
+  "name": "Страна | Switzerland",
+  "protocol": "vless",
+  "server": "br-ru.pool-a.top-interconnect.com",
+  "port": 44002,
+  "password": "aa2a1119-0852-4f62-8d42-3a2cc97e8580",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "cloudbridgecdn.pro",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ",
+  "shortId": "c2166e3b",
+  "entryPool": [
+    {
+      "id": "46cf198678a4961689050efe65dc2a63",
+      "name": "Switzerland",
+      "protocol": "vless",
+      "server": "br-ru.pool-a.top-interconnect.com",
+      "port": 44002,
+      "password": "aa2a1119-0852-4f62-8d42-3a2cc97e8580",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "cloudbridgecdn.pro",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "sl0wx4BFdJ7SsfQ6SjkSHU_SQ_0mAhyIlT2eAxWGRyQ",
+      "shortId": "c2166e3b"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
