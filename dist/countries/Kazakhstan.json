@@ -1,5 +1,5 @@
 {
-  "id": "2b273e6d98145642fddccd0f81915bed",
+  "id": "00a0b659e571ea361e12a36c354930b6",
   "name": "Страна | Kazakhstan",
   "protocol": "vless",
   "server": "109.73.192.248",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "almata.vkusnews.com",
-  "fingerPrint": "qq",
+  "fingerPrint": "chrome",
   "flow": "xtls-rprx-vision",
   "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "2b273e6d98145642fddccd0f81915bed",
+      "id": "00a0b659e571ea361e12a36c354930b6",
       "name": "Kazakhstan",
       "protocol": "vless",
       "server": "109.73.192.248",
@@ -22,7 +22,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "almata.vkusnews.com",
-      "fingerPrint": "qq",
+      "fingerPrint": "chrome",
       "flow": "xtls-rprx-vision",
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     }

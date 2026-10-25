@@ -1,5 +1,5 @@
 {
-  "id": "18f0fa1be8725121efe6f4165316c716",
+  "id": "75d0ae64c25017a6fe3dd9156aab27f0",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "46.243.142.104",
@@ -16,7 +16,7 @@
   ],
   "entryPool": [
     {
-      "id": "18f0fa1be8725121efe6f4165316c716",
+      "id": "75d0ae64c25017a6fe3dd9156aab27f0",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.243.142.104",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "id": "c472b319bcc5d2975c0b9e17f095401e",
+      "id": "f4392b6732d7f78f6be4db71c23a763c",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -42,37 +42,9 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "qq",
+      "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
-    },
-    {
-      "id": "1a9c23dd5976eae331fb8b422462f240",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "263651t.fi3.h1clayd.click",
-      "port": 443,
-      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "263651t.fi3.h1clayd.click",
-      "fingerPrint": "chrome",
-      "publicKey": "nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4",
-      "shortId": "2892e611785bafd1"
-    },
-    {
-      "id": "1211f11791ed271851d46c0f0a36a9e5",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "263651t.fi3.h1clayd.click",
-      "port": 443,
-      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "263651t.fi3.h1clayd.click",
-      "fingerPrint": "ios",
-      "publicKey": "nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4",
-      "shortId": "2892e611785bafd1"
     }
   ],
   "poolUrltestIntervalSec": 120
