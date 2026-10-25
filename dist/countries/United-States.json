@@ -1,5 +1,5 @@
 {
-  "id": "d18ec41afa7608b9dbc65b5fe4c9134b",
+  "id": "a0320c30b7fad777154f3f866db05fc1",
   "name": "Страна | United States",
   "protocol": "vless",
   "server": "45.144.221.169",
@@ -8,26 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "arizona.eosapp.net",
-  "fingerPrint": "qq",
+  "fingerPrint": "chrome",
   "flow": "xtls-rprx-vision",
   "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "d18ec41afa7608b9dbc65b5fe4c9134b",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "45.144.221.169",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "arizona.eosapp.net",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "fbbef01e639766aabeb07479882d3d91",
+      "id": "a0320c30b7fad777154f3f866db05fc1",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "45.144.221.169",
@@ -41,95 +27,79 @@
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "56ca1b9baf9513dc6f6ca299c5282ca1",
+      "id": "576b504db54df90d7d2213ffe7433c00",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "185.86.145.142",
+      "server": "45.144.221.169",
       "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "host": "deliverya.online",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "arizona.eosapp.net",
+      "fingerPrint": "ios",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "f1677bb519d94b043052a503da3ddf5a",
+      "id": "1dabfdb6895fff3b72f186a25e66d36a",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "185.86.145.142",
+      "server": "45.144.221.169",
       "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "host": "deliverya.online",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "firefox"
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "arizona.eosapp.net",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "b210f844d0a575f8856c718b16f0dcb6",
+      "id": "c3f701ffc570c25cfd8401619fcb4cb6",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "185.86.145.142",
+      "server": "45.144.221.169",
       "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "chrome"
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "arizona.eosapp.net",
+      "fingerPrint": "ios",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "81ce7385706b265c312394677dedd0cb",
+      "id": "ecbe15612d158690451e0a8a2398c0cd",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "deliverya.online",
-      "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "chrome"
+      "server": "213.176.19.196",
+      "port": 2096,
+      "password": "eeb96fef-4476-4ab0-915e-32e8f014c3b2",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "vless-grpc-reality",
+      "security": "reality",
+      "sni": "id.vk.com",
+      "fingerPrint": "firefox",
+      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
     },
     {
-      "id": "c236ac801050fdfbbe960d6353385421",
+      "id": "f0689cebed96ba0612576394be7dad2d",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "deliverya.online",
-      "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "host": "deliverya.online",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
+      "server": "us.90909.club",
+      "port": 2096,
+      "password": "eeb96fef-4476-4ab0-915e-32e8f014c3b2",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "vless-grpc-reality",
+      "security": "reality",
+      "sni": "id.vk.com",
+      "fingerPrint": "chrome",
+      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
     },
     {
-      "id": "140f560860b73a2b1f6f7a296264ad0e",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "deliverya.online",
-      "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "host": "deliverya.online",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "android"
-    },
-    {
-      "id": "13bf1536f7e35955429b65ca8b695013",
+      "id": "7ced478332db72ee481c9da904de483b",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.25",
@@ -145,7 +115,7 @@
       ]
     },
     {
-      "id": "ca46558a3c4ac9fe372cb4d2fcab65d6",
+      "id": "4154e25438d43e72318067b5a2a18e46",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.104",
@@ -161,7 +131,7 @@
       ]
     },
     {
-      "id": "ca6f9c1f45c105dce18df850b6e4ddf6",
+      "id": "7dfc0ceb0d52a4485dbc724ea12acaf9",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.104",
@@ -176,6 +146,20 @@
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "6c2875b90cc183d753b4d5b326144de8",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "46.243.142.25",
+      "port": 443,
+      "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+      "network": "ws",
+      "host": "slivdom-spb.site",
+      "path": "/media/stream/3VTlT49iHS1H",
+      "security": "tls",
+      "sni": "slivdom-spb.site",
+      "fingerPrint": "edge"
     }
   ],
   "poolUrltestIntervalSec": 120

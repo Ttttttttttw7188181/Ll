@@ -1,5 +1,5 @@
 {
-  "id": "bc845ac87d19e35e15798c35f838d87c",
+  "id": "976c6b1134b99b86909f2adb45058656",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "46.243.142.104",
@@ -16,7 +16,7 @@
   ],
   "entryPool": [
     {
-      "id": "bc845ac87d19e35e15798c35f838d87c",
+      "id": "976c6b1134b99b86909f2adb45058656",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.243.142.104",
@@ -33,18 +33,32 @@
       ]
     },
     {
-      "id": "b86267d1379edf7a79defd8c3b35803b",
+      "id": "a3a70c0a7dcf0b1ed49548ed10607be1",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "45.12.75.242",
-      "port": 26424,
-      "password": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ya.ru",
-      "fingerPrint": "qq",
-      "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-      "shortId": "23103e1e"
+      "server": "88.151.114.24",
+      "port": 443,
+      "password": "2c5e1028-528f-4017-8832-addcb6797ddf",
+      "network": "ws",
+      "host": "ru.dostupnety.website",
+      "path": "/ws-hidden",
+      "security": "tls",
+      "sni": "ru.dostupnety.website",
+      "fingerPrint": "ios"
+    },
+    {
+      "id": "3aa28dd23946b4caf57a1888457bc64c",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "ru.dostupnety.website",
+      "port": 443,
+      "password": "2c5e1028-528f-4017-8832-addcb6797ddf",
+      "network": "ws",
+      "host": "ru.dostupnety.website",
+      "path": "/ws-hidden",
+      "security": "tls",
+      "sni": "ru.dostupnety.website",
+      "fingerPrint": "safari"
     }
   ],
   "poolUrltestIntervalSec": 120

@@ -1,5 +1,5 @@
 {
-  "id": "2ce15a6661eb0fcbd798818aac2025fa",
+  "id": "712d725525c36e223e45ec015cddb437",
   "name": "Страна | United Kingdom",
   "protocol": "vless",
   "server": "188.225.72.122",
@@ -8,12 +8,38 @@
   "network": "tcp",
   "security": "reality",
   "sni": "sh.shvedpride.shop",
-  "fingerPrint": "firefox",
   "flow": "xtls-rprx-vision",
   "publicKey": "WBNom5f5q6BO4YVWzNbZ8FM5ZYmowxybY7bF6fNfzGk",
   "entryPool": [
     {
-      "id": "2ce15a6661eb0fcbd798818aac2025fa",
+      "id": "712d725525c36e223e45ec015cddb437",
+      "name": "United Kingdom",
+      "protocol": "vless",
+      "server": "188.225.72.122",
+      "port": 1443,
+      "password": "8c8a8681-5444-4e18-a427-54f19eea6a77",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "sh.shvedpride.shop",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "WBNom5f5q6BO4YVWzNbZ8FM5ZYmowxybY7bF6fNfzGk"
+    },
+    {
+      "id": "bf186239015d40e249c2cf5d1cb9a8b0",
+      "name": "United Kingdom",
+      "protocol": "vless",
+      "server": "147.45.47.78",
+      "port": 443,
+      "password": "fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ai.ozon.ru",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+    },
+    {
+      "id": "04fc11866b6a663313a6e15fb04c8855",
       "name": "United Kingdom",
       "protocol": "vless",
       "server": "188.225.72.122",
