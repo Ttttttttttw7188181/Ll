@@ -1,5 +1,5 @@
 {
-  "id": "9c5a930f20ae787339afb4a3661fc95b",
+  "id": "7fd855a1d0183178921a43d9ce00664c",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "201.51.8.163",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "atk.vkusnews.com",
-  "fingerPrint": "qq",
+  "fingerPrint": "edge",
   "flow": "xtls-rprx-vision",
   "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "9c5a930f20ae787339afb4a3661fc95b",
+      "id": "7fd855a1d0183178921a43d9ce00664c",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "201.51.8.163",
@@ -22,85 +22,26 @@
       "network": "tcp",
       "security": "reality",
       "sni": "atk.vkusnews.com",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "a5f88e98e730b172951d1b8dabb8e774",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "5.129.222.115",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ad7.vkusnews.com",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "5763a12215b3d84c82f118b540cebfdd",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "xnodtwx.artemida.live",
-      "port": 443,
-      "password": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "xnodtwx.artemida.live",
-      "fingerPrint": "chrome",
-      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-      "shortId": "a1b2c3d4e5f6a7b8"
-    },
-    {
-      "id": "a4b7b4ef676107f7c4a704134a24d3e5",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "188.225.83.133",
-      "port": 443,
-      "password": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "xnodtwx.artemida.live",
-      "fingerPrint": "chrome",
-      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-      "shortId": "a1b2c3d4e5f6a7b8"
-    },
-    {
-      "id": "47bd38b852a036e8d6c25b26948e4570",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "147.45.46.150",
-      "port": 443,
-      "password": "fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ai.ozon.ru",
-      "fingerPrint": "safari",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "ced89727166f074388a0f784c0eb281e",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "xnodtwx.artemida.live",
-      "port": 443,
-      "password": "4c346148-ece9-487a-bffb-ba5a399b2d71",
-      "network": "grpc",
-      "mode": "gun",
-      "security": "reality",
-      "sni": "xnodtwx.artemida.live",
       "fingerPrint": "edge",
-      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-      "shortId": "a1b2c3d4e5f6a7b8"
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "8924cb2a8e4be5bbe35b2649a51f2a0f",
+      "id": "fc00e9d374f00311562a589c1cf50836",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "de15.h1cloud.net",
+      "port": 25362,
+      "password": "36fb6650-8a50-42b5-9f66-06538806f32c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.chip.de",
+      "fingerPrint": "firefox",
+      "publicKey": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+      "shortId": "23732d14a527990d"
+    },
+    {
+      "id": "da1caa724984077c9d82ad848c36b2e8",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "88.151.114.24",
@@ -111,7 +52,35 @@
       "path": "/ws-hidden",
       "security": "tls",
       "sni": "ru.dostupnety.website",
-      "fingerPrint": "chrome"
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "dd39b31697c11f12e8585d3ba7f85ff4",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "201.51.8.163",
+      "port": 443,
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "atk.vkusnews.com",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
+    },
+    {
+      "id": "034173b8c453ad006395142f89056f97",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "5.129.222.115",
+      "port": 443,
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "ad7.vkusnews.com",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
       "id": "366b5c563307297b6614c1c385011297",
@@ -128,7 +97,7 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "c9252c08404e970092acd5ca7a4ff74f",
+      "id": "9857d8262f5a9c9ee817e1d06af0cb66",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -142,7 +111,7 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "5e75d79d089066d9fd8346e1aaf9e806",
+      "id": "0d6808c59f845755515ed6ef463c642b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -159,7 +128,7 @@
       ]
     },
     {
-      "id": "662962bdc8bb32d74002716ba5ee1e57",
+      "id": "418246dd2baa7264143acfa36d4e6f58",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "188.225.27.229",

@@ -41,6 +41,23 @@
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
+      "id": "56ca1b9baf9513dc6f6ca299c5282ca1",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "185.86.145.142",
+      "port": 443,
+      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+      "network": "ws",
+      "host": "deliverya.online",
+      "path": "/adrws",
+      "security": "tls",
+      "sni": "deliverya.online",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
       "id": "f1677bb519d94b043052a503da3ddf5a",
       "name": "🇺🇸 США",
       "protocol": "vless",
@@ -55,10 +72,10 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "81ce7385706b265c312394677dedd0cb",
+      "id": "b210f844d0a575f8856c718b16f0dcb6",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "deliverya.online",
+      "server": "185.86.145.142",
       "port": 443,
       "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
       "network": "ws",
@@ -68,42 +85,10 @@
       "fingerPrint": "chrome"
     },
     {
-      "id": "1d3e9439a4411bfb460228ed22617065",
+      "id": "81ce7385706b265c312394677dedd0cb",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "us.90909.club",
-      "port": 2096,
-      "password": "eeb96fef-4476-4ab0-915e-32e8f014c3b2",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "vless-grpc-reality",
-      "security": "reality",
-      "sni": "id.vk.com",
-      "fingerPrint": "qq",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "337531d4b20bb2d513bc1e5b4383d1fd",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "185.86.145.142",
-      "port": 443,
-      "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
-      "network": "ws",
-      "host": "deliverya.online",
-      "path": "/adrws",
-      "security": "tls",
-      "sni": "deliverya.online",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "2296767d2c4ada4af802935103fad44b",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "185.86.145.142",
+      "server": "deliverya.online",
       "port": 443,
       "password": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
       "network": "ws",
@@ -144,7 +129,7 @@
       "fingerPrint": "android"
     },
     {
-      "id": "3d3d87bcc7d93e1863fa40c4d4198e05",
+      "id": "13bf1536f7e35955429b65ca8b695013",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.25",
@@ -160,7 +145,7 @@
       ]
     },
     {
-      "id": "421a2e33f414a8e47288c7e02e61f51b",
+      "id": "ca46558a3c4ac9fe372cb4d2fcab65d6",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "46.243.142.104",
@@ -168,6 +153,23 @@
       "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
       "network": "ws",
       "path": "media/stream/E2QlYgrvniT_",
+      "security": "tls",
+      "sni": "santehdv.site",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "ca6f9c1f45c105dce18df850b6e4ddf6",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "46.243.142.104",
+      "port": 443,
+      "password": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+      "network": "ws",
+      "host": "santehdv.site",
+      "path": "/media/stream/E2QlYgrvniT_",
       "security": "tls",
       "sni": "santehdv.site",
       "fingerPrint": "edge",

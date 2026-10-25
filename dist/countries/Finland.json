@@ -1,31 +1,21 @@
 {
-  "id": "1294eac0446391c3bb37d44011cef820",
+  "id": "69d35180e9a0d70079febd65592fce83",
   "name": "Страна | Finland",
   "protocol": "vless",
-  "server": "fast23.slopllex.app",
+  "server": "36a466g.fi1.h1clayd.click",
   "port": 443,
-  "password": "24f10224-ca83-4452-85a9-b3a68d2b76fa",
-  "network": "tcp",
-  "security": "tls",
-  "sni": "fast23.slopllex.app",
-  "fingerPrint": "chrome",
-  "flow": "xtls-rprx-vision",
+  "password": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "0adb9638509b",
+  "security": "reality",
+  "sni": "36a466g.fi1.h1clayd.click",
+  "fingerPrint": "firefox",
+  "publicKey": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+  "shortId": "b3c9d0c6bdd114a6",
   "entryPool": [
     {
-      "id": "1294eac0446391c3bb37d44011cef820",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "fast23.slopllex.app",
-      "port": 443,
-      "password": "24f10224-ca83-4452-85a9-b3a68d2b76fa",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "fast23.slopllex.app",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "id": "a9cb7842b574dcd584129f27d1f71d07",
+      "id": "69d35180e9a0d70079febd65592fce83",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "36a466g.fi1.h1clayd.click",
@@ -55,53 +45,6 @@
       "shortId": "023a1e6ffc32be10"
     },
     {
-      "id": "bcea4b978a84a7558591990b93843291",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "fast23.slopllex.app",
-      "port": 443,
-      "password": "24f10224-ca83-4452-85a9-b3a68d2b76fa",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "fast23.slopllex.app",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "id": "8e52d059ceedfd46b3a0abc432bf8ef8",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "185.178.208.140",
-      "port": 443,
-      "password": "3d0a1a17-a0a4-41d5-8b6c-37f76ba3ed41",
-      "network": "ws",
-      "host": "cdn.cubeland.top",
-      "path": "/ws/generate/positions",
-      "security": "tls",
-      "sni": "cdn.cubeland.top",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "d2901c3ec3e6f7f5cd0ef5c9e444c63f",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "cdn.cubeland.top",
-      "port": 443,
-      "password": "3d0a1a17-a0a4-41d5-8b6c-37f76ba3ed41",
-      "network": "ws",
-      "host": "cdn.cubeland.top",
-      "path": "/ws/generate/positions",
-      "security": "tls",
-      "sni": "cdn.cubeland.top",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
       "id": "4df00f7b76e4e367bda4037c436dde32",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
@@ -116,21 +59,34 @@
       "shortId": "023a1e6ffc32be10"
     },
     {
-      "id": "27569f2cf23d59913cc7b5268a47b347",
+      "id": "4340ebd51e6547ed72a252486cccede3",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
-      "server": "185.178.208.140",
+      "server": "ss.90909.club",
+      "port": 2096,
+      "password": "eeb96fef-4476-4ab0-915e-32e8f014c3b2",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "vless-grpc-reality",
+      "security": "reality",
+      "sni": "id.vk.com",
+      "fingerPrint": "ios",
+      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+    },
+    {
+      "id": "ef255f5196b7449f36b1b70dfc0a0e28",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "176.109.105.205",
       "port": 443,
-      "password": "3d0a1a17-a0a4-41d5-8b6c-37f76ba3ed41",
-      "network": "ws",
-      "host": "cdn.cubeland.top",
-      "path": "/ws/generate/positions",
-      "security": "tls",
-      "sni": "cdn.cubeland.top",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
+      "password": "c5cf36f5-50e9-405b-adb4-b40fdf0d4619",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "cl-fn-in.movietop24.site",
+      "fingerPrint": "android",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "H0_ikooEh725UVXsMCoRPoRYMheLUL_L-xZA3fl_nS4",
+      "shortId": "ae641bd0ef87fbfa"
     }
   ],
   "poolUrltestIntervalSec": 120
