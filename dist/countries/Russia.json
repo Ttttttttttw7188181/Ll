@@ -1,5 +1,5 @@
 {
-  "id": "4bdabb19d1cea1e80ff6799f22362b9c",
+  "id": "ed173013b53151b6a4bdc1387fbd35c6",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "4bdabb19d1cea1e80ff6799f22362b9c",
+      "id": "ed173013b53151b6a4bdc1387fbd35c6",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -25,6 +25,20 @@
       "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
+    },
+    {
+      "id": "993f41d335f122ac78f4952d50597275",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "pl1.h1cloud.net",
+      "port": 27591,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "chrome",
+      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+      "shortId": "6c5c7900406a1ae7"
     }
   ],
   "poolUrltestIntervalSec": 120

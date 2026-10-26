@@ -41,7 +41,7 @@
       "shortId": "2892e611785bafd1"
     },
     {
-      "id": "9c1507c65a993c18ded144272409a051",
+      "id": "85d6414ff108346afb44987517c7fa91",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "8fc752g.fi3.h1clayd.click",
@@ -52,24 +52,9 @@
       "serviceName": "f345a414c040",
       "security": "reality",
       "sni": "8fc752g.fi3.h1clayd.click",
-      "fingerPrint": "firefox",
+      "fingerPrint": "chrome",
       "publicKey": "GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18",
       "shortId": "09d0a94a1c6fc9d5"
-    },
-    {
-      "id": "26e360dadb73cf87b8105b0e277ba46f",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "158.160.243.46",
-      "port": 443,
-      "password": "0477e879-f2a7-4b76-aa29-28f36b45d4b6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "rutube.ru",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "y3dqCRYQO7GM7DIdQRG1uDjBNRK2vyXd8RJL160WZz4",
-      "shortId": "8a1f9479"
     }
   ],
   "poolUrltestIntervalSec": 120

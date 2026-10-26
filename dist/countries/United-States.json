@@ -1,5 +1,5 @@
 {
-  "id": "b94d99905d18b27ff0ace2fefd6bd736",
+  "id": "0a1a65c82d6f1f45b3020ee1744968f0",
   "name": "Страна | United States",
   "protocol": "vless",
   "server": "45.144.221.169",
@@ -13,7 +13,7 @@
   "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "b94d99905d18b27ff0ace2fefd6bd736",
+      "id": "0a1a65c82d6f1f45b3020ee1744968f0",
       "name": "🇺🇸 США",
       "protocol": "vless",
       "server": "45.144.221.169",
@@ -27,48 +27,32 @@
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "3ea6f7a3dfe685595221419e492d5c4a",
+      "id": "1dabfdb6895fff3b72f186a25e66d36a",
       "name": "🇺🇸 США",
       "protocol": "vless",
-      "server": "br-ru.pool-a.top-interconnect.com",
-      "port": 44004,
-      "password": "6181b885-e8a5-4bc4-929a-55b5f1019cda",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "cloudbridgecdn.pro",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "bSfBNHTpiDoGdv-ABxwb8aYcie1omvJG8HYX1caNCTU",
-      "shortId": "20"
-    },
-    {
-      "id": "f0689cebed96ba0612576394be7dad2d",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "us.90909.club",
-      "port": 2096,
-      "password": "eeb96fef-4476-4ab0-915e-32e8f014c3b2",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "vless-grpc-reality",
-      "security": "reality",
-      "sni": "id.vk.com",
-      "fingerPrint": "chrome",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "1a41c89a6eb0159754fb3c385b31b730",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "193.160.140.140",
+      "server": "45.144.221.169",
       "port": 443,
-      "password": "992a73b7-1aaf-4567-8786-28d560e8376b",
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
       "network": "tcp",
       "security": "reality",
-      "sni": "us.lstu.ru",
+      "sni": "arizona.eosapp.net",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
+    },
+    {
+      "id": "27d05d9b2b14b862748d7eeed452b5f9",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "45.144.221.169",
+      "port": 443,
+      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "arizona.eosapp.net",
       "fingerPrint": "edge",
       "flow": "xtls-rprx-vision",
-      "publicKey": "e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg"
+      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     }
   ],
   "poolUrltestIntervalSec": 120

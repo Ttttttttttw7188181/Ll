@@ -27,7 +27,7 @@
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "a04de1360b0b52e3e59b90ff510d6c4a",
+      "id": "60bb4ba6678ebe7671d92b8160611b62",
       "name": "Kazakhstan",
       "protocol": "vless",
       "server": "109.73.192.248",
@@ -36,7 +36,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "almata.vkusnews.com",
-      "fingerPrint": "chrome",
+      "fingerPrint": "qq",
       "flow": "xtls-rprx-vision",
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     }
