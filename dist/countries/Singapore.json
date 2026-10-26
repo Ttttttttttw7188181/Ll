@@ -1,0 +1,33 @@
+{
+  "id": "e0d48c2f59f67660d0a236d6e9804fbf",
+  "name": "Страна | Singapore",
+  "protocol": "vless",
+  "server": "83.166.238.5",
+  "port": 443,
+  "password": "4bc5f12f-e83a-4987-b028-fb23bade6b6c",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "sg1.imstich.lat",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "Y07ggJqQKTBrqbeLvMqqX2FwR4bsYaC16qtMA1x4QhU",
+  "shortId": "305321c34191f1f3",
+  "entryPool": [
+    {
+      "id": "e0d48c2f59f67660d0a236d6e9804fbf",
+      "name": "Singapore",
+      "protocol": "vless",
+      "server": "83.166.238.5",
+      "port": 443,
+      "password": "4bc5f12f-e83a-4987-b028-fb23bade6b6c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "sg1.imstich.lat",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Y07ggJqQKTBrqbeLvMqqX2FwR4bsYaC16qtMA1x4QhU",
+      "shortId": "305321c34191f1f3"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

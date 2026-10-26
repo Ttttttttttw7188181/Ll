@@ -1,8 +1,8 @@
 {
-  "id": "56fe00d2c542b48b7bce78458251467d",
+  "id": "29927c4326f9a7654b5674266dc0d815",
   "name": "Страна | United Kingdom",
   "protocol": "vless",
-  "server": "147.45.46.170",
+  "server": "147.45.46.168",
   "port": 443,
   "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
   "network": "tcp",
@@ -13,10 +13,10 @@
   "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
   "entryPool": [
     {
-      "id": "56fe00d2c542b48b7bce78458251467d",
+      "id": "29927c4326f9a7654b5674266dc0d815",
       "name": "United Kingdom",
       "protocol": "vless",
-      "server": "147.45.46.170",
+      "server": "147.45.46.168",
       "port": 443,
       "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
       "network": "tcp",
@@ -27,10 +27,10 @@
       "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
     },
     {
-      "id": "65ed1463179129595fbe04bf59c26723",
+      "id": "5d0b49aa1389345e63377eb73175acb8",
       "name": "United Kingdom",
       "protocol": "vless",
-      "server": "193.223.104.166",
+      "server": "193.223.104.150",
       "port": 443,
       "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
       "network": "tcp",
@@ -41,58 +41,16 @@
       "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
     },
     {
-      "id": "0d640c1d1e38cceb4e88b0498f5e3b8c",
+      "id": "435da64e100c1cca2cf57928544ec1aa",
       "name": "United Kingdom",
       "protocol": "vless",
-      "server": "37.235.249.20",
+      "server": "37.235.250.29",
       "port": 443,
       "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
       "network": "tcp",
       "security": "reality",
       "sni": "gb.ozon.ru",
       "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "49accddc85a33b708758200d8efa8c25",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "37.235.249.4",
-      "port": 443,
-      "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "gb.ozon.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "f7c324509dc87f4c94a9b723850113db",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "113.30.154.253",
-      "port": 443,
-      "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ai.ozon.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-    },
-    {
-      "id": "4c9fa0527065a523522f01e8fe3ff861",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "193.160.140.149",
-      "port": 443,
-      "password": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ai.ozon.ru",
-      "fingerPrint": "edge",
       "flow": "xtls-rprx-vision",
       "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
     }

@@ -1,0 +1,33 @@
+{
+  "id": "96dcb0ca75c8f23f3663aa9e38912cb9",
+  "name": "Страна | Canada",
+  "protocol": "vless",
+  "server": "94.228.173.234",
+  "port": 8443,
+  "password": "4bc5f12f-e83a-4987-b028-fb23bade6b6c",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "game3.imstich.lat",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "N1WwXsFO_Tdi_gYDyBFtR0-QwaFDsH_ND6u-UTGk_xk",
+  "shortId": "af8870feeaf1c518",
+  "entryPool": [
+    {
+      "id": "96dcb0ca75c8f23f3663aa9e38912cb9",
+      "name": "Canada",
+      "protocol": "vless",
+      "server": "94.228.173.234",
+      "port": 8443,
+      "password": "4bc5f12f-e83a-4987-b028-fb23bade6b6c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "game3.imstich.lat",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "N1WwXsFO_Tdi_gYDyBFtR0-QwaFDsH_ND6u-UTGk_xk",
+      "shortId": "af8870feeaf1c518"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

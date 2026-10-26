@@ -1,5 +1,5 @@
 {
-  "id": "ed173013b53151b6a4bdc1387fbd35c6",
+  "id": "82ad0e0cd6449b95a076f3f3008dde7b",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "ed173013b53151b6a4bdc1387fbd35c6",
+      "id": "82ad0e0cd6449b95a076f3f3008dde7b",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -27,18 +27,48 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "993f41d335f122ac78f4952d50597275",
+      "id": "5a2abb17c27b21bd9faf26373473e660",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "pl1.h1cloud.net",
-      "port": 27591,
+      "server": "263651t.fi3.h1clayd.click",
+      "port": 443,
       "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "network": "tcp",
       "security": "reality",
-      "sni": "www.samsung.com",
+      "sni": "263651t.fi3.h1clayd.click",
+      "fingerPrint": "firefox",
+      "publicKey": "nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4",
+      "shortId": "2892e611785bafd1"
+    },
+    {
+      "id": "5ac6a352c0ec8e1635b1bc7825a6d8b2",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "8fc752g.fi3.h1clayd.click",
+      "port": 443,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "f345a414c040",
+      "security": "reality",
+      "sni": "8fc752g.fi3.h1clayd.click",
       "fingerPrint": "chrome",
-      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
-      "shortId": "6c5c7900406a1ae7"
+      "publicKey": "GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18",
+      "shortId": "09d0a94a1c6fc9d5"
+    },
+    {
+      "id": "35036b79a2a1eb16df519aeda4e6c5b6",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "ee.h1cloud.net",
+      "port": 25895,
+      "password": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "edge",
+      "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
+      "shortId": "a73f0410d728c823"
     }
   ],
   "poolUrltestIntervalSec": 120
