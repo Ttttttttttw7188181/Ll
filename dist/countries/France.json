@@ -1,5 +1,5 @@
 {
-  "id": "c15cfd8fbb4c5cfe3e31f8324ba4fc76",
+  "id": "3bdfe236fb86bb73a13db84138554ebf",
   "name": "Страна | France",
   "protocol": "vless",
   "server": "178.250.157.231",
@@ -8,13 +8,13 @@
   "network": "tcp",
   "security": "reality",
   "sni": "lifeskaterstudent.caskstudio.org",
-  "fingerPrint": "firefox",
+  "fingerPrint": "ios",
   "flow": "xtls-rprx-vision",
   "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
   "shortId": "c9e5505275320b51",
   "entryPool": [
     {
-      "id": "c15cfd8fbb4c5cfe3e31f8324ba4fc76",
+      "id": "3bdfe236fb86bb73a13db84138554ebf",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "178.250.157.231",
@@ -23,7 +23,22 @@
       "network": "tcp",
       "security": "reality",
       "sni": "lifeskaterstudent.caskstudio.org",
-      "fingerPrint": "firefox",
+      "fingerPrint": "ios",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
+      "shortId": "c9e5505275320b51"
+    },
+    {
+      "id": "2c32b51937b927979d0c30eac70f5db4",
+      "name": "🇫🇷 Франция",
+      "protocol": "vless",
+      "server": "178.250.157.231",
+      "port": 443,
+      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "lifeskaterstudent.caskstudio.org",
+      "fingerPrint": "ios",
       "flow": "xtls-rprx-vision",
       "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
       "shortId": "c9e5505275320b51"

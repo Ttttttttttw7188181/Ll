@@ -1,47 +1,19 @@
 {
-  "id": "5ae3086a1ab1e7ef7121ce79b7307c9b",
+  "id": "afb747a2e911d0462f8bcc6e3908355b",
   "name": "Страна | Germany",
   "protocol": "vless",
-  "server": "168.113.171.68",
+  "server": "129.101.115.181",
   "port": 443,
   "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
   "network": "tcp",
   "security": "reality",
-  "sni": "a10.eosapp.net",
-  "fingerPrint": "firefox",
+  "sni": "a1.eosshop.net",
+  "fingerPrint": "chrome",
   "flow": "xtls-rprx-vision",
   "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU",
   "entryPool": [
     {
-      "id": "5ae3086a1ab1e7ef7121ce79b7307c9b",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "168.113.171.68",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a10.eosapp.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "7258bcbe448f83cfbd70d572159579dd",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "168.113.172.126",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a11.eosshop.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "7bbcf22501b8202def6f4f0836f2587f",
+      "id": "afb747a2e911d0462f8bcc6e3908355b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "129.101.115.181",
@@ -50,27 +22,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "a1.eosshop.net",
-      "fingerPrint": "firefox",
+      "fingerPrint": "chrome",
       "flow": "xtls-rprx-vision",
       "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     },
     {
-      "id": "5a07902c25b63d68bc5d437d6a31010d",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "193.233.230.107",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "mortardapplebirch.kilnworkshop.info",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "hHor6jajmC4pqV1HSOHypVaMiE9xn8qBoE_oSO-c5x0",
-      "shortId": "a0c58a106301b783"
-    },
-    {
-      "id": "113ebba81ea867d1fd708db33b36a33f",
+      "id": "48fef0d82840c61020bfee993ee388f3",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -82,23 +39,6 @@
       "security": "tls",
       "sni": "z1q3pv4g78.rucdncomp.pro",
       "fingerPrint": "safari"
-    },
-    {
-      "id": "5c4c78e0c2e6668100f5cd23c74f48ef",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "217.19.122.156",
-      "port": 443,
-      "password": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
-      "network": "ws",
-      "host": "z1q3pv4g78.rucdncomp.pro",
-      "path": "/useraction/events/b892639b7195/",
-      "security": "tls",
-      "sni": "z1q3pv4g78.rucdncomp.pro",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
     }
   ],
   "poolUrltestIntervalSec": 120

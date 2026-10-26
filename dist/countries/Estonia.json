@@ -1,19 +1,31 @@
 {
-  "id": "b2b5342a73aefb27925e10d88cb21e45",
+  "id": "70f007b1b300c1cb5641b2367c8d4b14",
   "name": "Страна | Estonia",
   "protocol": "vless",
-  "server": "185.178.208.167",
+  "server": "194.55.239.89",
   "port": 443,
-  "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+  "password": "073b7df7-5527-45a2-ba29-183b85c39071",
   "network": "ws",
-  "host": "dropstyle.lol",
-  "path": "/player/metrics/97662863db53/",
+  "path": "/live.stream.v1.Broadcast/",
   "security": "tls",
-  "sni": "dropstyle.lol",
+  "sni": "broadcast.liveflow.space",
   "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "b2b5342a73aefb27925e10d88cb21e45",
+      "id": "70f007b1b300c1cb5641b2367c8d4b14",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "chrome"
+    },
+    {
+      "id": "5796d65ad7cdb8e8f280c1093002c84f",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "185.178.208.167",
@@ -24,10 +36,95 @@
       "path": "/player/metrics/97662863db53/",
       "security": "tls",
       "sni": "dropstyle.lol",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "5f6c4aeb5d65b519ba9dc8497298ab69",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+      "network": "ws",
+      "host": "dropstyle.lol",
+      "path": "/service/metrics/51dec2df3071/",
+      "security": "tls",
+      "sni": "dropstyle.lol",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "22ad3a4137bbbfebc43101b4904dfd56",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "dropstyle.lol",
+      "port": 443,
+      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+      "network": "ws",
+      "host": "dropstyle.lol",
+      "path": "/service/metrics/51dec2df3071/",
+      "security": "tls",
+      "sni": "dropstyle.lol",
+      "fingerPrint": "android",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "9329f54f0dfdd708a4f8751f9e1c4fe7",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "host": "broadcast.liveflow.space",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "android",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "97d2df0eb818f76fc33f10ee518e630f",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+      "network": "ws",
+      "host": "dropstyle.lol",
+      "path": "/service/metrics/51dec2df3071/",
+      "security": "tls",
+      "sni": "dropstyle.lol",
       "fingerPrint": "chrome"
     },
     {
-      "id": "bb6b03f67c566e802bd67f9e8c0758fa",
+      "id": "73da76124897a57db2dd2f77e0f11a36",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "dropstyle.lol",
+      "port": 443,
+      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+      "network": "ws",
+      "host": "dropstyle.lol",
+      "path": "/player/metrics/97662863db53/",
+      "security": "tls",
+      "sni": "dropstyle.lol",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "a940337c2cd1ce9a4a12a72f93d6b654",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "78.159.240.200",
