@@ -1,36 +1,24 @@
 {
-  "id": "ef95d844aff89600fcaa51033d73524e",
+  "id": "def30857c5508a3ed4f8e4a6fd31156c",
   "name": "Страна | Belgium",
   "protocol": "vless",
-  "server": "lk.floweroom.vip",
-  "port": 443,
-  "password": "5204fa5d-73ef-4f77-937c-a2379efc8b5c",
+  "server": "185.22.154.131",
+  "port": 8080,
+  "password": "FastKey_145297",
   "network": "ws",
-  "host": "lk.floweroom.vip",
-  "path": "/cart/sync/g-jSjxyhq24P",
-  "security": "tls",
-  "sni": "lk.floweroom.vip",
-  "fingerPrint": "edge",
-  "alpn": [
-    "http/1.1"
-  ],
+  "host": "google.com",
+  "path": "/api",
   "entryPool": [
     {
-      "id": "ef95d844aff89600fcaa51033d73524e",
+      "id": "def30857c5508a3ed4f8e4a6fd31156c",
       "name": "Belgium",
       "protocol": "vless",
-      "server": "lk.floweroom.vip",
-      "port": 443,
-      "password": "5204fa5d-73ef-4f77-937c-a2379efc8b5c",
+      "server": "185.22.154.131",
+      "port": 8080,
+      "password": "FastKey_145297",
       "network": "ws",
-      "host": "lk.floweroom.vip",
-      "path": "/cart/sync/g-jSjxyhq24P",
-      "security": "tls",
-      "sni": "lk.floweroom.vip",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
+      "host": "google.com",
+      "path": "/api"
     }
   ],
   "poolUrltestIntervalSec": 120

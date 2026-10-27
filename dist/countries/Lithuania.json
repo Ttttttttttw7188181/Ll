@@ -1,30 +1,30 @@
 {
-  "id": "eb63c808633ef4a33d31d346e377983d",
+  "id": "38c494c7a5f396e3929de122b26d1930",
   "name": "Страна | Lithuania",
   "protocol": "vless",
-  "server": "45.11.27.130",
+  "server": "193.233.91.94",
   "port": 443,
-  "password": "8c8a8681-5444-4e18-a427-54f19eea6a77",
+  "password": "c9c219dc-50da-4135-8e5b-67020291f0ec",
   "network": "tcp",
   "security": "reality",
-  "sni": "litva2.ovhpride.shop",
+  "sni": "a93t3jdl.cachecore.space",
   "fingerPrint": "firefox",
   "flow": "xtls-rprx-vision",
-  "publicKey": "mJkx2aIzeXMsdR38oCpeGX4r5Siq4__nb0I4gk1-wVM",
+  "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
   "entryPool": [
     {
-      "id": "eb63c808633ef4a33d31d346e377983d",
+      "id": "38c494c7a5f396e3929de122b26d1930",
       "name": "Lithuania",
       "protocol": "vless",
-      "server": "45.11.27.130",
+      "server": "193.233.91.94",
       "port": 443,
-      "password": "8c8a8681-5444-4e18-a427-54f19eea6a77",
+      "password": "c9c219dc-50da-4135-8e5b-67020291f0ec",
       "network": "tcp",
       "security": "reality",
-      "sni": "litva2.ovhpride.shop",
+      "sni": "a93t3jdl.cachecore.space",
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "mJkx2aIzeXMsdR38oCpeGX4r5Siq4__nb0I4gk1-wVM"
+      "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
     }
   ],
   "poolUrltestIntervalSec": 120
