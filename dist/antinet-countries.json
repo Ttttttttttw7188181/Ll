@@ -1,5 +1,5 @@
 {
-  "id": "ff4f976234141bf304aa45a4d7f954a6",
+  "id": "3e4000b0501f75f8f60d51e4c3ebca6d",
   "name": "⚡ Авто",
   "protocol": "vless",
   "server": "185.178.208.167",
@@ -7,27 +7,13 @@
   "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
   "network": "ws",
   "host": "dropstyle.lol",
-  "path": "/service/metrics/51dec2df3071/",
+  "path": "/player/metrics/97662863db53/",
   "security": "tls",
   "sni": "dropstyle.lol",
-  "fingerPrint": "chrome",
+  "fingerPrint": "firefox",
   "entryPool": [
     {
-      "id": "ff4f976234141bf304aa45a4d7f954a6",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome"
-    },
-    {
-      "id": "b34d5d8622dc1cf38b8b08e12e5a1682",
+      "id": "3e4000b0501f75f8f60d51e4c3ebca6d",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "185.178.208.167",
@@ -36,199 +22,28 @@
       "network": "ws",
       "host": "dropstyle.lol",
       "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "5f6c4aeb5d65b519ba9dc8497298ab69",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "49131451c66167032f7a8f0fa34d39a4",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
       "security": "tls",
       "sni": "dropstyle.lol",
       "fingerPrint": "firefox"
     },
     {
-      "id": "4a2b95fc417553db73bc2a7661f1948b",
+      "id": "66c5035a115c65d4be0fbd720a619a4f",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "45e7c2445878a19de956de8957607ae8",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "22ad3a4137bbbfebc43101b4904dfd56",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "185d236088c71489a019a236ba6f9bf3",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
+      "server": "185.178.208.167",
       "port": 443,
       "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
       "network": "ws",
       "path": "/player/metrics/97662863db53/",
       "security": "tls",
       "sni": "dropstyle.lol",
-      "alpn": [
-        "http%2F1.1"
-      ]
-    },
-    {
-      "id": "0ea46262003241824ad53f31a621a852",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome"
-    },
-    {
-      "id": "33d24a432eeff99466605c3dbf9fd034",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "alpn": [
-        "http%2F1.1"
-      ]
-    },
-    {
-      "id": "a8b6f1b5c69436e5d61bff00f341526a",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
+      "fingerPrint": "qq",
       "alpn": [
         "http/1.1"
       ]
     },
     {
-      "id": "8fe5084928145059e9b9b20e7684e3b0",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "94.156.181.168",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "math.videoticher.com",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "a7163cd5a8778c482670705e240ce04a",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "94.156.181.168",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "math.videoticher.com",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "51280ed23e9258ed673b36de74085e27",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "94.156.181.168",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "math.videoticher.com",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "9103f3768efa56186fc516799ebffffe",
+      "id": "25a761d211f594ed54fc6d1aaec8eca4",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
       "server": "94.228.167.12",
@@ -243,22 +58,7 @@
       "shortId": "c13c9bd7bd45847d"
     },
     {
-      "id": "56261f33658f68a6b9af96b91bf67e03",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "94.228.167.12",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "washingphonicseatable.solsticedigest.me",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "dCaQHVtwEPBeiH3ivVU9ycGJZ8uCO2JaIVjYBnfaTWY",
-      "shortId": "c13c9bd7bd45847d"
-    },
-    {
-      "id": "f89caf89fc0db0197a8629b4dac01e65",
+      "id": "6a718836b9b15481bdca09be0393f99a",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
       "server": "178.250.157.231",
@@ -267,126 +67,42 @@
       "network": "tcp",
       "security": "reality",
       "sni": "lifeskaterstudent.caskstudio.org",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
+      "shortId": "c9e5505275320b51"
+    },
+    {
+      "id": "2def46be500cd2a4f88e5d4e8d7417d9",
+      "name": "🇫🇷 Франция",
+      "protocol": "vless",
+      "server": "178.250.157.231",
+      "port": 443,
+      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "lifeskaterstudent.caskstudio.org",
+      "fingerPrint": "ios",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
+      "shortId": "c9e5505275320b51"
+    },
+    {
+      "id": "040ab98a3a98ac7ef98ad108ae593d5f",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "de12b.h1cloud.net",
+      "port": 25172,
+      "password": "5a519754-a673-4462-83f6-5eb25d2af141",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
       "fingerPrint": "safari",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
-      "shortId": "c9e5505275320b51"
+      "publicKey": "Xr55Hig_JTeUluiGfSnma6zMHG2Uv5Xu30ZODGF5xGA",
+      "shortId": "f09ac427e1abd14b"
     },
     {
-      "id": "cd36ba9195275dad216d529b9c9e90f3",
-      "name": "🇫🇷 Франция",
-      "protocol": "vless",
-      "server": "178.250.157.231",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "lifeskaterstudent.caskstudio.org",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
-      "shortId": "c9e5505275320b51"
-    },
-    {
-      "id": "2c32b51937b927979d0c30eac70f5db4",
-      "name": "🇫🇷 Франция",
-      "protocol": "vless",
-      "server": "178.250.157.231",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "lifeskaterstudent.caskstudio.org",
-      "fingerPrint": "ios",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "pObQ7F063LsHc_lDuUfzPnx83C-goIPyyffMZs1CG0U",
-      "shortId": "c9e5505275320b51"
-    },
-    {
-      "id": "cd8fbbcd148c06f9bdf1253b792186f3",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "168.113.172.126",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a11.eosshop.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "ee3c75ab79f3fe370ddd85f4a2b3878a",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "168.113.172.132",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ab3.rentroom.vip",
-      "fingerPrint": "ios",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "8956ca316625c5662e7becb7327826a2",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "168.113.172.132",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ab3.rentroom.vip",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "eee4eb99753a5c3ac295212b88af0de7",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "129.101.115.181",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a1.eosshop.net",
-      "fingerPrint": "chrome",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "882c162dfabe891729ea492ddabb85f6",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "129.101.115.181",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a1.eosshop.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "2f205c9c40dd262a0393b78e505eb55d",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "129.101.115.181",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a1.eosshop.net",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
-    },
-    {
-      "id": "5fda0d792e31377a57a90cbd27f7f713",
+      "id": "81940034a73d997eb3763ebe1fb3043c",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -400,7 +116,38 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "b4bae6e2c85b1d0f2acb955023079a24",
+      "id": "1b1427da154a399c700c181cc372b808",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "188.225.27.229",
+      "port": 443,
+      "password": "66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "bridge.rkitman.ru",
+      "fingerPrint": "safari",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
+      "shortId": "88d9dc52ef39c8bd"
+    },
+    {
+      "id": "a2d502ae74b5caa39909256d2255cfcd",
+      "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "185.178.208.140",
+      "port": 443,
+      "password": "888f2af0-a5d2-4562-9893-c125d2d1f131",
+      "network": "ws",
+      "path": "/ws/generate/positions",
+      "security": "tls",
+      "sni": "mine.cubeland.top",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "705c522c0c5aa19f16644a552519996f",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "72.56.242.232",
@@ -411,7 +158,7 @@
       "serviceName": "VideoRenderer",
       "security": "tls",
       "sni": "renderer-bridge-1-881.mirra.now",
-      "fingerPrint": "firefox"
+      "fingerPrint": "chrome"
     },
     {
       "id": "70a296c2e78d09040d705bf5b44d5ef9",
@@ -431,35 +178,20 @@
       ]
     },
     {
-      "id": "8c5d6d0a93c5040e1c53b608c46f6e52",
+      "id": "158a7b08082bc2f13dd972aa8abb1759",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "renderer-bridge-1-881.mirra.now",
+      "server": "chat.gpt.prem-ai.shop",
       "port": 443,
-      "password": "27653b37-603c-4c90-b1f5-25c4d23f8932",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "VideoRenderer",
+      "password": "94fb33dc-1e6d-4820-9dd6-bde226dfa0fe",
+      "network": "ws",
+      "path": "/gateway/v1/ws/791f9a4d19f715c2ffaedfbaf99d88bd",
       "security": "tls",
-      "sni": "renderer-bridge-1-881.mirra.now",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "h2"
-      ]
-    },
-    {
-      "id": "7bd5c7584a240dda270d7110750182aa",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "45.10.43.223",
-      "port": 443,
-      "password": "75b517db-1f97-4bda-a479-863d988c31a0",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
+      "sni": "chat.gpt.prem-ai.shop",
       "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "f3Ooz7Yxw4QqQNxddxYG0zOewK8zullgKVTBZxR1a0Y"
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
       "id": "e3dfb0845eba3acf0508bbff3c2a71b0",
@@ -492,37 +224,7 @@
       "shortId": "fda83f2787e6016d"
     },
     {
-      "id": "bb07a7155b53d81dd36defc4d9d7a951",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "188.120.234.199",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "payeeclickerhalogen.berylcord.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "QPfM5knVgOkIykx2AC8S1MvkO_x-T9xMRYJdkF9aEng",
-      "shortId": "fda83f2787e6016d"
-    },
-    {
-      "id": "d7da46a6d25682395db7627677ba74df",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "188.225.27.229",
-      "port": 443,
-      "password": "66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "bridge.rkitman.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
-      "shortId": "88d9dc52ef39c8bd"
-    },
-    {
-      "id": "4952d78932f2cde153bc21e552fef886",
+      "id": "73ff2a3afcb5894191c940bc42af7974",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -532,24 +234,39 @@
       "host": "vzvt1tpiml.rucdncomp.pro",
       "path": "/service/telemetry/e6dc0bd08cb1/",
       "security": "tls",
-      "sni": "vzvt1tpiml.rucdncomp.pro"
+      "sni": "vzvt1tpiml.rucdncomp.pro",
+      "fingerPrint": "chrome"
     },
     {
-      "id": "dae37ae20c6e633bd7d878f27756bdc0",
+      "id": "272000c14afd03f65dcb7618147bc14b",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "94.156.181.65",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "server": "pl1.h1cloud.net",
+      "port": 27591,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "network": "tcp",
       "security": "reality",
-      "sni": "school3.videoticher.com",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
+      "sni": "www.samsung.com",
+      "fingerPrint": "edge",
+      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+      "shortId": "6c5c7900406a1ae7"
     },
     {
-      "id": "82ad0e0cd6449b95a076f3f3008dde7b",
+      "id": "bdf23cba53727cc2edfa3985e98d2432",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "pl1.h1cloud.net",
+      "port": 27591,
+      "password": "056405e8-de9f-4d0d-8145-956f13cc34da",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "chrome",
+      "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+      "shortId": "6c5c7900406a1ae7"
+    },
+    {
+      "id": "36224c4a46bfebe05fdbb69a6cb724b8",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -563,7 +280,7 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "54ea3dc19f1e2069f14ea1f17cd7840e",
+      "id": "ff514e991f69123046e42f899b2e69a3",
       "name": "🇸🇪 Швеция",
       "protocol": "vless",
       "server": "188.225.77.254",
@@ -577,20 +294,6 @@
       "fingerPrint": "firefox",
       "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
       "shortId": "4951a2313524dd8f"
-    },
-    {
-      "id": "611c953026992d3b38bf282cb0635ebe",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "146.19.128.62",
-      "port": 443,
-      "password": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "englishdop2.videoticher.com",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU"
     }
   ],
   "poolUrltestIntervalSec": 120

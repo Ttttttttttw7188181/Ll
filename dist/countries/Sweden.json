@@ -1,5 +1,5 @@
 {
-  "id": "54ea3dc19f1e2069f14ea1f17cd7840e",
+  "id": "ff514e991f69123046e42f899b2e69a3",
   "name": "Страна | Sweden",
   "protocol": "vless",
   "server": "188.225.77.254",
@@ -15,7 +15,7 @@
   "shortId": "4951a2313524dd8f",
   "entryPool": [
     {
-      "id": "54ea3dc19f1e2069f14ea1f17cd7840e",
+      "id": "ff514e991f69123046e42f899b2e69a3",
       "name": "🇸🇪 Швеция",
       "protocol": "vless",
       "server": "188.225.77.254",

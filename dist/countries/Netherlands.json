@@ -1,5 +1,5 @@
 {
-  "id": "b4bae6e2c85b1d0f2acb955023079a24",
+  "id": "705c522c0c5aa19f16644a552519996f",
   "name": "Страна | Netherlands",
   "protocol": "vless",
   "server": "72.56.242.232",
@@ -10,10 +10,10 @@
   "serviceName": "VideoRenderer",
   "security": "tls",
   "sni": "renderer-bridge-1-881.mirra.now",
-  "fingerPrint": "firefox",
+  "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "b4bae6e2c85b1d0f2acb955023079a24",
+      "id": "705c522c0c5aa19f16644a552519996f",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "72.56.242.232",
@@ -24,7 +24,7 @@
       "serviceName": "VideoRenderer",
       "security": "tls",
       "sni": "renderer-bridge-1-881.mirra.now",
-      "fingerPrint": "firefox"
+      "fingerPrint": "chrome"
     },
     {
       "id": "70a296c2e78d09040d705bf5b44d5ef9",
@@ -44,35 +44,20 @@
       ]
     },
     {
-      "id": "8c5d6d0a93c5040e1c53b608c46f6e52",
+      "id": "158a7b08082bc2f13dd972aa8abb1759",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "renderer-bridge-1-881.mirra.now",
+      "server": "chat.gpt.prem-ai.shop",
       "port": 443,
-      "password": "27653b37-603c-4c90-b1f5-25c4d23f8932",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "VideoRenderer",
+      "password": "94fb33dc-1e6d-4820-9dd6-bde226dfa0fe",
+      "network": "ws",
+      "path": "/gateway/v1/ws/791f9a4d19f715c2ffaedfbaf99d88bd",
       "security": "tls",
-      "sni": "renderer-bridge-1-881.mirra.now",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "h2"
-      ]
-    },
-    {
-      "id": "7bd5c7584a240dda270d7110750182aa",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "45.10.43.223",
-      "port": 443,
-      "password": "75b517db-1f97-4bda-a479-863d988c31a0",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.samsung.com",
+      "sni": "chat.gpt.prem-ai.shop",
       "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "f3Ooz7Yxw4QqQNxddxYG0zOewK8zullgKVTBZxR1a0Y"
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
       "id": "e3dfb0845eba3acf0508bbff3c2a71b0",
@@ -105,37 +90,7 @@
       "shortId": "fda83f2787e6016d"
     },
     {
-      "id": "bb07a7155b53d81dd36defc4d9d7a951",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "188.120.234.199",
-      "port": 443,
-      "password": "37ca5f34-2531-4fda-a781-20f3845fea88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "payeeclickerhalogen.berylcord.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "QPfM5knVgOkIykx2AC8S1MvkO_x-T9xMRYJdkF9aEng",
-      "shortId": "fda83f2787e6016d"
-    },
-    {
-      "id": "d7da46a6d25682395db7627677ba74df",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "188.225.27.229",
-      "port": 443,
-      "password": "66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "bridge.rkitman.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
-      "shortId": "88d9dc52ef39c8bd"
-    },
-    {
-      "id": "4952d78932f2cde153bc21e552fef886",
+      "id": "73ff2a3afcb5894191c940bc42af7974",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -145,7 +100,8 @@
       "host": "vzvt1tpiml.rucdncomp.pro",
       "path": "/service/telemetry/e6dc0bd08cb1/",
       "security": "tls",
-      "sni": "vzvt1tpiml.rucdncomp.pro"
+      "sni": "vzvt1tpiml.rucdncomp.pro",
+      "fingerPrint": "chrome"
     }
   ],
   "poolUrltestIntervalSec": 120
