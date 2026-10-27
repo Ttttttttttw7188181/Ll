@@ -1,26 +1,28 @@
 {
-  "generated_at_utc": "2026-10-26T22:44:32Z",
-  "unique_vless_uris": 72,
-  "compatible_nodes": 24,
+  "generated_at_utc": "2026-10-27T05:13:45Z",
+  "unique_vless_uris": 86,
+  "compatible_nodes": 39,
   "countries": {
-    "Estonia": 8,
-    "Finland": 6,
-    "France": 2,
-    "Germany": 2,
-    "Netherlands": 3,
-    "Russia": 2,
-    "Sweden": 1
+    "Estonia": 11,
+    "Finland": 5,
+    "France": 3,
+    "Germany": 7,
+    "Netherlands": 9,
+    "Poland": 1,
+    "Russia": 1,
+    "Sweden": 1,
+    "United Kingdom": 1
   },
-  "dropped_unsupported_or_invalid": 48,
+  "dropped_unsupported_or_invalid": 47,
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "parsed_lines": 86,
+      "parsed_lines": 94,
       "status": "ok"
     },
     {
       "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-      "parsed_lines": 116,
+      "parsed_lines": 119,
       "status": "ok"
     },
     {
