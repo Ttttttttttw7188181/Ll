@@ -1,5 +1,5 @@
 {
-  "id": "d7032fb50157a0d792ee2dc86ffa54d0",
+  "id": "bea13668c2c2b15c49441f5a3f929427",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "217.19.122.156",
@@ -13,7 +13,7 @@
   "fingerPrint": "safari",
   "entryPool": [
     {
-      "id": "d7032fb50157a0d792ee2dc86ffa54d0",
+      "id": "bea13668c2c2b15c49441f5a3f929427",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",

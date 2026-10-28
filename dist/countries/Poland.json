@@ -1,5 +1,5 @@
 {
-  "id": "8ddd0bfbb653f18b46b83b82d6e76eca",
+  "id": "9a082cd3914d8081004f7325c1c1613a",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "31.184.253.134",
@@ -14,7 +14,7 @@
   "shortId": "0f2cc340a69ed7",
   "entryPool": [
     {
-      "id": "8ddd0bfbb653f18b46b83b82d6e76eca",
+      "id": "9a082cd3914d8081004f7325c1c1613a",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "31.184.253.134",

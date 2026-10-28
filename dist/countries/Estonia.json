@@ -1,51 +1,20 @@
 {
-  "id": "3d0920bbda44dfd84813e053a7f9dfcf",
+  "id": "a740540fad61aecee2430aa17d662673",
   "name": "Страна | Estonia",
   "protocol": "vless",
-  "server": "194.55.239.89",
+  "server": "185.178.208.167",
   "port": 443,
-  "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+  "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
   "network": "ws",
-  "host": "broadcast.liveflow.space",
-  "path": "/live.stream.v1.Broadcast/",
+  "host": "dropstyle.lol",
+  "path": "/player/metrics/97662863db53/",
   "security": "tls",
-  "sni": "broadcast.liveflow.space",
-  "fingerPrint": "ios",
+  "sni": "dropstyle.lol",
+  "fingerPrint": "chrome",
   "alpn": [
     "http/1.1"
   ],
   "entryPool": [
-    {
-      "id": "3d0920bbda44dfd84813e053a7f9dfcf",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "194.55.239.89",
-      "port": 443,
-      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
-      "network": "ws",
-      "host": "broadcast.liveflow.space",
-      "path": "/live.stream.v1.Broadcast/",
-      "security": "tls",
-      "sni": "broadcast.liveflow.space",
-      "fingerPrint": "ios",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "57d13f7c60959df9a3c201b5711b4cd9",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android"
-    },
     {
       "id": "a740540fad61aecee2430aa17d662673",
       "name": "🇪🇪 Эстония",
@@ -81,7 +50,7 @@
       ]
     },
     {
-      "id": "62f68b2e759a397a694172e56c1754ec",
+      "id": "ecc74ecfa3d96e205e00e453af6527e7",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "dropstyle.lol",
@@ -92,7 +61,7 @@
       "path": "/player/metrics/97662863db53/",
       "security": "tls",
       "sni": "dropstyle.lol",
-      "fingerPrint": "ios",
+      "fingerPrint": "chrome",
       "alpn": [
         "http/1.1"
       ]
@@ -173,68 +142,6 @@
       "security": "tls",
       "sni": "dropstyle.lol",
       "fingerPrint": "android"
-    },
-    {
-      "id": "eff7c16f86140d80313a58bf432e3d94",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "194.55.239.89",
-      "port": 443,
-      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
-      "network": "ws",
-      "path": "/live.stream.v1.Broadcast/",
-      "security": "tls",
-      "sni": "broadcast.liveflow.space",
-      "fingerPrint": "android"
-    },
-    {
-      "id": "a2b542bed66852d09df4f046138ea10c",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "194.55.239.89",
-      "port": 443,
-      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
-      "network": "ws",
-      "host": "broadcast.liveflow.space",
-      "path": "/live.stream.v1.Broadcast/",
-      "security": "tls",
-      "sni": "broadcast.liveflow.space",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "23c3139201a491f99f67e201fa5fa483",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "fb2ebe024282be92e3b61d91efd5b642",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "ios",
-      "alpn": [
-        "http/1.1"
-      ]
     }
   ],
   "poolUrltestIntervalSec": 120
