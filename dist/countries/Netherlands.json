@@ -1,44 +1,36 @@
 {
-  "id": "6b26afedf7e441b79fff919a93825ed8",
+  "id": "e81b2fde9dd2de8bddedf673eec077f0",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "84.201.169.241",
+  "server": "185.86.145.183",
   "port": 443,
-  "password": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "api-maps.yandex.ru",
-  "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y",
+  "password": "872a2c34-23f4-4dc8-89c8-79e8817415c5",
+  "network": "ws",
+  "host": "cdns2.wyre-file.ru",
+  "path": "/nl7ws",
+  "security": "tls",
+  "sni": "cdns2.wyre-file.ru",
+  "fingerPrint": "android",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "6b26afedf7e441b79fff919a93825ed8",
+      "id": "e81b2fde9dd2de8bddedf673eec077f0",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "84.201.169.241",
+      "server": "185.86.145.183",
       "port": 443,
-      "password": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "api-maps.yandex.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
-    },
-    {
-      "id": "773ead6644e82e58060b217437d44285",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "84.201.169.241",
-      "port": 443,
-      "password": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "api-maps.yandex.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
+      "password": "872a2c34-23f4-4dc8-89c8-79e8817415c5",
+      "network": "ws",
+      "host": "cdns2.wyre-file.ru",
+      "path": "/nl7ws",
+      "security": "tls",
+      "sni": "cdns2.wyre-file.ru",
+      "fingerPrint": "android",
+      "alpn": [
+        "http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120

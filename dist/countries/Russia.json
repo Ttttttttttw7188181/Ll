@@ -1,5 +1,5 @@
 {
-  "id": "4d4c7a2f780f4551e86b2f0e672b480a",
+  "id": "f76699e3094a3b497f54b12502375bcf",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "chrome",
+  "fingerPrint": "qq",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "4d4c7a2f780f4551e86b2f0e672b480a",
+      "id": "f76699e3094a3b497f54b12502375bcf",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,23 +22,9 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
+      "fingerPrint": "qq",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
-    },
-    {
-      "id": "8886a873d3355bd3d40588ecbadbf629",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "81.222.148.104",
-      "port": 443,
-      "password": "f439e4fe-139b-4882-ad8b-a16176d09c88",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "eu53.cdn77.icu",
-      "fingerPrint": "ios",
-      "publicKey": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
-      "shortId": "1ed136481e0ede74"
     }
   ],
   "poolUrltestIntervalSec": 120
