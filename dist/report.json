@@ -1,35 +1,29 @@
 {
-  "generated_at_utc": "2026-10-28T05:52:18Z",
-  "unique_vless_uris": 72,
-  "compatible_nodes": 20,
+  "generated_at_utc": "2026-10-28T13:07:19Z",
+  "unique_vless_uris": 52,
+  "compatible_nodes": 6,
   "countries": {
-    "Estonia": 8,
-    "Finland": 3,
-    "Germany": 2,
-    "Latvia": 1,
-    "Lithuania": 1,
-    "Netherlands": 1,
-    "Poland": 1,
-    "Russia": 1,
-    "Sweden": 1,
-    "United Kingdom": 1
+    "Germany": 1,
+    "Netherlands": 2,
+    "Russia": 2,
+    "Sweden": 1
   },
-  "dropped_unsupported_or_invalid": 52,
+  "dropped_unsupported_or_invalid": 46,
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "parsed_lines": 65,
+      "parsed_lines": 16,
       "status": "ok"
     },
     {
       "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-      "parsed_lines": 139,
+      "parsed_lines": 129,
       "status": "ok"
     },
     {
       "url": "https://hub.mos.ru/rkp/sub-roskompozor/raw/main/wl",
-      "parsed_lines": 13,
-      "status": "ok"
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }

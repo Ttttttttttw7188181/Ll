@@ -25,6 +25,20 @@
       "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
+    },
+    {
+      "id": "8886a873d3355bd3d40588ecbadbf629",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "81.222.148.104",
+      "port": 443,
+      "password": "f439e4fe-139b-4882-ad8b-a16176d09c88",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "eu53.cdn77.icu",
+      "fingerPrint": "ios",
+      "publicKey": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+      "shortId": "1ed136481e0ede74"
     }
   ],
   "poolUrltestIntervalSec": 120

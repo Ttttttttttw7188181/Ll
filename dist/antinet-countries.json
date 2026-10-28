@@ -1,192 +1,19 @@
 {
-  "id": "a740540fad61aecee2430aa17d662673",
+  "id": "a0af967738cc4188978d91c2ee676eb4",
   "name": "⚡ Авто",
   "protocol": "vless",
-  "server": "185.178.208.167",
+  "server": "217.19.122.156",
   "port": 443,
-  "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+  "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
   "network": "ws",
-  "host": "dropstyle.lol",
-  "path": "/player/metrics/97662863db53/",
+  "host": "z1q3pv4g78.rucdncomp.pro",
+  "path": "/useraction/events/b892639b7195/",
   "security": "tls",
-  "sni": "dropstyle.lol",
-  "fingerPrint": "chrome",
-  "alpn": [
-    "http/1.1"
-  ],
+  "sni": "z1q3pv4g78.rucdncomp.pro",
+  "fingerPrint": "safari",
   "entryPool": [
     {
-      "id": "a740540fad61aecee2430aa17d662673",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "cde1177c55d53ab407a0fe5504399e34",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "ecc74ecfa3d96e205e00e453af6527e7",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "22ad3a4137bbbfebc43101b4904dfd56",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "68f5e3960a477fa2ecae1b6872ef0a28",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http%2F1.1"
-      ]
-    },
-    {
-      "id": "0ea46262003241824ad53f31a621a852",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/player/metrics/97662863db53/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "chrome"
-    },
-    {
-      "id": "186a3ff9e38aa81f5a1a6f6fcee8bd9f",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android",
-      "alpn": [
-        "http%2F1.1"
-      ]
-    },
-    {
-      "id": "73b72b9b6506d43bb09d1669225e30b3",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "dropstyle.lol",
-      "port": 443,
-      "password": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "network": "ws",
-      "host": "dropstyle.lol",
-      "path": "/service/metrics/51dec2df3071/",
-      "security": "tls",
-      "sni": "dropstyle.lol",
-      "fingerPrint": "android"
-    },
-    {
-      "id": "3a1350b380ed42f85c363162f6471564",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "91.210.169.181",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "92d31d962fb1d6566bc9f0e403baf801",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "188.225.33.141",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "f7c3f9d82687407ef6dbef7baa95a3e6",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "200.165.231.209",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "bea13668c2c2b15c49441f5a3f929427",
+      "id": "a0af967738cc4188978d91c2ee676eb4",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -200,79 +27,32 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "be6e768d3898d8bc58b162a17e432801",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "217.19.122.156",
-      "port": 443,
-      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "network": "ws",
-      "host": "z1q3pv4g78.rucdncomp.pro",
-      "path": "/useraction/events/b892639b7195/",
-      "security": "tls",
-      "sni": "z1q3pv4g78.rucdncomp.pro",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "c4c2fbba8b24a688a2b0cd079896ad48",
-      "name": "Latvia",
-      "protocol": "vless",
-      "server": "91.197.98.94",
-      "port": 8443,
-      "password": "5940086d-3158-464a-9abd-95ade1482140",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ads.x5.ru",
-      "fingerPrint": "android",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "uEAZ8LNf1nlIhGncag8NmLxbxmJamQx2eiX3SKTnxWs",
-      "shortId": "12934b0bcd48eee6"
-    },
-    {
-      "id": "38c494c7a5f396e3929de122b26d1930",
-      "name": "Lithuania",
-      "protocol": "vless",
-      "server": "193.233.91.94",
-      "port": 443,
-      "password": "c9c219dc-50da-4135-8e5b-67020291f0ec",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "a93t3jdl.cachecore.space",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-    },
-    {
-      "id": "7d5f809780573c6a4dcd46fc8d0e9a2a",
+      "id": "6b26afedf7e441b79fff919a93825ed8",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "78.159.250.214",
+      "server": "84.201.169.241",
       "port": 443,
-      "password": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
+      "password": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
       "network": "tcp",
       "security": "reality",
-      "sni": "qq.utiltools.site",
+      "sni": "api-maps.yandex.ru",
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI"
+      "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
     },
     {
-      "id": "9a082cd3914d8081004f7325c1c1613a",
-      "name": "🇵🇱 Польша",
+      "id": "773ead6644e82e58060b217437d44285",
+      "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "31.184.253.134",
-      "port": 53869,
-      "password": "252b4a9c-520d-459c-9dbc-366995206089",
+      "server": "84.201.169.241",
+      "port": 443,
+      "password": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
       "network": "tcp",
       "security": "reality",
-      "sni": "www.moddb.com",
-      "fingerPrint": "chrome",
+      "sni": "api-maps.yandex.ru",
+      "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "rtc2Krk2fVhHCRG82EsUc4_mlw304HKHkl6MggQZEAU",
-      "shortId": "0f2cc340a69ed7"
+      "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
     },
     {
       "id": "4d4c7a2f780f4551e86b2f0e672b480a",
@@ -289,7 +69,21 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "fe02091c558554da9b7bc3e5187a3c20",
+      "id": "8886a873d3355bd3d40588ecbadbf629",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "81.222.148.104",
+      "port": 443,
+      "password": "f439e4fe-139b-4882-ad8b-a16176d09c88",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "eu53.cdn77.icu",
+      "fingerPrint": "ios",
+      "publicKey": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+      "shortId": "1ed136481e0ede74"
+    },
+    {
+      "id": "144c0da394d58f5bce3f1248bbbe2784",
       "name": "🇸🇪 Швеция",
       "protocol": "vless",
       "server": "188.225.77.254",
@@ -303,21 +97,6 @@
       "fingerPrint": "firefox",
       "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
       "shortId": "4951a2313524dd8f"
-    },
-    {
-      "id": "c8b730881e8f8df42a4bac49fcea1176",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "109.248.168.122",
-      "port": 43000,
-      "password": "4e055977-5ac7-4371-a714-aeaa31bd025c",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "109.248.168.122",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ijCPMgX_OhpQu9KkQc8rkluX9QgV5pkJ5GLv7aymTWQ",
-      "shortId": "603f424f"
     }
   ],
   "poolUrltestIntervalSec": 120

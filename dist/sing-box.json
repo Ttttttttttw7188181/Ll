@@ -35,26 +35,12 @@
       "type": "urltest",
       "tag": "Авто",
       "outbounds": [
-        "Estonia 001",
-        "Estonia 002",
-        "Estonia 003",
-        "Estonia 004",
-        "Estonia 005",
-        "Estonia 006",
-        "Estonia 007",
-        "Estonia 008",
-        "Finland 009",
-        "Finland 010",
-        "Finland 011",
-        "Germany 012",
-        "Germany 013",
-        "Latvia 014",
-        "Lithuania 015",
-        "Netherlands 016",
-        "Poland 017",
-        "Russia 018",
-        "Sweden 019",
-        "United Kingdom 020"
+        "Germany 001",
+        "Netherlands 002",
+        "Netherlands 003",
+        "Russia 004",
+        "Russia 005",
+        "Sweden 006"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -63,362 +49,41 @@
     },
     {
       "type": "selector",
-      "tag": "Страна | Estonia",
-      "outbounds": [
-        "Estonia 001",
-        "Estonia 002",
-        "Estonia 003",
-        "Estonia 004",
-        "Estonia 005",
-        "Estonia 006",
-        "Estonia 007",
-        "Estonia 008"
-      ],
-      "default": "Estonia 001"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Finland",
-      "outbounds": [
-        "Finland 009",
-        "Finland 010",
-        "Finland 011"
-      ],
-      "default": "Finland 009"
-    },
-    {
-      "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
-        "Germany 012",
-        "Germany 013"
+        "Germany 001"
       ],
-      "default": "Germany 012"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Latvia",
-      "outbounds": [
-        "Latvia 014"
-      ],
-      "default": "Latvia 014"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Lithuania",
-      "outbounds": [
-        "Lithuania 015"
-      ],
-      "default": "Lithuania 015"
+      "default": "Germany 001"
     },
     {
       "type": "selector",
       "tag": "Страна | Netherlands",
       "outbounds": [
-        "Netherlands 016"
+        "Netherlands 002",
+        "Netherlands 003"
       ],
-      "default": "Netherlands 016"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Poland",
-      "outbounds": [
-        "Poland 017"
-      ],
-      "default": "Poland 017"
+      "default": "Netherlands 002"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
-        "Russia 018"
+        "Russia 004",
+        "Russia 005"
       ],
-      "default": "Russia 018"
+      "default": "Russia 004"
     },
     {
       "type": "selector",
       "tag": "Страна | Sweden",
       "outbounds": [
-        "Sweden 019"
+        "Sweden 006"
       ],
-      "default": "Sweden 019"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | United Kingdom",
-      "outbounds": [
-        "United Kingdom 020"
-      ],
-      "default": "United Kingdom 020"
+      "default": "Sweden 006"
     },
     {
       "type": "vless",
-      "tag": "Estonia 001",
-      "server": "185.178.208.167",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/player/metrics/97662863db53/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 002",
-      "server": "185.178.208.167",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/service/metrics/51dec2df3071/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 003",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/player/metrics/97662863db53/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 004",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/service/metrics/51dec2df3071/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 005",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http%2F1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/player/metrics/97662863db53/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 006",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/player/metrics/97662863db53/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 007",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "alpn": [
-          "http%2F1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/service/metrics/51dec2df3071/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Estonia 008",
-      "server": "dropstyle.lol",
-      "server_port": 443,
-      "uuid": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropstyle.lol",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "dropstyle.lol"
-        },
-        "path": "/service/metrics/51dec2df3071/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 009",
-      "server": "91.210.169.181",
-      "server_port": 443,
-      "uuid": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "wstg.datasynctrue.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "wstg.datasynctrue.online"
-        },
-        "path": "/api/connect"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 010",
-      "server": "188.225.33.141",
-      "server_port": 443,
-      "uuid": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "wstg.datasynctrue.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "wstg.datasynctrue.online"
-        },
-        "path": "/api/connect"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 011",
-      "server": "200.165.231.209",
-      "server_port": 443,
-      "uuid": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "wstg.datasynctrue.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "wstg.datasynctrue.online"
-        },
-        "path": "/api/connect"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 012",
+      "tag": "Germany 001",
       "server": "217.19.122.156",
       "server_port": 443,
       "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
@@ -441,119 +106,49 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 013",
-      "server": "217.19.122.156",
+      "tag": "Netherlands 002",
+      "server": "84.201.169.241",
       "server_port": 443,
-      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "z1q3pv4g78.rucdncomp.pro",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "z1q3pv4g78.rucdncomp.pro"
-        },
-        "path": "/useraction/events/b892639b7195/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Latvia 014",
-      "server": "91.197.98.94",
-      "server_port": 8443,
-      "uuid": "5940086d-3158-464a-9abd-95ade1482140",
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uEAZ8LNf1nlIhGncag8NmLxbxmJamQx2eiX3SKTnxWs",
-          "short_id": "12934b0bcd48eee6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Lithuania 015",
-      "server": "193.233.91.94",
-      "server_port": 443,
-      "uuid": "c9c219dc-50da-4135-8e5b-67020291f0ec",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "a93t3jdl.cachecore.space",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+          "public_key": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Netherlands 016",
-      "server": "78.159.250.214",
+      "tag": "Netherlands 003",
+      "server": "84.201.169.241",
       "server_port": 443,
-      "uuid": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "qq.utiltools.site",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI"
+          "public_key": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Poland 017",
-      "server": "31.184.253.134",
-      "server_port": 53869,
-      "uuid": "252b4a9c-520d-459c-9dbc-366995206089",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.moddb.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rtc2Krk2fVhHCRG82EsUc4_mlw304HKHkl6MggQZEAU",
-          "short_id": "0f2cc340a69ed7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 018",
+      "tag": "Russia 004",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -574,7 +169,28 @@
     },
     {
       "type": "vless",
-      "tag": "Sweden 019",
+      "tag": "Russia 005",
+      "server": "81.222.148.104",
+      "server_port": 443,
+      "uuid": "f439e4fe-139b-4882-ad8b-a16176d09c88",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "eu53.cdn77.icu",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+          "short_id": "1ed136481e0ede74"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Sweden 006",
       "server": "188.225.77.254",
       "server_port": 8443,
       "uuid": "d1f0c6cb-0d8b-4f13-8104-b7c8e8c57110",
@@ -595,28 +211,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "ozone"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "United Kingdom 020",
-      "server": "109.248.168.122",
-      "server_port": 43000,
-      "uuid": "4e055977-5ac7-4371-a714-aeaa31bd025c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.248.168.122",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ijCPMgX_OhpQu9KkQc8rkluX9QgV5pkJ5GLv7aymTWQ",
-          "short_id": "603f424f"
-        }
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "id": "bea13668c2c2b15c49441f5a3f929427",
+  "id": "a0af967738cc4188978d91c2ee676eb4",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "217.19.122.156",
@@ -13,7 +13,7 @@
   "fingerPrint": "safari",
   "entryPool": [
     {
-      "id": "bea13668c2c2b15c49441f5a3f929427",
+      "id": "a0af967738cc4188978d91c2ee676eb4",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -25,23 +25,6 @@
       "security": "tls",
       "sni": "z1q3pv4g78.rucdncomp.pro",
       "fingerPrint": "safari"
-    },
-    {
-      "id": "be6e768d3898d8bc58b162a17e432801",
-      "name": "🇩🇪 Германия",
-      "protocol": "vless",
-      "server": "217.19.122.156",
-      "port": 443,
-      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "network": "ws",
-      "host": "z1q3pv4g78.rucdncomp.pro",
-      "path": "/useraction/events/b892639b7195/",
-      "security": "tls",
-      "sni": "z1q3pv4g78.rucdncomp.pro",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
     }
   ],
   "poolUrltestIntervalSec": 120
