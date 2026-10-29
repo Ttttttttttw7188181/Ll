@@ -1,18 +1,69 @@
 {
-  "id": "136849c6827716f36b937efb03a34b63",
+  "id": "711f528b67a27e2f02b8b944115af812",
   "name": "Страна | Estonia",
   "protocol": "vless",
   "server": "194.55.239.89",
   "port": 443,
   "password": "073b7df7-5527-45a2-ba29-183b85c39071",
   "network": "ws",
+  "host": "broadcast.liveflow.space",
   "path": "/live.stream.v1.Broadcast/",
   "security": "tls",
   "sni": "broadcast.liveflow.space",
-  "fingerPrint": "chrome",
+  "fingerPrint": "ios",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "136849c6827716f36b937efb03a34b63",
+      "id": "711f528b67a27e2f02b8b944115af812",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "host": "broadcast.liveflow.space",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "ios",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "b64b8ff60810750e3acf106d8e4f5a18",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "host": "broadcast.liveflow.space",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "c0d97bbd7f257ae280e4437e9e02889c",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "edge"
+    },
+    {
+      "id": "95d0533f679ce5e955ef0dbbb8698189",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "194.55.239.89",
@@ -23,6 +74,50 @@
       "security": "tls",
       "sni": "broadcast.liveflow.space",
       "fingerPrint": "chrome"
+    },
+    {
+      "id": "3cf59632aed004d7b4ba115be86566b0",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "host": "broadcast.liveflow.space",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "android"
+    },
+    {
+      "id": "d6033ae974bac9f9b4687b3904379000",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "host": "broadcast.liveflow.space",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "4a16a0a5a7771af233a6eb474b0e844a",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "194.55.239.89",
+      "port": 443,
+      "password": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "network": "ws",
+      "path": "/live.stream.v1.Broadcast/",
+      "security": "tls",
+      "sni": "broadcast.liveflow.space",
+      "fingerPrint": "android"
     }
   ],
   "poolUrltestIntervalSec": 120

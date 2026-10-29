@@ -1,32 +1,53 @@
 {
-  "id": "c8b730881e8f8df42a4bac49fcea1176",
+  "id": "d7785caab7acaa4fa466d5255a42d174",
   "name": "Страна | United Kingdom",
   "protocol": "vless",
-  "server": "109.248.168.122",
-  "port": 43000,
-  "password": "4e055977-5ac7-4371-a714-aeaa31bd025c",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "109.248.168.122",
-  "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "ijCPMgX_OhpQu9KkQc8rkluX9QgV5pkJ5GLv7aymTWQ",
-  "shortId": "603f424f",
+  "server": "82.202.157.123",
+  "port": 5002,
+  "password": "ddc27ad2-631e-4431-b380-0045547acef4",
+  "network": "ws",
+  "host": "br1.centermass.net",
+  "path": "media.playback.v1.SessionGateway",
+  "security": "tls",
+  "sni": "br1.centermass.net",
+  "fingerPrint": "edge",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "c8b730881e8f8df42a4bac49fcea1176",
+      "id": "d7785caab7acaa4fa466d5255a42d174",
       "name": "United Kingdom",
       "protocol": "vless",
-      "server": "109.248.168.122",
-      "port": 43000,
-      "password": "4e055977-5ac7-4371-a714-aeaa31bd025c",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "109.248.168.122",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ijCPMgX_OhpQu9KkQc8rkluX9QgV5pkJ5GLv7aymTWQ",
-      "shortId": "603f424f"
+      "server": "82.202.157.123",
+      "port": 5002,
+      "password": "ddc27ad2-631e-4431-b380-0045547acef4",
+      "network": "ws",
+      "host": "br1.centermass.net",
+      "path": "media.playback.v1.SessionGateway",
+      "security": "tls",
+      "sni": "br1.centermass.net",
+      "fingerPrint": "edge",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "eca8ff0b4cc6675e2c4985c50b051992",
+      "name": "United Kingdom",
+      "protocol": "vless",
+      "server": "82.202.157.123",
+      "port": 5002,
+      "password": "ddc27ad2-631e-4431-b380-0045547acef4",
+      "network": "ws",
+      "host": "br1.centermass.net",
+      "path": "/media.playback.v1.SessionGateway",
+      "security": "tls",
+      "sni": "br1.centermass.net",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120

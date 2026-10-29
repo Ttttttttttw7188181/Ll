@@ -1,36 +1,54 @@
 {
-  "id": "e81b2fde9dd2de8bddedf673eec077f0",
+  "id": "06c68b22f24080a4427be9aefceb59c7",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "185.86.145.183",
+  "server": "189.74.114.93",
   "port": 443,
-  "password": "872a2c34-23f4-4dc8-89c8-79e8817415c5",
-  "network": "ws",
-  "host": "cdns2.wyre-file.ru",
-  "path": "/nl7ws",
+  "password": "c6628db6-025d-40e8-b79d-033f4372a6b7",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "3e99d50d5740985d",
   "security": "tls",
-  "sni": "cdns2.wyre-file.ru",
-  "fingerPrint": "android",
-  "alpn": [
-    "http/1.1"
-  ],
+  "sni": "api.mediaklenov.cc",
   "entryPool": [
     {
-      "id": "e81b2fde9dd2de8bddedf673eec077f0",
+      "id": "06c68b22f24080a4427be9aefceb59c7",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "185.86.145.183",
+      "server": "189.74.114.93",
       "port": 443,
-      "password": "872a2c34-23f4-4dc8-89c8-79e8817415c5",
-      "network": "ws",
-      "host": "cdns2.wyre-file.ru",
-      "path": "/nl7ws",
+      "password": "c6628db6-025d-40e8-b79d-033f4372a6b7",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "3e99d50d5740985d",
       "security": "tls",
-      "sni": "cdns2.wyre-file.ru",
-      "fingerPrint": "android",
-      "alpn": [
-        "http/1.1"
-      ]
+      "sni": "api.mediaklenov.cc"
+    },
+    {
+      "id": "8b489533b3e32ef46b8ba64442ff8784",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "34ec30ca-c499-46c5-a0b9-20638e5197e9",
+      "network": "ws",
+      "host": "pulse-resume.pro",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "pulse-resume.pro"
+    },
+    {
+      "id": "d1aebd28bfd24eb3bca389872d743077",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "pulse-resume.pro",
+      "port": 443,
+      "password": "34ec30ca-c499-46c5-a0b9-20638e5197e9",
+      "network": "ws",
+      "host": "pulse-resume.pro",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "pulse-resume.pro"
     }
   ],
   "poolUrltestIntervalSec": 120

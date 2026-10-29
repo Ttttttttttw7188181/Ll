@@ -36,10 +36,33 @@
       "tag": "Авто",
       "outbounds": [
         "Estonia 001",
-        "Germany 002",
-        "Netherlands 003",
-        "Russia 004",
-        "Sweden 005"
+        "Estonia 002",
+        "Estonia 003",
+        "Estonia 004",
+        "Estonia 005",
+        "Estonia 006",
+        "Estonia 007",
+        "Germany 008",
+        "Germany 009",
+        "Moldova 010",
+        "Moldova 011",
+        "Moldova 012",
+        "Moldova 013",
+        "Moldova 014",
+        "Moldova 015",
+        "Moldova 016",
+        "Moldova 017",
+        "Moldova 018",
+        "Moldova 019",
+        "Moldova 020",
+        "Netherlands 021",
+        "Netherlands 022",
+        "Netherlands 023",
+        "Russia 024",
+        "Russia 025",
+        "Sweden 026",
+        "United Kingdom 027",
+        "United Kingdom 028"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -50,7 +73,13 @@
       "type": "selector",
       "tag": "Страна | Estonia",
       "outbounds": [
-        "Estonia 001"
+        "Estonia 001",
+        "Estonia 002",
+        "Estonia 003",
+        "Estonia 004",
+        "Estonia 005",
+        "Estonia 006",
+        "Estonia 007"
       ],
       "default": "Estonia 001"
     },
@@ -58,37 +87,140 @@
       "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
-        "Germany 002"
+        "Germany 008",
+        "Germany 009"
       ],
-      "default": "Germany 002"
+      "default": "Germany 008"
+    },
+    {
+      "type": "selector",
+      "tag": "Страна | Moldova",
+      "outbounds": [
+        "Moldova 010",
+        "Moldova 011",
+        "Moldova 012",
+        "Moldova 013",
+        "Moldova 014",
+        "Moldova 015",
+        "Moldova 016",
+        "Moldova 017",
+        "Moldova 018",
+        "Moldova 019",
+        "Moldova 020"
+      ],
+      "default": "Moldova 010"
     },
     {
       "type": "selector",
       "tag": "Страна | Netherlands",
       "outbounds": [
-        "Netherlands 003"
+        "Netherlands 021",
+        "Netherlands 022",
+        "Netherlands 023"
       ],
-      "default": "Netherlands 003"
+      "default": "Netherlands 021"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
-        "Russia 004"
+        "Russia 024",
+        "Russia 025"
       ],
-      "default": "Russia 004"
+      "default": "Russia 024"
     },
     {
       "type": "selector",
       "tag": "Страна | Sweden",
       "outbounds": [
-        "Sweden 005"
+        "Sweden 026"
       ],
-      "default": "Sweden 005"
+      "default": "Sweden 026"
+    },
+    {
+      "type": "selector",
+      "tag": "Страна | United Kingdom",
+      "outbounds": [
+        "United Kingdom 027",
+        "United Kingdom 028"
+      ],
+      "default": "United Kingdom 027"
     },
     {
       "type": "vless",
       "tag": "Estonia 001",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "broadcast.liveflow.space"
+        },
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Estonia 002",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "broadcast.liveflow.space"
+        },
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Estonia 003",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Estonia 004",
       "server": "194.55.239.89",
       "server_port": 443,
       "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
@@ -108,7 +240,76 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 002",
+      "tag": "Estonia 005",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "broadcast.liveflow.space"
+        },
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Estonia 006",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "broadcast.liveflow.space"
+        },
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Estonia 007",
+      "server": "194.55.239.89",
+      "server_port": 443,
+      "uuid": "073b7df7-5527-45a2-ba29-183b85c39071",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "broadcast.liveflow.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 008",
       "server": "217.19.122.156",
       "server_port": 443,
       "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
@@ -131,15 +332,174 @@
     },
     {
       "type": "vless",
-      "tag": "Netherlands 003",
-      "server": "185.86.145.183",
+      "tag": "Germany 009",
+      "server": "217.19.122.156",
       "server_port": 443,
-      "uuid": "872a2c34-23f4-4dc8-89c8-79e8817415c5",
+      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cdns2.wyre-file.ru",
+        "server_name": "z1q3pv4g78.rucdncomp.pro",
         "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/useraction/events/b892639b7195/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 010",
+      "server": "87.228.71.195",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 011",
+      "server": "87.228.71.195",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 012",
+      "server": "87.228.71.195",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 013",
+      "server": "87.228.71.195",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 014",
+      "server": "87.228.71.195",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 015",
+      "server": "87.228.71.196",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 016",
+      "server": "87.228.71.196",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "alpn": [
+          "h2",
           "http/1.1"
         ],
         "utls": {
@@ -150,14 +510,164 @@
       "transport": {
         "type": "ws",
         "headers": {
-          "Host": "cdns2.wyre-file.ru"
+          "Host": "ap2.directly.chat"
         },
-        "path": "/nl7ws"
+        "path": "/md/1"
       }
     },
     {
       "type": "vless",
-      "tag": "Russia 004",
+      "tag": "Moldova 017",
+      "server": "87.228.71.197",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 018",
+      "server": "87.228.71.198",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 019",
+      "server": "87.228.71.198",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Moldova 020",
+      "server": "87.228.71.198",
+      "server_port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        },
+        "path": "/md/1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Netherlands 021",
+      "server": "189.74.114.93",
+      "server_port": 443,
+      "uuid": "c6628db6-025d-40e8-b79d-033f4372a6b7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.mediaklenov.cc"
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "3e99d50d5740985d"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Netherlands 022",
+      "server": "185.86.145.37",
+      "server_port": 443,
+      "uuid": "34ec30ca-c499-46c5-a0b9-20638e5197e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "pulse-resume.pro"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "pulse-resume.pro"
+        },
+        "path": "/amws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Netherlands 023",
+      "server": "pulse-resume.pro",
+      "server_port": 443,
+      "uuid": "34ec30ca-c499-46c5-a0b9-20638e5197e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "pulse-resume.pro"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "pulse-resume.pro"
+        },
+        "path": "/amws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Russia 024",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -167,7 +677,7 @@
         "server_name": "ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -178,7 +688,26 @@
     },
     {
       "type": "vless",
-      "tag": "Sweden 005",
+      "tag": "Russia 025",
+      "server": "185.229.9.135",
+      "server_port": 443,
+      "uuid": "d9833bab-0a4d-4ebf-9d80-1f6ab04f3964",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "app.lesotorg-kirov.ru"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "app.lesotorg-kirov.ru"
+        },
+        "path": "/chws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Sweden 026",
       "server": "188.225.77.254",
       "server_port": 8443,
       "uuid": "d1f0c6cb-0d8b-4f13-8104-b7c8e8c57110",
@@ -199,6 +728,58 @@
       "transport": {
         "type": "grpc",
         "service_name": "ozone"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "United Kingdom 027",
+      "server": "82.202.157.123",
+      "server_port": 5002,
+      "uuid": "ddc27ad2-631e-4431-b380-0045547acef4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "br1.centermass.net",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "br1.centermass.net"
+        },
+        "path": "media.playback.v1.SessionGateway"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "United Kingdom 028",
+      "server": "82.202.157.123",
+      "server_port": 5002,
+      "uuid": "ddc27ad2-631e-4431-b380-0045547acef4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "br1.centermass.net",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "br1.centermass.net"
+        },
+        "path": "/media.playback.v1.SessionGateway"
       }
     },
     {
