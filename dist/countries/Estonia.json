@@ -1,5 +1,5 @@
 {
-  "id": "0af314946e3219bb7550eb1d457a8600",
+  "id": "3cf2cd323c788ec46d3b5277433cbc32",
   "name": "Страна | Estonia",
   "protocol": "vless",
   "server": "ee.h1cloud.net",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.samsung.com",
-  "fingerPrint": "ios",
+  "fingerPrint": "edge",
   "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
   "shortId": "a73f0410d728c823",
   "entryPool": [
     {
-      "id": "0af314946e3219bb7550eb1d457a8600",
+      "id": "3cf2cd323c788ec46d3b5277433cbc32",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "ee.h1cloud.net",
@@ -22,12 +22,26 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.samsung.com",
-      "fingerPrint": "ios",
+      "fingerPrint": "edge",
       "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
       "shortId": "a73f0410d728c823"
     },
     {
-      "id": "2d851275c3ca7e69fe01c16e94020978",
+      "id": "39e18f25ad11369bdf19f537f58e69aa",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "ee.h1cloud.net",
+      "port": 25895,
+      "password": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "firefox",
+      "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
+      "shortId": "a73f0410d728c823"
+    },
+    {
+      "id": "947254e2690046df31a14a658ad8e035",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
       "server": "5.178.85.182",
