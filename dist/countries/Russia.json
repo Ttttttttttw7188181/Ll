@@ -1,5 +1,5 @@
 {
-  "id": "36224c4a46bfebe05fdbb69a6cb724b8",
+  "id": "bcaa37351e91a34dd18f63d0b96dad03",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,11 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "chrome",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "36224c4a46bfebe05fdbb69a6cb724b8",
+      "id": "bcaa37351e91a34dd18f63d0b96dad03",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,22 +21,22 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "2f333afc2aaee42617948e45a93b1132",
+      "id": "e7ae45f8e0d8cdf205b8b170cd249c54",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "185.229.9.135",
-      "port": 443,
-      "password": "d9833bab-0a4d-4ebf-9d80-1f6ab04f3964",
-      "network": "ws",
-      "host": "app.lesotorg-kirov.ru",
-      "path": "/chws",
-      "security": "tls",
-      "sni": "app.lesotorg-kirov.ru"
+      "server": "ee.h1cloud.net",
+      "port": 25895,
+      "password": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fingerPrint": "android",
+      "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
+      "shortId": "a73f0410d728c823"
     }
   ],
   "poolUrltestIntervalSec": 120

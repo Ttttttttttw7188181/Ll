@@ -1,53 +1,30 @@
 {
-  "id": "d7785caab7acaa4fa466d5255a42d174",
+  "id": "d2b8dda9145e000b32a0ffc06adbb107",
   "name": "Страна | United Kingdom",
   "protocol": "vless",
-  "server": "82.202.157.123",
-  "port": 5002,
-  "password": "ddc27ad2-631e-4431-b380-0045547acef4",
-  "network": "ws",
-  "host": "br1.centermass.net",
-  "path": "media.playback.v1.SessionGateway",
-  "security": "tls",
-  "sni": "br1.centermass.net",
-  "fingerPrint": "edge",
-  "alpn": [
-    "http/1.1"
-  ],
+  "server": "89.208.210.53",
+  "port": 24127,
+  "password": "69158986-cfae-4567-8391-0f96d9d985bd",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "uk.neuroniko.com",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc",
   "entryPool": [
     {
-      "id": "d7785caab7acaa4fa466d5255a42d174",
+      "id": "d2b8dda9145e000b32a0ffc06adbb107",
       "name": "United Kingdom",
       "protocol": "vless",
-      "server": "82.202.157.123",
-      "port": 5002,
-      "password": "ddc27ad2-631e-4431-b380-0045547acef4",
-      "network": "ws",
-      "host": "br1.centermass.net",
-      "path": "media.playback.v1.SessionGateway",
-      "security": "tls",
-      "sni": "br1.centermass.net",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "eca8ff0b4cc6675e2c4985c50b051992",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "82.202.157.123",
-      "port": 5002,
-      "password": "ddc27ad2-631e-4431-b380-0045547acef4",
-      "network": "ws",
-      "host": "br1.centermass.net",
-      "path": "/media.playback.v1.SessionGateway",
-      "security": "tls",
-      "sni": "br1.centermass.net",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
+      "server": "89.208.210.53",
+      "port": 24127,
+      "password": "69158986-cfae-4567-8391-0f96d9d985bd",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "uk.neuroniko.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc"
     }
   ],
   "poolUrltestIntervalSec": 120

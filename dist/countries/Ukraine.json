@@ -1,0 +1,31 @@
+{
+  "id": "eb6acda9c0cc88139049bc5d6a5ea9ce",
+  "name": "Страна | Ukraine",
+  "protocol": "vless",
+  "server": "5.129.211.213",
+  "port": 443,
+  "password": "6c92c35a-96a2-49ad-8efd-3e2868f4e55f",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "plpr02d.sonicservice.digital",
+  "fingerPrint": "qq",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+  "entryPool": [
+    {
+      "id": "eb6acda9c0cc88139049bc5d6a5ea9ce",
+      "name": "Ukraine",
+      "protocol": "vless",
+      "server": "5.129.211.213",
+      "port": 443,
+      "password": "6c92c35a-96a2-49ad-8efd-3e2868f4e55f",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "plpr02d.sonicservice.digital",
+      "fingerPrint": "qq",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
