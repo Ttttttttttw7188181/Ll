@@ -1,0 +1,33 @@
+{
+  "id": "7b5756b43c00420ec3cc6a1693e485fe",
+  "name": "Страна | Australia",
+  "protocol": "vless",
+  "server": "72.56.243.30",
+  "port": 25570,
+  "password": "370d8d64-3dae-4831-a282-25990b9919d1",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "kookas.fi",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+  "shortId": "43dcff52289b81e6",
+  "entryPool": [
+    {
+      "id": "7b5756b43c00420ec3cc6a1693e485fe",
+      "name": "Australia",
+      "protocol": "vless",
+      "server": "72.56.243.30",
+      "port": 25570,
+      "password": "370d8d64-3dae-4831-a282-25990b9919d1",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "kookas.fi",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+      "shortId": "43dcff52289b81e6"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

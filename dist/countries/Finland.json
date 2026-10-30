@@ -1,87 +1,32 @@
 {
-  "id": "c7eb31ed35f9bb5b6d94502c9eb21267",
+  "id": "cf0d6e491b9bb1c1ad8c8524604b3d29",
   "name": "Страна | Finland",
   "protocol": "vless",
-  "server": "217.150.197.67",
+  "server": "109.196.102.102",
   "port": 443,
-  "password": "7955bf18-35c4-412d-aabd-c0b36c793063",
-  "network": "ws",
-  "host": "cdn2.rucdncomp.pro",
-  "path": "/player/metrics/e9e65ce193c2/",
-  "security": "tls",
-  "sni": "cdn2.rucdncomp.pro",
-  "fingerPrint": "edge",
-  "alpn": [
-    "http/1.1"
-  ],
+  "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "cache-41.topp-con.xyz",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
+  "shortId": "b9120cd53ffd7bba",
   "entryPool": [
     {
-      "id": "c7eb31ed35f9bb5b6d94502c9eb21267",
+      "id": "cf0d6e491b9bb1c1ad8c8524604b3d29",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
-      "server": "217.150.197.67",
+      "server": "109.196.102.102",
       "port": 443,
-      "password": "7955bf18-35c4-412d-aabd-c0b36c793063",
-      "network": "ws",
-      "host": "cdn2.rucdncomp.pro",
-      "path": "/player/metrics/e9e65ce193c2/",
-      "security": "tls",
-      "sni": "cdn2.rucdncomp.pro",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "cb13e26b3235c0b0607dbafc87d511cf",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "217.150.197.67",
-      "port": 443,
-      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "network": "ws",
-      "host": "cdn2.rucdncomp.pro",
-      "path": "/player/metrics/e9e65ce193c2/",
-      "security": "tls",
-      "sni": "cdn2.rucdncomp.pro",
+      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "cache-41.topp-con.xyz",
       "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "0270a4097ed336748410ab315a570f9a",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "217.150.197.67",
-      "port": 443,
-      "password": "7955bf18-35c4-412d-aabd-c0b36c793063",
-      "network": "ws",
-      "host": "cdn2.rucdncomp.pro",
-      "path": "/player/metrics/e9e65ce193c2/",
-      "security": "tls",
-      "sni": "cdn2.rucdncomp.pro",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "431bc45b1b8d6c3c1ff7bb8a64e562d4",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "217.150.197.67",
-      "port": 443,
-      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "network": "ws",
-      "host": "cdn2.rucdncomp.pro",
-      "path": "/player/metrics/e9e65ce193c2/",
-      "security": "tls",
-      "sni": "cdn2.rucdncomp.pro",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
+      "flow": "xtls-rprx-vision",
+      "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
+      "shortId": "b9120cd53ffd7bba"
     },
     {
       "id": "3a1350b380ed42f85c363162f6471564",
@@ -180,21 +125,6 @@
       "security": "tls",
       "sni": "wstg.datasynctrue.online",
       "fingerPrint": "firefox"
-    },
-    {
-      "id": "c651c6e27cba8be0af53b6dceb0b56a3",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "188.225.25.170",
-      "port": 443,
-      "password": "bbdb67eb-116f-4f66-9552-7510a73fc986",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "ns",
-      "security": "reality",
-      "sni": "id.pervye.ru",
-      "fingerPrint": "firefox",
-      "publicKey": "QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8"
     }
   ],
   "poolUrltestIntervalSec": 120

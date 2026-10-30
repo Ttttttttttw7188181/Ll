@@ -1,5 +1,5 @@
 {
-  "id": "f99585b6f10a0f4df2eebfa741933d57",
+  "id": "d985d581aba139aabde9703ce6220a73",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "ya.ru",
-  "fingerPrint": "chrome",
+  "fingerPrint": "qq",
   "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "f99585b6f10a0f4df2eebfa741933d57",
+      "id": "d985d581aba139aabde9703ce6220a73",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -22,12 +22,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "ya.ru",
-      "fingerPrint": "chrome",
+      "fingerPrint": "qq",
       "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
       "shortId": "23103e1e"
     },
     {
-      "id": "b9d89be5d384fa0ebee9890bd05b7f03",
+      "id": "e0b6a37ab95daf2703cde631d7dac8b0",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "46.254.19.164",
@@ -39,6 +39,65 @@
       "fingerPrint": "firefox",
       "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
       "shortId": "8937c9ed2d470352"
+    },
+    {
+      "id": "26a369882d1704135756f7e09907d577",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "46.254.19.164",
+      "port": 443,
+      "password": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "wtb.tems.bet",
+      "fingerPrint": "firefox",
+      "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
+      "shortId": "8937c9ed2d470352"
+    },
+    {
+      "id": "4359ba955282d9b813b5ec31f314c00c",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "5.42.99.64",
+      "port": 8443,
+      "password": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "du-rov.secureservice.top",
+      "fingerPrint": "random",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+      "shortId": "3cbc3d737fb9c4af"
+    },
+    {
+      "id": "ccb2a37c7c1559898aebe79e7969f6e3",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "5.42.99.64",
+      "port": 8443,
+      "password": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "du-rov.secureservice.top",
+      "fingerPrint": "random",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+      "shortId": "3cbc3d737fb9c4af"
+    },
+    {
+      "id": "587f7696a5b435af4f54dfc7b4981c67",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "147.45.161.4",
+      "port": 443,
+      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "defs-68.topp-con.xyz",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "xTePrM5IyjR8o52B2mRAO2nNivfyMpBZxya93MQk4Qc",
+      "shortId": "2a40b6d6495debf3"
     }
   ],
   "poolUrltestIntervalSec": 120

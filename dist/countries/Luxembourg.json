@@ -1,0 +1,48 @@
+{
+  "id": "1156bbcaef91d0ecf07ac72b6a2477ed",
+  "name": "Страна | Luxembourg",
+  "protocol": "vless",
+  "server": "191.44.47.164",
+  "port": 25565,
+  "password": "7b822cbc-2bce-4381-bb1e-cdd058c89294",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "kookas.fi",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+  "shortId": "43dcff52289b81e6",
+  "entryPool": [
+    {
+      "id": "1156bbcaef91d0ecf07ac72b6a2477ed",
+      "name": "Luxembourg",
+      "protocol": "vless",
+      "server": "191.44.47.164",
+      "port": 25565,
+      "password": "7b822cbc-2bce-4381-bb1e-cdd058c89294",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "kookas.fi",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+      "shortId": "43dcff52289b81e6"
+    },
+    {
+      "id": "9996d468984a9dadd5322958985f4350",
+      "name": "Luxembourg",
+      "protocol": "vless",
+      "server": "191.44.47.164",
+      "port": 25565,
+      "password": "6f2ca1b9-b8e6-4a12-bd4c-becfa8739b7a",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "kookas.fi",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+      "shortId": "43dcff52289b81e6"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

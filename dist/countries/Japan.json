@@ -1,30 +1,32 @@
 {
-  "id": "647a22e1f73ca94f18c6b0d235fc2a0f",
+  "id": "f4e2ec560f72013a746e5bf7864ae134",
   "name": "Страна | Japan",
   "protocol": "vless",
-  "server": "176.53.162.32",
+  "server": "46.8.255.252",
   "port": 443,
-  "password": "d86e6fda-e519-03ea-98eb-9ff9a9da5984",
+  "password": "eb8af077-a580-4f67-8042-9572a39e699d",
   "network": "tcp",
   "security": "reality",
-  "sni": "8qxtze29d5kf.cdn.cachefleet.com",
+  "sni": "msk-01.file-rkat.online",
   "fingerPrint": "firefox",
   "flow": "xtls-rprx-vision",
-  "publicKey": "3kmVb84_3QhYp5xfYbxEmF6w43teAWKd-p9tvAMGVS4",
+  "publicKey": "-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI",
+  "shortId": "9bb9409c0ec4c7a1",
   "entryPool": [
     {
-      "id": "647a22e1f73ca94f18c6b0d235fc2a0f",
+      "id": "f4e2ec560f72013a746e5bf7864ae134",
       "name": "🇯🇵 Япония",
       "protocol": "vless",
-      "server": "176.53.162.32",
+      "server": "46.8.255.252",
       "port": 443,
-      "password": "d86e6fda-e519-03ea-98eb-9ff9a9da5984",
+      "password": "eb8af077-a580-4f67-8042-9572a39e699d",
       "network": "tcp",
       "security": "reality",
-      "sni": "8qxtze29d5kf.cdn.cachefleet.com",
+      "sni": "msk-01.file-rkat.online",
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "3kmVb84_3QhYp5xfYbxEmF6w43teAWKd-p9tvAMGVS4"
+      "publicKey": "-ec5ai1FYGZSDDbOQaR6aDuTklZzKsnrtQUUgykn-mI",
+      "shortId": "9bb9409c0ec4c7a1"
     }
   ],
   "poolUrltestIntervalSec": 120
