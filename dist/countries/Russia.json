@@ -27,18 +27,18 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "0ad2169c170d7b80f05efa576f17e5ce",
+      "id": "b9d89be5d384fa0ebee9890bd05b7f03",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "ee.h1cloud.net",
-      "port": 25895,
-      "password": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "server": "46.254.19.164",
+      "port": 443,
+      "password": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
       "network": "tcp",
       "security": "reality",
-      "sni": "www.samsung.com",
-      "fingerPrint": "chrome",
-      "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-      "shortId": "a73f0410d728c823"
+      "sni": "wtb.tems.bet",
+      "fingerPrint": "firefox",
+      "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
+      "shortId": "8937c9ed2d470352"
     }
   ],
   "poolUrltestIntervalSec": 120

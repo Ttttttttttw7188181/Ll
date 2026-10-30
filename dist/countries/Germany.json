@@ -1,5 +1,5 @@
 {
-  "id": "d91ff3402779eb3ea5c8c40d0133def8",
+  "id": "c54b75e89630e8e043e547e27a0d8ded",
   "name": "Страна | Germany",
   "protocol": "vless",
   "server": "217.19.122.156",
@@ -10,10 +10,10 @@
   "path": "/useraction/events/b892639b7195/",
   "security": "tls",
   "sni": "z1q3pv4g78.rucdncomp.pro",
-  "fingerPrint": "safari",
+  "fingerPrint": "firefox",
   "entryPool": [
     {
-      "id": "d91ff3402779eb3ea5c8c40d0133def8",
+      "id": "c54b75e89630e8e043e547e27a0d8ded",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
@@ -24,10 +24,10 @@
       "path": "/useraction/events/b892639b7195/",
       "security": "tls",
       "sni": "z1q3pv4g78.rucdncomp.pro",
-      "fingerPrint": "safari"
+      "fingerPrint": "firefox"
     },
     {
-      "id": "290b312778be409a75ce4e10a36bb71c",
+      "id": "a1d370b8bf8a944bc47e583a17e07a8b",
       "name": "🇩🇪 Германия",
       "protocol": "vless",
       "server": "217.19.122.156",
