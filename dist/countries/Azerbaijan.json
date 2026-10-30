@@ -29,21 +29,6 @@
       "shortId": "43dcff52289b81e6"
     },
     {
-      "id": "c50aaf09762f1b07bea3291a02f31690",
-      "name": "Azerbaijan",
-      "protocol": "vless",
-      "server": "45.84.1.42",
-      "port": 25565,
-      "password": "ece6359e-b4cd-4cb5-b858-3a9391442c47",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "kookas.fi",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
-      "shortId": "43dcff53849b81e6"
-    },
-    {
       "id": "3f27474552d301b1295ab7f3af9ec180",
       "name": "Azerbaijan",
       "protocol": "vless",

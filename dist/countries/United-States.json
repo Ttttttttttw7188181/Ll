@@ -29,21 +29,6 @@
       "shortId": "b9120cd53ffd7bba"
     },
     {
-      "id": "7d8ddecc37aa3386b6c5eda4c0756ee8",
-      "name": "🇺🇸 США",
-      "protocol": "vless",
-      "server": "201.51.29.153",
-      "port": 443,
-      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "db-23.topp-con.xyz",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Elmq7GhYEGaiujWnLYeK3HidTkZV6JYH-aYJXBG9iwc",
-      "shortId": "20b37477b1d93f7e"
-    },
-    {
       "id": "99415fba5ab2c214b9354bbaf2cb9e9e",
       "name": "🇺🇸 США",
       "protocol": "vless",
@@ -57,6 +42,21 @@
       "flow": "xtls-rprx-vision",
       "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
       "shortId": "b9120cd53ffd7bba"
+    },
+    {
+      "id": "7d8ddecc37aa3386b6c5eda4c0756ee8",
+      "name": "🇺🇸 США",
+      "protocol": "vless",
+      "server": "201.51.29.153",
+      "port": 443,
+      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "db-23.topp-con.xyz",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Elmq7GhYEGaiujWnLYeK3HidTkZV6JYH-aYJXBG9iwc",
+      "shortId": "20b37477b1d93f7e"
     }
   ],
   "poolUrltestIntervalSec": 120

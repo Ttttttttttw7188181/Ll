@@ -1,5 +1,5 @@
 {
-  "id": "4d706c993cecaf4fb1d66f16bd8b250d",
+  "id": "ff531202c9f301fa08c00c8e993bf963",
   "name": "Страна | United Kingdom",
   "protocol": "vless",
   "server": "82.202.183.9",
@@ -15,7 +15,7 @@
   "shortId": "70c20a2f5a7d542e",
   "entryPool": [
     {
-      "id": "4d706c993cecaf4fb1d66f16bd8b250d",
+      "id": "ff531202c9f301fa08c00c8e993bf963",
       "name": "United Kingdom",
       "protocol": "vless",
       "server": "82.202.183.9",
@@ -31,23 +31,7 @@
       "shortId": "70c20a2f5a7d542e"
     },
     {
-      "id": "e9beda69426c6fbce55c485ea664d3d3",
-      "name": "United Kingdom",
-      "protocol": "vless",
-      "server": "82.202.183.9",
-      "port": 443,
-      "password": "8822fe1c-7a83-49c0-af96-c2027cb6ddd5",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "google.storage.v2.Storage",
-      "security": "reality",
-      "sni": "h4.smart-life.agency",
-      "fingerPrint": "firefox",
-      "publicKey": "1A9loATtqTbKfErpj24clMebWdbmBRDgUIADwtlvtAw",
-      "shortId": "70c20a2f5a7d542e"
-    },
-    {
-      "id": "f7bc937d3b2b1fdcc5c9fb84b368ebe4",
+      "id": "aa2cd3ffb9ccdab4259ba9a721ef1e9f",
       "name": "United Kingdom",
       "protocol": "vless",
       "server": "82.202.183.9",
@@ -63,7 +47,7 @@
       "shortId": "70c20a2f5a7d542e"
     },
     {
-      "id": "d321e87e481293fdefbf4c8a443ec077",
+      "id": "c8b4ce985db4d9e4c9c8f217e3a9f9ce",
       "name": "United Kingdom",
       "protocol": "vless",
       "server": "82.202.183.9",
@@ -101,6 +85,22 @@
       "server": "82.202.183.9",
       "port": 443,
       "password": "1ba0439d-384c-4a6e-9560-0439698beb2a",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "google.storage.v2.Storage",
+      "security": "reality",
+      "sni": "h4.smart-life.agency",
+      "fingerPrint": "firefox",
+      "publicKey": "1A9loATtqTbKfErpj24clMebWdbmBRDgUIADwtlvtAw",
+      "shortId": "70c20a2f5a7d542e"
+    },
+    {
+      "id": "cf8aef8135e10f266220b3687ffc1f03",
+      "name": "United Kingdom",
+      "protocol": "vless",
+      "server": "82.202.183.9",
+      "port": 443,
+      "password": "928a3079-7c20-40cc-9c92-e878ba959dcd",
       "network": "grpc",
       "mode": "gun",
       "serviceName": "google.storage.v2.Storage",

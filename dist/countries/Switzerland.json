@@ -1,32 +1,36 @@
 {
-  "id": "0e3370375768135bb6e87d1d2d873d20",
+  "id": "d8c2de8110c260a1fc2355dcedf54125",
   "name": "Страна | Switzerland",
   "protocol": "vless",
-  "server": "188.225.42.52",
+  "server": "87.242.94.84",
   "port": 443,
   "password": "706bce83-91db-4260-b175-cba29145cd56",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "spb1.uni-plan.com",
+  "network": "ws",
+  "host": "lingvaburo.cc",
+  "path": "/checkout/step/gplirAP9szjx",
+  "security": "tls",
+  "sni": "lingvaburo.cc",
   "fingerPrint": "firefox",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "_AJrIKDPHT1h1TT4vGouVI_-GKYby138cWf29erKmX0",
-  "shortId": "20a048ac5dcb34bd",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "0e3370375768135bb6e87d1d2d873d20",
+      "id": "d8c2de8110c260a1fc2355dcedf54125",
       "name": "Switzerland",
       "protocol": "vless",
-      "server": "188.225.42.52",
+      "server": "87.242.94.84",
       "port": 443,
       "password": "706bce83-91db-4260-b175-cba29145cd56",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "spb1.uni-plan.com",
+      "network": "ws",
+      "host": "lingvaburo.cc",
+      "path": "/checkout/step/gplirAP9szjx",
+      "security": "tls",
+      "sni": "lingvaburo.cc",
       "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "_AJrIKDPHT1h1TT4vGouVI_-GKYby138cWf29erKmX0",
-      "shortId": "20a048ac5dcb34bd"
+      "alpn": [
+        "http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120

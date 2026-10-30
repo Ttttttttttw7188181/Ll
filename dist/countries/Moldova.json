@@ -27,7 +27,7 @@
       "fingerPrint": "safari"
     },
     {
-      "id": "e786e3570781e8fa2adbbe7910f5ccb3",
+      "id": "aab847d3f73ba0c13b0fa58fa5d99cb2",
       "name": "Moldova",
       "protocol": "vless",
       "server": "87.228.71.195",
@@ -38,21 +38,7 @@
       "path": "/md/1",
       "security": "tls",
       "sni": "ap2.directly.chat",
-      "fingerPrint": "edge"
-    },
-    {
-      "id": "7df6a193b89b051dd523170452f8df54",
-      "name": "Moldova",
-      "protocol": "vless",
-      "server": "87.228.71.195",
-      "port": 443,
-      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "network": "ws",
-      "host": "ap2.directly.chat",
-      "path": "/md/1",
-      "security": "tls",
-      "sni": "ap2.directly.chat",
-      "fingerPrint": "firefox",
+      "fingerPrint": "chrome",
       "alpn": [
         "h2",
         "http/1.1"
@@ -73,7 +59,7 @@
       "fingerPrint": "qq"
     },
     {
-      "id": "d4ba6e4b1aa9cae4418da045b3c25c2f",
+      "id": "ce4ac4089607a3413526d15c8c03c028",
       "name": "Moldova",
       "protocol": "vless",
       "server": "87.228.71.195",
@@ -83,10 +69,10 @@
       "path": "/md/1",
       "security": "tls",
       "sni": "ap2.directly.chat",
-      "fingerPrint": "android"
+      "fingerPrint": "edge"
     },
     {
-      "id": "0cff51d25eb33257ca15f6f032a1ac5c",
+      "id": "374cd0d0f01838d27163f27a87c860d1",
       "name": "Moldova",
       "protocol": "vless",
       "server": "87.228.71.196",
@@ -97,7 +83,7 @@
       "path": "/md/1",
       "security": "tls",
       "sni": "ap2.directly.chat",
-      "fingerPrint": "chrome"
+      "fingerPrint": "ios"
     },
     {
       "id": "295cd8ef8397960c411f6295dd03db0d",
@@ -118,7 +104,7 @@
       ]
     },
     {
-      "id": "c0888888513b7770e3778eadc99c4a3d",
+      "id": "dc769bd168af494e5cb54b20677feb69",
       "name": "Moldova",
       "protocol": "vless",
       "server": "87.228.71.197",
@@ -129,21 +115,7 @@
       "path": "/md/1",
       "security": "tls",
       "sni": "ap2.directly.chat",
-      "fingerPrint": "qq"
-    },
-    {
-      "id": "e2c1389dcbe8f83aabb1cc272c1e5f11",
-      "name": "Moldova",
-      "protocol": "vless",
-      "server": "87.228.71.198",
-      "port": 443,
-      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "network": "ws",
-      "host": "ap2.directly.chat",
-      "path": "/md/1",
-      "security": "tls",
-      "sni": "ap2.directly.chat",
-      "fingerPrint": "safari"
+      "fingerPrint": "edge"
     },
     {
       "id": "c282eb2847a58816754e50ce85c3d2c1",
@@ -172,6 +144,41 @@
       "security": "tls",
       "sni": "ap2.directly.chat",
       "fingerPrint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "d08d1c4670d9d5086efec574d2f756c8",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "ap2.directly.chat",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "edge",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "fb1487c84f809bb5a55836a063a1cc25",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "ap2.directly.chat",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "",
+      "fingerPrint": "android",
       "alpn": [
         "h2",
         "http/1.1"

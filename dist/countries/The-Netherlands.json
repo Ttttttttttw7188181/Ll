@@ -1,0 +1,37 @@
+{
+  "id": "f49fc7e1a356a5550ddf275ddd60ee2a",
+  "name": "Страна | The Netherlands",
+  "protocol": "vless",
+  "server": "217.19.122.156",
+  "port": 443,
+  "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+  "network": "ws",
+  "host": "z1q3pv4g78.rucdncomp.pro",
+  "path": "/useraction/events/b892639b7195/",
+  "security": "tls",
+  "sni": "z1q3pv4g78.rucdncomp.pro",
+  "fingerPrint": "firefox",
+  "alpn": [
+    "http/1.1"
+  ],
+  "entryPool": [
+    {
+      "id": "f49fc7e1a356a5550ddf275ddd60ee2a",
+      "name": "The Netherlands",
+      "protocol": "vless",
+      "server": "217.19.122.156",
+      "port": 443,
+      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+      "network": "ws",
+      "host": "z1q3pv4g78.rucdncomp.pro",
+      "path": "/useraction/events/b892639b7195/",
+      "security": "tls",
+      "sni": "z1q3pv4g78.rucdncomp.pro",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
