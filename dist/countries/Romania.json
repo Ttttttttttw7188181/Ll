@@ -1,5 +1,5 @@
 {
-  "id": "2ce44ae821da9b2bee1b40bea3a4e263",
+  "id": "d569a770cdc919580656abf307de5914",
   "name": "Страна | Romania",
   "protocol": "vless",
   "server": "5.42.99.64",
@@ -14,7 +14,7 @@
   "shortId": "3cbc3d737fb9c4af",
   "entryPool": [
     {
-      "id": "2ce44ae821da9b2bee1b40bea3a4e263",
+      "id": "d569a770cdc919580656abf307de5914",
       "name": "Romania",
       "protocol": "vless",
       "server": "5.42.99.64",

@@ -1,5 +1,5 @@
 {
-  "id": "06b1fa83430faeef6056a8b961f1ddd8",
+  "id": "65db4884b8834a1e75dbc5d90559bf19",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "87.242.119.253",
@@ -8,42 +8,14 @@
   "network": "tcp",
   "security": "tls",
   "sni": "hvtlr-ru-47sb.fade.mom",
-  "fingerPrint": "qq",
+  "fingerPrint": "edge",
   "alpn": [
     "http/1.1",
     "h2"
   ],
   "entryPool": [
     {
-      "id": "06b1fa83430faeef6056a8b961f1ddd8",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "qq",
-      "alpn": [
-        "http/1.1",
-        "h2"
-      ]
-    },
-    {
-      "id": "10206b2a573aec5cdb46de58839dbb90",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "92f643a76e1c644dd18e56c7351376bf",
+      "id": "65db4884b8834a1e75dbc5d90559bf19",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -59,7 +31,7 @@
       ]
     },
     {
-      "id": "70d3561a5e44b09ad59c39ee6de2c544",
+      "id": "8a8da84b13faa896a5a4bfaad96d47b9",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -71,7 +43,7 @@
       "fingerPrint": "chrome"
     },
     {
-      "id": "b338db88cf97699e1e319ac6173673c6",
+      "id": "d03efeecfd855265b8d49e3f13fef6fb",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -80,10 +52,25 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "chrome",
       "alpn": [
-        "http/1.1",
-        "h2"
+        "[http/1.1"
       ]
+    },
+    {
+      "id": "cd0709fe7dbe44243b899bf271d289fd",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "188.225.83.133",
+      "port": 443,
+      "password": "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c",
+      "network": "grpc",
+      "mode": "gun",
+      "security": "reality",
+      "sni": "xnodtwx.artemida.live",
+      "fingerPrint": "firefox",
+      "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
+      "shortId": "a1b2c3d4e5f6a7b8"
     },
     {
       "id": "19f26f3e749258bdddcf2afb576f54b7",
@@ -107,20 +94,6 @@
       "server": "5.129.211.213",
       "port": 443,
       "password": "ed9277bd-bd89-49e0-8294-1bf845363d5d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "plhd.sonicservice.digital",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU"
-    },
-    {
-      "id": "3ad5a33a1928259d1f1f2a4e0c33fd82",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "5.129.211.213",
-      "port": 443,
-      "password": "58647a59-0097-495e-9185-bc4be0390b32",
       "network": "tcp",
       "security": "reality",
       "sni": "plhd.sonicservice.digital",

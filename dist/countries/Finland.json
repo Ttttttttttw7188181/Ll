@@ -125,21 +125,6 @@
       "security": "tls",
       "sni": "wstg.datasynctrue.online",
       "fingerPrint": "firefox"
-    },
-    {
-      "id": "b4b97a7e55d12be8b0456f861843ef69",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "62.60.229.216",
-      "port": 443,
-      "password": "706bce83-91db-4260-b175-cba29145cd56",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "aezaf1.uni-plan.com",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "eh8WqxaSUlfNmlGzFLYFYrJzk1novnvfU6qmaLLOiX4",
-      "shortId": "72d410ce5f2036c9"
     }
   ],
   "poolUrltestIntervalSec": 120

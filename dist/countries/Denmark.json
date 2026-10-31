@@ -1,5 +1,5 @@
 {
-  "id": "0fc6f9da9c5c11c63722be36af3b17cd",
+  "id": "1cebc12b97c812d51cd4b6c6bef221e0",
   "name": "Страна | Denmark",
   "protocol": "vless",
   "server": "5.42.99.64",
@@ -14,7 +14,7 @@
   "shortId": "3cbc3d737fb9c4af",
   "entryPool": [
     {
-      "id": "0fc6f9da9c5c11c63722be36af3b17cd",
+      "id": "1cebc12b97c812d51cd4b6c6bef221e0",
       "name": "Denmark",
       "protocol": "vless",
       "server": "5.42.99.64",

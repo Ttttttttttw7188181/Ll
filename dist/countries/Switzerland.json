@@ -1,36 +1,44 @@
 {
-  "id": "d8c2de8110c260a1fc2355dcedf54125",
+  "id": "99c43e5423a9071ab8f00048f5ecf9e0",
   "name": "Страна | Switzerland",
   "protocol": "vless",
-  "server": "87.242.94.84",
-  "port": 443,
-  "password": "706bce83-91db-4260-b175-cba29145cd56",
-  "network": "ws",
-  "host": "lingvaburo.cc",
-  "path": "/checkout/step/gplirAP9szjx",
-  "security": "tls",
-  "sni": "lingvaburo.cc",
-  "fingerPrint": "firefox",
-  "alpn": [
-    "http/1.1"
-  ],
+  "server": "83.171.241.254",
+  "port": 25879,
+  "password": "241306b3-9f27-4ed3-9524-6c0792c55856",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "www.bing.com",
+  "fingerPrint": "chrome",
+  "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
+  "shortId": "f1a7a14461a3f389",
   "entryPool": [
     {
-      "id": "d8c2de8110c260a1fc2355dcedf54125",
+      "id": "99c43e5423a9071ab8f00048f5ecf9e0",
       "name": "Switzerland",
       "protocol": "vless",
-      "server": "87.242.94.84",
-      "port": 443,
-      "password": "706bce83-91db-4260-b175-cba29145cd56",
-      "network": "ws",
-      "host": "lingvaburo.cc",
-      "path": "/checkout/step/gplirAP9szjx",
-      "security": "tls",
-      "sni": "lingvaburo.cc",
+      "server": "83.171.241.254",
+      "port": 25879,
+      "password": "241306b3-9f27-4ed3-9524-6c0792c55856",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.bing.com",
+      "fingerPrint": "chrome",
+      "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
+      "shortId": "f1a7a14461a3f389"
+    },
+    {
+      "id": "6d1e13bec15584ef25ad60336aff813b",
+      "name": "Switzerland",
+      "protocol": "vless",
+      "server": "ch2.h1cloud.net",
+      "port": 25879,
+      "password": "241306b3-9f27-4ed3-9524-6c0792c55856",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "www.bing.com",
       "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
+      "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
+      "shortId": "f1a7a14461a3f389"
     }
   ],
   "poolUrltestIntervalSec": 120
