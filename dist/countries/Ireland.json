@@ -1,0 +1,33 @@
+{
+  "id": "1446f23d56f5008078a2154c7f88afb7",
+  "name": "Страна | Ireland",
+  "protocol": "vless",
+  "server": "45.132.176.61",
+  "port": 443,
+  "password": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "sopelka.yandex-api.com",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
+  "shortId": "a9dc98a7dc87a7dc",
+  "entryPool": [
+    {
+      "id": "1446f23d56f5008078a2154c7f88afb7",
+      "name": "Ireland",
+      "protocol": "vless",
+      "server": "45.132.176.61",
+      "port": 443,
+      "password": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "sopelka.yandex-api.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
+      "shortId": "a9dc98a7dc87a7dc"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

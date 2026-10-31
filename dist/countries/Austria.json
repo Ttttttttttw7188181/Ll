@@ -1,17 +1,33 @@
 {
-  "id": "d0d479ff55548eeac600c3eb843cc949",
+  "id": "6d4217939fe029db36935fec67a0eb9e",
   "name": "Страна | Austria",
   "protocol": "vless",
-  "server": "94.228.162.222",
-  "port": 443,
-  "password": "a9fe0131-af95-4599-bc7f-7205479ec7c7",
+  "server": "193.8.215.116",
+  "port": 8443,
+  "password": "706bce83-91db-4260-b175-cba29145cd56",
   "network": "tcp",
   "security": "reality",
-  "sni": "vena.solomon-planet.ru",
+  "sni": "aezau1.uni-plan.com",
   "fingerPrint": "firefox",
   "flow": "xtls-rprx-vision",
-  "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U",
+  "publicKey": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
+  "shortId": "8f0f92607e5b353c",
   "entryPool": [
+    {
+      "id": "6d4217939fe029db36935fec67a0eb9e",
+      "name": "Austria",
+      "protocol": "vless",
+      "server": "193.8.215.116",
+      "port": 8443,
+      "password": "706bce83-91db-4260-b175-cba29145cd56",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "aezau1.uni-plan.com",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
+      "shortId": "8f0f92607e5b353c"
+    },
     {
       "id": "d0d479ff55548eeac600c3eb843cc949",
       "name": "Austria",
@@ -27,7 +43,7 @@
       "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U"
     },
     {
-      "id": "6d4217939fe029db36935fec67a0eb9e",
+      "id": "ce33ecdb2f01cda366a9e177c0706551",
       "name": "Austria",
       "protocol": "vless",
       "server": "193.8.215.116",
