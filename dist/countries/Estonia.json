@@ -29,35 +29,6 @@
       "shortId": "2ef2b10d5143d798"
     },
     {
-      "id": "e049dfd164a8702079e4f43f342c7d38",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "147.45.245.17",
-      "port": 443,
-      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "defs-64.topp-con.xyz",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "4GpOXPkTdvuF1mgBH6n9AFYRvGEh7K2ETgE8asmNASY",
-      "shortId": "38146bd64aece7a5"
-    },
-    {
-      "id": "9e82c47bff6f64dc07a744269802af8f",
-      "name": "🇪🇪 Эстония",
-      "protocol": "vless",
-      "server": "5.129.211.213",
-      "port": 443,
-      "password": "ed9277bd-bd89-49e0-8294-1bf845363d5d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "eepr01d.sonicservice.digital",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU"
-    },
-    {
       "id": "d2ce5a6a68d569b7aa9f3e8944e44800",
       "name": "🇪🇪 Эстония",
       "protocol": "vless",
@@ -71,6 +42,20 @@
       "flow": "xtls-rprx-vision",
       "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
       "shortId": "b9120cd53ffd7bba"
+    },
+    {
+      "id": "7f0ccc33f816e629729f9c02d6f2765c",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "188.225.62.72",
+      "port": 8443,
+      "password": "0b25cbd7-30e3-4659-92be-05b33b53c9d1",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "FoxSiberia103",
+      "security": "tls",
+      "sni": "datacore-tech.ru",
+      "fingerPrint": "firefox"
     }
   ],
   "poolUrltestIntervalSec": 120

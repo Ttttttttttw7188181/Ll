@@ -25,6 +25,20 @@
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
       "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U"
+    },
+    {
+      "id": "d5d2d4519af159cbee2060520d43d8a7",
+      "name": "Austria",
+      "protocol": "vless",
+      "server": "94.228.162.222",
+      "port": 443,
+      "password": "a9fe0131-af95-4599-bc7f-7205479ec7c7",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "vena.solomon-planet.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U"
     }
   ],
   "poolUrltestIntervalSec": 120

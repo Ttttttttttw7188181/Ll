@@ -74,19 +74,19 @@
       "shortId": "b9120cd53ffd7bba"
     },
     {
-      "id": "3c4f1530e3b6eea2c031094b97dceda7",
+      "id": "162c7f932409a0082e3aa47f24893a5a",
       "name": "🇫🇷 Франция",
       "protocol": "vless",
-      "server": "201.51.5.181",
-      "port": 443,
-      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "server": "45.151.31.205",
+      "port": 5003,
+      "password": "4f4e8129-56ae-4b6e-baeb-ebdd07d8b2c5",
       "network": "tcp",
       "security": "reality",
-      "sni": "pkg-77.topp-con.xyz",
+      "sni": "google.fr",
       "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
-      "shortId": "b9120cd53ffd7bba"
+      "publicKey": "SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw",
+      "shortId": "e7"
     }
   ],
   "poolUrltestIntervalSec": 120

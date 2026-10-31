@@ -1,5 +1,5 @@
 {
-  "id": "99c43e5423a9071ab8f00048f5ecf9e0",
+  "id": "f87d70afad79a57554e86fce44b5882c",
   "name": "Страна | Switzerland",
   "protocol": "vless",
   "server": "83.171.241.254",
@@ -13,7 +13,7 @@
   "shortId": "f1a7a14461a3f389",
   "entryPool": [
     {
-      "id": "99c43e5423a9071ab8f00048f5ecf9e0",
+      "id": "f87d70afad79a57554e86fce44b5882c",
       "name": "Switzerland",
       "protocol": "vless",
       "server": "83.171.241.254",
@@ -27,7 +27,7 @@
       "shortId": "f1a7a14461a3f389"
     },
     {
-      "id": "6d1e13bec15584ef25ad60336aff813b",
+      "id": "2f759bee011b752d277463c86f4c0436",
       "name": "Switzerland",
       "protocol": "vless",
       "server": "ch2.h1cloud.net",
