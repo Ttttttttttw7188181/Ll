@@ -1,5 +1,5 @@
 {
-  "id": "04edff0714c0b3e17d7806b7481fa26b",
+  "id": "3fb2d6007fbf53a39552820816918e3e",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "04edff0714c0b3e17d7806b7481fa26b",
+      "id": "3fb2d6007fbf53a39552820816918e3e",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -27,12 +27,12 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "f18ebabeaacc253d502a0ae27dc64f5a",
+      "id": "d61b45e41bfe224b20ad51c7bb920b8a",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.229.9.135",
       "port": 443,
-      "password": "d8a47403-5dbf-4450-8640-0134719b1d86",
+      "password": "4df3e06b-85e9-4b69-b38a-be37bad2fe9d",
       "network": "ws",
       "host": "business.lesotorg-kirov.ru",
       "path": "/chws",
@@ -42,6 +42,20 @@
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "8c58cb1cadfa55deed5018dea00d89d2",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "46.254.19.164",
+      "port": 443,
+      "password": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "wtb.tems.bet",
+      "fingerPrint": "firefox",
+      "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
+      "shortId": "8937c9ed2d470352"
     },
     {
       "id": "8dddc9749b24109657e2e4dc4847620e",
@@ -72,19 +86,53 @@
       "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
     },
     {
-      "id": "3e8a9eeb9cb53e66acf1931ac97279b4",
+      "id": "84773ad1c10e18a3406064088af2aa08",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "217.16.31.193",
+      "server": "185.229.9.135",
       "port": 443,
-      "password": "902e7be9-d0a8-42a6-994f-8320916a9d9e",
+      "password": "4df3e06b-85e9-4b69-b38a-be37bad2fe9d",
+      "network": "ws",
+      "host": "business.lesotorg-kirov.ru",
+      "path": "/chws",
+      "security": "tls",
+      "sni": "business.lesotorg-kirov.ru",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "cb19adb772bd7772b73ab1efd5490217",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
       "network": "tcp",
-      "security": "reality",
-      "sni": "hel.mtmajestic.space",
+      "security": "tls",
+      "sni": "hvtlr-ru-47sb.fade.mom",
       "fingerPrint": "ios",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ejbzKnJoNSYWWIcDgo9Ghy-lQvjsp3QQFAGKDaFQbUo",
-      "shortId": "624ed7c00c61576b"
+      "alpn": [
+        "%5Bhttp%252F1.1%252Ch2%5D"
+      ]
+    },
+    {
+      "id": "a3caf502b6ea6516d9a796807783bcf3",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120

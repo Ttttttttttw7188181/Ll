@@ -1,5 +1,5 @@
 {
-  "id": "437e3fb9d5f8d99f73ace4cfad67407e",
+  "id": "3a1350b380ed42f85c363162f6471564",
   "name": "Страна | Finland",
   "protocol": "vless",
   "server": "91.210.169.181",
@@ -12,20 +12,6 @@
   "sni": "wstg.datasynctrue.online",
   "fingerPrint": "firefox",
   "entryPool": [
-    {
-      "id": "437e3fb9d5f8d99f73ace4cfad67407e",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "91.210.169.181",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
     {
       "id": "3a1350b380ed42f85c363162f6471564",
       "name": "🇫🇮 Финляндия",
@@ -83,38 +69,46 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "3bc65650fa62038beead6491b6855e60",
+      "id": "437e3fb9d5f8d99f73ace4cfad67407e",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
-      "server": "158.160.146.45",
+      "server": "91.210.169.181",
       "port": 443,
-      "password": "57939f22-314a-556a-b991-26aaeedc654a",
+      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
       "network": "ws",
-      "host": "cdn.pixelrelay.top",
-      "path": "/stream/updates/c4b65c89",
+      "host": "wstg.datasynctrue.online",
+      "path": "/api/connect",
       "security": "tls",
-      "sni": "cdn.pixelrelay.top",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
+      "sni": "wstg.datasynctrue.online",
+      "fingerPrint": "firefox"
     },
     {
-      "id": "c1a376afc6a0dfa974fe4ed2ac07db47",
+      "id": "92d31d962fb1d6566bc9f0e403baf801",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
-      "server": "158.160.172.181",
+      "server": "188.225.33.141",
       "port": 443,
-      "password": "57939f22-314a-556a-b991-26aaeedc654a",
+      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
       "network": "ws",
-      "host": "cdn.pixelrelay.top",
-      "path": "/stream/updates/c4b65c89",
+      "host": "wstg.datasynctrue.online",
+      "path": "/api/connect",
       "security": "tls",
-      "sni": "cdn.pixelrelay.top",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
+      "sni": "wstg.datasynctrue.online",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "f7c3f9d82687407ef6dbef7baa95a3e6",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "200.165.231.209",
+      "port": 443,
+      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
+      "network": "ws",
+      "host": "wstg.datasynctrue.online",
+      "path": "/api/connect",
+      "security": "tls",
+      "sni": "wstg.datasynctrue.online",
+      "fingerPrint": "firefox"
     }
   ],
   "poolUrltestIntervalSec": 120
