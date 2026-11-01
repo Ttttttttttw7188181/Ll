@@ -1,46 +1,30 @@
 {
-  "id": "d0ca72c7d1ccf61ece96f95506035499",
+  "id": "da326759832c17c63d80b836907ad235",
   "name": "Страна | Italy",
   "protocol": "vless",
-  "server": "188.225.25.176",
+  "server": "87.242.119.253",
   "port": 443,
-  "password": "bbdb67eb-116f-4f66-9552-7510a73fc986",
-  "network": "grpc",
-  "mode": "gun",
-  "serviceName": "ns",
-  "security": "reality",
-  "sni": "id.pervye.ru",
-  "fingerPrint": "firefox",
-  "publicKey": "QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8",
+  "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+  "network": "tcp",
+  "security": "tls",
+  "sni": "hvtlr-ru-47sb.fade.mom",
+  "alpn": [
+    "[\"http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "d0ca72c7d1ccf61ece96f95506035499",
+      "id": "da326759832c17c63d80b836907ad235",
       "name": "Italy",
       "protocol": "vless",
-      "server": "188.225.25.176",
+      "server": "87.242.119.253",
       "port": 443,
-      "password": "bbdb67eb-116f-4f66-9552-7510a73fc986",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "ns",
-      "security": "reality",
-      "sni": "id.pervye.ru",
-      "fingerPrint": "firefox",
-      "publicKey": "QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8"
-    },
-    {
-      "id": "843ed5f70b00f694ea1eabbb277633c6",
-      "name": "Italy",
-      "protocol": "vless",
-      "server": "89.208.210.53",
-      "port": 24123,
-      "password": "69158986-cfae-4567-8391-0f96d9d985bd",
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
       "network": "tcp",
-      "security": "reality",
-      "sni": "it.neuroniko.com",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc"
+      "security": "tls",
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "alpn": [
+        "[\"http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120

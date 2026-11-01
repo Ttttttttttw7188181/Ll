@@ -29,6 +29,19 @@
       "publicKey": "tPBzeL2YxY3HeuLHFcqiMcWGOJGKFjavHA8acamM0AE"
     },
     {
+      "id": "03361cee6be103218077adc5e1f2a213",
+      "name": "🇪🇪 Эстония",
+      "protocol": "vless",
+      "server": "188.225.62.62",
+      "port": 7443,
+      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "ru2.datacore-tech.ru",
+      "fingerPrint": "safari",
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "id": "3a1350b380ed42f85c363162f6471564",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
@@ -127,8 +140,23 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "d3bc79890fbec52588a7a466398d142a",
+      "id": "c0b7f06331f3c02ca3be17d702862f0b",
       "name": "🇩🇪 Германия",
+      "protocol": "vless",
+      "server": "200.169.184.168",
+      "port": 443,
+      "password": "6036c28a-8db2-432e-8118-ff0c16641ad0",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "tm6.24convertflow.ru",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0",
+      "shortId": "e0aadc6f38ff06a8"
+    },
+    {
+      "id": "da326759832c17c63d80b836907ad235",
+      "name": "Italy",
       "protocol": "vless",
       "server": "87.242.119.253",
       "port": 443,
@@ -136,44 +164,287 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
+      "alpn": [
+        "[\"http/1.1"
+      ]
+    },
+    {
+      "id": "7a0fa0629dfd7a3534789f0af27ff1cf",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "lorettmay.top",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "da18c9ec26cd1b09c95ebae1df71d024",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "5dcd2abe560c4962a3c89e7523f2ae7d",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "185.147.27.196",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "ios"
+    },
+    {
+      "id": "1a1e256ff3ee6ebe5e59abe7d8fa2c2f",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.195",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "safari"
+    },
+    {
+      "id": "e786e3570781e8fa2adbbe7910f5ccb3",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.195",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
       "fingerPrint": "edge"
     },
     {
-      "id": "394faa11faff67b8600c4f70d25b5b19",
-      "name": "🇳🇱 Нидерланды",
+      "id": "f2fb875c3674e0b1dcfbf9b7e10c5659",
+      "name": "Moldova",
       "protocol": "vless",
-      "server": "185.86.145.37",
+      "server": "87.228.71.195",
       "port": 443,
-      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "network": "ws",
-      "host": "ara.rtkdvbr.cc",
-      "path": "/amws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
       "security": "tls",
-      "sni": "ara.rtkdvbr.cc",
-      "fingerPrint": "qq",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "ios",
       "alpn": [
+        "h2",
         "http/1.1"
       ]
     },
     {
-      "id": "126dc3d88e2862a46356bff4d0edc989",
-      "name": "🇳🇱 Нидерланды",
+      "id": "3d7a18bb3fd109ec083d4238b352aaa0",
+      "name": "Moldova",
       "protocol": "vless",
-      "server": "185.86.145.37",
+      "server": "87.228.71.195",
       "port": 443,
-      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "network": "ws",
-      "host": "ara.rtkdvbr.cc",
-      "path": "/amws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
       "security": "tls",
-      "sni": "ara.rtkdvbr.cc",
-      "fingerPrint": "qq",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "qq"
+    },
+    {
+      "id": "3669cb3b733d5314ecaf11ac709f8cb2",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.195",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "qq"
+    },
+    {
+      "id": "7436543cfb1ba004b8274ca9c737a6eb",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.196",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "random"
+    },
+    {
+      "id": "dc769bd168af494e5cb54b20677feb69",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.197",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "edge"
+    },
+    {
+      "id": "e2c1389dcbe8f83aabb1cc272c1e5f11",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.198",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "safari"
+    },
+    {
+      "id": "c282eb2847a58816754e50ce85c3d2c1",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.198",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "android"
+    },
+    {
+      "id": "d62630afb3e4e3e45c6a21a0cc345098",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "87.228.71.198",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "chrome",
       "alpn": [
+        "h2",
         "http/1.1"
       ]
     },
     {
-      "id": "951f237aaecbd4e14b9997d03005dc3a",
+      "id": "f439d71f7a873a533fc38b986b12eebb",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "ap2.directly.chat",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "host": "ap2.directly.chat",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "ap2.directly.chat",
+      "fingerPrint": "android",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "fb1487c84f809bb5a55836a063a1cc25",
+      "name": "Moldova",
+      "protocol": "vless",
+      "server": "ap2.directly.chat",
+      "port": 443,
+      "password": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "network": "ws",
+      "path": "/md/1",
+      "security": "tls",
+      "sni": "",
+      "fingerPrint": "android",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "a7f149de8adbbd95568182c900844f9d",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "200.169.184.168",
+      "port": 443,
+      "password": "6036c28a-8db2-432e-8118-ff0c16641ad0",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "net.formatgo.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw",
+      "shortId": "9d0e1b6bf9c5eddb"
+    },
+    {
+      "id": "0148d0d952158aebc3e3211805c1f05c",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "200.169.184.168",
+      "port": 443,
+      "password": "6036c28a-8db2-432e-8118-ff0c16641ad0",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "net.formatgo.ru",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw",
+      "shortId": "9d0e1b6bf9c5eddb"
+    },
+    {
+      "id": "e89a3fbac8d4e8d03f37b226fdc4fa16",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "200.169.184.168",
+      "port": 443,
+      "password": "6036c28a-8db2-432e-8118-ff0c16641ad0",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "net.formatgo.ru",
+      "fingerPrint": "random",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw",
+      "shortId": "9d0e1b6bf9c5eddb"
+    },
+    {
+      "id": "d4e0af411e07f51c1991591e28836bb4",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "91.185.83.44",
@@ -185,6 +456,54 @@
       "security": "tls",
       "sni": "nguyxejonb.rucdncomp.pro",
       "fingerPrint": "firefox"
+    },
+    {
+      "id": "232c6ff7b992d5a1869ad72d14fee5a3",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
+      "network": "ws",
+      "host": "ara.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "ara.rtkdvbr.cc",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "58ec0ef25880e0e105a9cc1f5473793f",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "91.185.83.44",
+      "port": 443,
+      "password": "7955bf18-35c4-412d-aabd-c0b36c793063",
+      "network": "ws",
+      "host": "nguyxejonb.rucdncomp.pro",
+      "path": "/service/telemetry/0294da469190/",
+      "security": "tls",
+      "sni": "nguyxejonb.rucdncomp.pro",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "5d61cc72b5bce234366b2c7adad953fe",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
+      "network": "ws",
+      "host": "ara.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "ara.rtkdvbr.cc",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
       "id": "93fb4d696747dad57f8f8d1810f1a4de",
@@ -201,19 +520,6 @@
       "alpn": [
         "http/1.1"
       ]
-    },
-    {
-      "id": "dcb00e826453be3b22154c1d07d65e56",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "188.225.62.62",
-      "port": 7443,
-      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "ru2.datacore-tech.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision"
     },
     {
       "id": "a63928a21f720c3255eb7128b0b8d0ce",
@@ -261,7 +567,7 @@
       ]
     },
     {
-      "id": "be07be4bfcad39c50656ac39c3dd0106",
+      "id": "db726d8e024662aad2be3e2516745692",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -270,14 +576,13 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "ios",
+      "fingerPrint": "chrome",
       "alpn": [
-        "http/1.1",
-        "h2"
+        "%255Bhttp%252F1.1"
       ]
     },
     {
-      "id": "30bd235a4a4a10599845e81285de81d8",
+      "id": "99ce2536d488e5aaa4bfe156a2571f41",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -286,20 +591,22 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "chrome"
+      "fingerPrint": "chrome",
+      "alpn": [
+        "[http/1.1"
+      ]
     },
     {
-      "id": "0ca3fc20203e66553ec0107212eeb698",
+      "id": "10206b2a573aec5cdb46de58839dbb90",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "188.225.62.62",
-      "port": 7443,
-      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
       "network": "tcp",
       "security": "tls",
-      "sni": "ru2.datacore-tech.ru",
-      "fingerPrint": "safari",
-      "flow": "xtls-rprx-vision"
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "firefox"
     },
     {
       "id": "977675dbab764c84f955af87f0de8624",
@@ -404,7 +711,7 @@
       ]
     },
     {
-      "id": "3fb2d6007fbf53a39552820816918e3e",
+      "id": "f99585b6f10a0f4df2eebfa741933d57",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -418,7 +725,7 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "d61b45e41bfe224b20ad51c7bb920b8a",
+      "id": "718d44a340b500f71613507428ebd9db",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.229.9.135",
@@ -433,20 +740,6 @@
       "alpn": [
         "http/1.1"
       ]
-    },
-    {
-      "id": "8c58cb1cadfa55deed5018dea00d89d2",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "46.254.19.164",
-      "port": 443,
-      "password": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "wtb.tems.bet",
-      "fingerPrint": "firefox",
-      "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
-      "shortId": "8937c9ed2d470352"
     },
     {
       "id": "8dddc9749b24109657e2e4dc4847620e",
@@ -494,22 +787,7 @@
       ]
     },
     {
-      "id": "cb19adb772bd7772b73ab1efd5490217",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "ios",
-      "alpn": [
-        "%5Bhttp%252F1.1%252Ch2%5D"
-      ]
-    },
-    {
-      "id": "a3caf502b6ea6516d9a796807783bcf3",
+      "id": "45d967494ef95814a978cd51f2c5dc9f",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.178.208.167",
@@ -520,10 +798,24 @@
       "path": "/blog/posts",
       "security": "tls",
       "sni": "lorettmay.top",
-      "fingerPrint": "firefox",
+      "fingerPrint": "safari",
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "301c170bbdc4ac5c519de83db532a6f2",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "194.55.237.30",
+      "port": 443,
+      "password": "eca1246a-358f-4ad5-be4c-849755ac6f14",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "api-maps.yandex.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "xklZVcSla9QcuZsbNMjb1wbbpoRI-GuCzKxvVzEzKmE"
     }
   ],
   "poolUrltestIntervalSec": 120

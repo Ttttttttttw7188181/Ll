@@ -1,5 +1,5 @@
 {
-  "id": "3fb2d6007fbf53a39552820816918e3e",
+  "id": "f99585b6f10a0f4df2eebfa741933d57",
   "name": "Страна | Russia",
   "protocol": "vless",
   "server": "45.12.75.242",
@@ -13,7 +13,7 @@
   "shortId": "23103e1e",
   "entryPool": [
     {
-      "id": "3fb2d6007fbf53a39552820816918e3e",
+      "id": "f99585b6f10a0f4df2eebfa741933d57",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "45.12.75.242",
@@ -27,7 +27,7 @@
       "shortId": "23103e1e"
     },
     {
-      "id": "d61b45e41bfe224b20ad51c7bb920b8a",
+      "id": "718d44a340b500f71613507428ebd9db",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.229.9.135",
@@ -42,20 +42,6 @@
       "alpn": [
         "http/1.1"
       ]
-    },
-    {
-      "id": "8c58cb1cadfa55deed5018dea00d89d2",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "46.254.19.164",
-      "port": 443,
-      "password": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "wtb.tems.bet",
-      "fingerPrint": "firefox",
-      "publicKey": "3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM",
-      "shortId": "8937c9ed2d470352"
     },
     {
       "id": "8dddc9749b24109657e2e4dc4847620e",
@@ -103,22 +89,7 @@
       ]
     },
     {
-      "id": "cb19adb772bd7772b73ab1efd5490217",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "ios",
-      "alpn": [
-        "%5Bhttp%252F1.1%252Ch2%5D"
-      ]
-    },
-    {
-      "id": "a3caf502b6ea6516d9a796807783bcf3",
+      "id": "45d967494ef95814a978cd51f2c5dc9f",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.178.208.167",
@@ -129,10 +100,24 @@
       "path": "/blog/posts",
       "security": "tls",
       "sni": "lorettmay.top",
-      "fingerPrint": "firefox",
+      "fingerPrint": "safari",
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "301c170bbdc4ac5c519de83db532a6f2",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "194.55.237.30",
+      "port": 443,
+      "password": "eca1246a-358f-4ad5-be4c-849755ac6f14",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "api-maps.yandex.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "xklZVcSla9QcuZsbNMjb1wbbpoRI-GuCzKxvVzEzKmE"
     }
   ],
   "poolUrltestIntervalSec": 120

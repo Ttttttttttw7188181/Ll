@@ -1,29 +1,16 @@
 {
-  "id": "dcb00e826453be3b22154c1d07d65e56",
+  "id": "a63928a21f720c3255eb7128b0b8d0ce",
   "name": "Страна | Poland",
   "protocol": "vless",
-  "server": "188.225.62.62",
+  "server": "fr1.robotodata.ru",
   "port": 7443,
   "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
   "network": "tcp",
   "security": "tls",
   "sni": "ru2.datacore-tech.ru",
-  "fingerPrint": "firefox",
+  "fingerPrint": "safari",
   "flow": "xtls-rprx-vision",
   "entryPool": [
-    {
-      "id": "dcb00e826453be3b22154c1d07d65e56",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "188.225.62.62",
-      "port": 7443,
-      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "ru2.datacore-tech.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision"
-    },
     {
       "id": "a63928a21f720c3255eb7128b0b8d0ce",
       "name": "🇵🇱 Польша",
@@ -70,7 +57,7 @@
       ]
     },
     {
-      "id": "be07be4bfcad39c50656ac39c3dd0106",
+      "id": "db726d8e024662aad2be3e2516745692",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -79,14 +66,13 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "ios",
+      "fingerPrint": "chrome",
       "alpn": [
-        "http/1.1",
-        "h2"
+        "%255Bhttp%252F1.1"
       ]
     },
     {
-      "id": "30bd235a4a4a10599845e81285de81d8",
+      "id": "99ce2536d488e5aaa4bfe156a2571f41",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -95,20 +81,22 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "chrome"
+      "fingerPrint": "chrome",
+      "alpn": [
+        "[http/1.1"
+      ]
     },
     {
-      "id": "0ca3fc20203e66553ec0107212eeb698",
+      "id": "10206b2a573aec5cdb46de58839dbb90",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "188.225.62.62",
-      "port": 7443,
-      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
       "network": "tcp",
       "security": "tls",
-      "sni": "ru2.datacore-tech.ru",
-      "fingerPrint": "safari",
-      "flow": "xtls-rprx-vision"
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "firefox"
     },
     {
       "id": "977675dbab764c84f955af87f0de8624",
