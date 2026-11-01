@@ -1,5 +1,5 @@
 {
-  "id": "3a1350b380ed42f85c363162f6471564",
+  "id": "437e3fb9d5f8d99f73ace4cfad67407e",
   "name": "Страна | Finland",
   "protocol": "vless",
   "server": "91.210.169.181",
@@ -12,6 +12,20 @@
   "sni": "wstg.datasynctrue.online",
   "fingerPrint": "firefox",
   "entryPool": [
+    {
+      "id": "437e3fb9d5f8d99f73ace4cfad67407e",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "91.210.169.181",
+      "port": 443,
+      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
+      "network": "ws",
+      "host": "wstg.datasynctrue.online",
+      "path": "/api/connect",
+      "security": "tls",
+      "sni": "wstg.datasynctrue.online",
+      "fingerPrint": "firefox"
+    },
     {
       "id": "3a1350b380ed42f85c363162f6471564",
       "name": "🇫🇮 Финляндия",
@@ -69,61 +83,38 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "437e3fb9d5f8d99f73ace4cfad67407e",
+      "id": "3bc65650fa62038beead6491b6855e60",
       "name": "🇫🇮 Финляндия",
       "protocol": "vless",
-      "server": "91.210.169.181",
+      "server": "158.160.146.45",
       "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
+      "password": "57939f22-314a-556a-b991-26aaeedc654a",
       "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
+      "host": "cdn.pixelrelay.top",
+      "path": "/stream/updates/c4b65c89",
       "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "92d31d962fb1d6566bc9f0e403baf801",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "188.225.33.141",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "f7c3f9d82687407ef6dbef7baa95a3e6",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "200.165.231.209",
-      "port": 443,
-      "password": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
-      "network": "ws",
-      "host": "wstg.datasynctrue.online",
-      "path": "/api/connect",
-      "security": "tls",
-      "sni": "wstg.datasynctrue.online",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "a0c5ede4e45c3bc9d3b435242602b4a4",
-      "name": "🇫🇮 Финляндия",
-      "protocol": "vless",
-      "server": "37.153.65.223",
-      "port": 443,
-      "password": "e07a6d05-f665-4811-91f0-9b3dc1094e4d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "tradingview.com",
+      "sni": "cdn.pixelrelay.top",
       "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-      "shortId": "8f3c6e2a1b5d4f09"
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "c1a376afc6a0dfa974fe4ed2ac07db47",
+      "name": "🇫🇮 Финляндия",
+      "protocol": "vless",
+      "server": "158.160.172.181",
+      "port": 443,
+      "password": "57939f22-314a-556a-b991-26aaeedc654a",
+      "network": "ws",
+      "host": "cdn.pixelrelay.top",
+      "path": "/stream/updates/c4b65c89",
+      "security": "tls",
+      "sni": "cdn.pixelrelay.top",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
     }
   ],
   "poolUrltestIntervalSec": 120
