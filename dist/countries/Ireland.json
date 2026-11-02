@@ -1,5 +1,5 @@
 {
-  "id": "de51c7494db61f36f6033ab6ade8097b",
+  "id": "3766ac6fa234100b2721e5a5a69d0194",
   "name": "Страна | Ireland",
   "protocol": "vless",
   "server": "45.132.176.61",
@@ -14,7 +14,7 @@
   "shortId": "a9dc98a7dc87a7dc",
   "entryPool": [
     {
-      "id": "de51c7494db61f36f6033ab6ade8097b",
+      "id": "3766ac6fa234100b2721e5a5a69d0194",
       "name": "Ireland",
       "protocol": "vless",
       "server": "45.132.176.61",
@@ -29,7 +29,7 @@
       "shortId": "a9dc98a7dc87a7dc"
     },
     {
-      "id": "be86485a146cdeedbdefc87799411776",
+      "id": "a93a082927ebb30580fe94c066d92319",
       "name": "Ireland",
       "protocol": "vless",
       "server": "45.132.176.61",

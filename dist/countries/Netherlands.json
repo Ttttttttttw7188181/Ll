@@ -59,7 +59,55 @@
       "shortId": "9d0e1b6bf9c5eddb"
     },
     {
-      "id": "d4e0af411e07f51c1991591e28836bb4",
+      "id": "a64bb2d0ad703824d119ee00b248ca6f",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "769cc55c-7ed6-4f3a-a77c-92e1c5c137ba",
+      "network": "ws",
+      "host": "ara.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "ara.rtkdvbr.cc",
+      "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "1abeb3abb4026905e7e64db9e3f913c0",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "178.250.243.45",
+      "port": 2444,
+      "password": "0d070b9c-64a2-49dd-8c26-d9cbb6cc225c",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "hb.ru-msk.vkcloud-storage.ru",
+      "fingerPrint": "firefox",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "LJsl2DgOqknCTlIUAJ9RIp5-2L5chl_sOycmWzmeWgY"
+    },
+    {
+      "id": "afa828f155d74dcb52ceb16a84e13a03",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "769cc55c-7ed6-4f3a-a77c-92e1c5c137ba",
+      "network": "ws",
+      "host": "ara.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "ara.rtkdvbr.cc",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "4c1e8b091acfd241371adad4e52564f7",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "91.185.83.44",
@@ -73,24 +121,24 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "232c6ff7b992d5a1869ad72d14fee5a3",
+      "id": "32ea504b5b59d7bedccd67e9414562de",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "185.86.145.37",
+      "server": "91.185.83.44",
       "port": 443,
-      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
+      "password": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
       "network": "ws",
-      "host": "ara.rtkdvbr.cc",
-      "path": "/amws",
+      "host": "nguyxejonb.rucdncomp.pro",
+      "path": "/service/telemetry/0294da469190/",
       "security": "tls",
-      "sni": "ara.rtkdvbr.cc",
-      "fingerPrint": "qq",
+      "sni": "nguyxejonb.rucdncomp.pro",
+      "fingerPrint": "firefox",
       "alpn": [
         "http/1.1"
       ]
     },
     {
-      "id": "58ec0ef25880e0e105a9cc1f5473793f",
+      "id": "951f237aaecbd4e14b9997d03005dc3a",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "91.185.83.44",
@@ -102,39 +150,6 @@
       "security": "tls",
       "sni": "nguyxejonb.rucdncomp.pro",
       "fingerPrint": "firefox"
-    },
-    {
-      "id": "5d61cc72b5bce234366b2c7adad953fe",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "185.86.145.37",
-      "port": 443,
-      "password": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
-      "network": "ws",
-      "host": "ara.rtkdvbr.cc",
-      "path": "/amws",
-      "security": "tls",
-      "sni": "ara.rtkdvbr.cc",
-      "fingerPrint": "qq",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "93fb4d696747dad57f8f8d1810f1a4de",
-      "name": "🇳🇱 Нидерланды",
-      "protocol": "vless",
-      "server": "185.86.145.207",
-      "port": 443,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
-      "network": "ws",
-      "path": "/pcws",
-      "security": "tls",
-      "sni": "mama.beryi.pro",
-      "fingerPrint": "edge",
-      "alpn": [
-        "http/1.1"
-      ]
     }
   ],
   "poolUrltestIntervalSec": 120

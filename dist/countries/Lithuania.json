@@ -1,8 +1,8 @@
 {
-  "id": "7a0fa0629dfd7a3534789f0af27ff1cf",
+  "id": "cca1f5addc071acace9d31bfccff6047",
   "name": "Страна | Lithuania",
   "protocol": "vless",
-  "server": "lorettmay.top",
+  "server": "185.178.208.167",
   "port": 443,
   "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
   "network": "ws",
@@ -10,13 +10,73 @@
   "path": "/blog/posts",
   "security": "tls",
   "sni": "lorettmay.top",
-  "fingerPrint": "firefox",
+  "fingerPrint": "safari",
   "alpn": [
     "http/1.1"
   ],
   "entryPool": [
     {
-      "id": "7a0fa0629dfd7a3534789f0af27ff1cf",
+      "id": "cca1f5addc071acace9d31bfccff6047",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "safari",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "cf65149d9ff2bf561d11b42840d7636e",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "12ca67e877e8bffa1b2cf1e4b5fd144d",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "lorettmay.top",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "alpn": [
+        "http%2F1.1"
+      ]
+    },
+    {
+      "id": "2aec706927a3d859a9ec40a04d202ee5",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "lorettmay.top",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "edc59f7e6c3c375cfb9bc2a63c21d9dd",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "lorettmay.top",
@@ -33,6 +93,20 @@
       ]
     },
     {
+      "id": "c823f34fa16cf10accdd3a384c4821fd",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox"
+    },
+    {
       "id": "da18c9ec26cd1b09c95ebae1df71d024",
       "name": "Lithuania",
       "protocol": "vless",
@@ -45,6 +119,23 @@
       "security": "tls",
       "sni": "lorettmay.top",
       "fingerPrint": "chrome",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "d64e963da614ca375e3c79467ec061c5",
+      "name": "Lithuania",
+      "protocol": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "network": "ws",
+      "host": "lorettmay.top",
+      "path": "/blog/posts",
+      "security": "tls",
+      "sni": "lorettmay.top",
+      "fingerPrint": "firefox",
       "alpn": [
         "http/1.1"
       ]

@@ -1,74 +1,46 @@
 {
-  "id": "a63928a21f720c3255eb7128b0b8d0ce",
+  "id": "ecab6261c2068cde79d865091d466594",
   "name": "Страна | Poland",
   "protocol": "vless",
-  "server": "fr1.robotodata.ru",
-  "port": 7443,
-  "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
+  "server": "87.242.119.253",
+  "port": 443,
+  "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
   "network": "tcp",
   "security": "tls",
-  "sni": "ru2.datacore-tech.ru",
-  "fingerPrint": "safari",
-  "flow": "xtls-rprx-vision",
+  "sni": "hvtlr-ru-47sb.fade.mom",
+  "fingerPrint": "ios",
+  "alpn": [
+    "%5B%22%255B%2522%25255Bhttp%25252F1.1%2522%255D%22%5D"
+  ],
   "entryPool": [
     {
-      "id": "a63928a21f720c3255eb7128b0b8d0ce",
+      "id": "ecab6261c2068cde79d865091d466594",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "fr1.robotodata.ru",
-      "port": 7443,
-      "password": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
       "network": "tcp",
       "security": "tls",
-      "sni": "ru2.datacore-tech.ru",
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "ios",
+      "alpn": [
+        "%5B%22%255B%2522%25255Bhttp%25252F1.1%2522%255D%22%5D"
+      ]
+    },
+    {
+      "id": "6ca2e4fe821f3ccee61a2f0b71a66d31",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "hvtlr-ru-47sb.fade.mom",
       "fingerPrint": "safari",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "id": "06b1fa83430faeef6056a8b961f1ddd8",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "qq",
       "alpn": [
-        "http/1.1",
-        "h2"
-      ]
-    },
-    {
-      "id": "b40c07a6cc2323badb05e580f6e28f92",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1",
-        "h2"
-      ]
-    },
-    {
-      "id": "db726d8e024662aad2be3e2516745692",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "%255Bhttp%252F1.1"
+        "[\"http/1.1"
       ]
     },
     {
@@ -87,7 +59,7 @@
       ]
     },
     {
-      "id": "10206b2a573aec5cdb46de58839dbb90",
+      "id": "be07be4bfcad39c50656ac39c3dd0106",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "87.242.119.253",
@@ -96,15 +68,51 @@
       "network": "tcp",
       "security": "tls",
       "sni": "hvtlr-ru-47sb.fade.mom",
-      "fingerPrint": "firefox"
+      "fingerPrint": "ios",
+      "alpn": [
+        "http/1.1",
+        "h2"
+      ]
     },
     {
-      "id": "977675dbab764c84f955af87f0de8624",
+      "id": "e2337fd6a55606f7e94fde136b1c30c8",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1",
+        "h2"
+      ]
+    },
+    {
+      "id": "c2826704deea5b7b0c0002782ac7faf4",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "87.242.119.253",
+      "port": 443,
+      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "hvtlr-ru-47sb.fade.mom",
+      "fingerPrint": "qq",
+      "alpn": [
+        "http/1.1",
+        "h2"
+      ]
+    },
+    {
+      "id": "f25d2886de2608eb2fdb1a258b570b53",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "84.23.52.120",
       "port": 28448,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",
@@ -116,12 +124,12 @@
       ]
     },
     {
-      "id": "83f5ae54d63ad591ab83c78abb6c9175",
+      "id": "768e125e90769c53360c37b1468f4de0",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "84.23.52.120",
       "port": 28449,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",
@@ -133,12 +141,12 @@
       ]
     },
     {
-      "id": "3c25f9eab1498a624a94ecb72930a6a6",
+      "id": "b414250efa112654f55b167d7d4e9368",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "84.23.52.120",
       "port": 28450,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",
@@ -150,12 +158,12 @@
       ]
     },
     {
-      "id": "4bedba1a69a6c7dd57160dd5838ac7d2",
+      "id": "1da82956f1d0d1959df87271efcfc59e",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "84.23.52.120",
       "port": 28447,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",
@@ -167,12 +175,12 @@
       ]
     },
     {
-      "id": "5d477800e5f3ef9f5f7f2d812cbe52ab",
+      "id": "ea6156c4541313a4f9a8233beaafe01f",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "84.23.52.120",
       "port": 28452,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",
@@ -184,12 +192,12 @@
       ]
     },
     {
-      "id": "92864c8d7cdc8b619fb2d7f516387069",
+      "id": "1f7b3d102fe1a0022a55734064ba7cfe",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.54.115",
+      "server": "84.23.52.120",
       "port": 28453,
-      "password": "5317c246-cc81-4f51-9ff8-92e4d8c3f931",
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",
       "security": "tls",

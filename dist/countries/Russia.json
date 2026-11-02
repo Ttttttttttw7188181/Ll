@@ -1,33 +1,22 @@
 {
-  "id": "f99585b6f10a0f4df2eebfa741933d57",
+  "id": "fe7bac3d3357436bd663dfd5d86c96cb",
   "name": "Страна | Russia",
   "protocol": "vless",
-  "server": "45.12.75.242",
-  "port": 26424,
-  "password": "633f424e-2b11-48da-a6b3-a849dd71456f",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "ya.ru",
-  "fingerPrint": "chrome",
-  "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-  "shortId": "23103e1e",
+  "server": "185.229.9.135",
+  "port": 443,
+  "password": "4df3e06b-85e9-4b69-b38a-be37bad2fe9d",
+  "network": "ws",
+  "host": "business.lesotorg-kirov.ru",
+  "path": "/chws",
+  "security": "tls",
+  "sni": "business.lesotorg-kirov.ru",
+  "fingerPrint": "firefox",
+  "alpn": [
+    "http/1.1"
+  ],
   "entryPool": [
     {
-      "id": "f99585b6f10a0f4df2eebfa741933d57",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "45.12.75.242",
-      "port": 26424,
-      "password": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ya.ru",
-      "fingerPrint": "chrome",
-      "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-      "shortId": "23103e1e"
-    },
-    {
-      "id": "718d44a340b500f71613507428ebd9db",
+      "id": "fe7bac3d3357436bd663dfd5d86c96cb",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.229.9.135",
@@ -38,10 +27,24 @@
       "path": "/chws",
       "security": "tls",
       "sni": "business.lesotorg-kirov.ru",
-      "fingerPrint": "qq",
+      "fingerPrint": "firefox",
       "alpn": [
         "http/1.1"
       ]
+    },
+    {
+      "id": "6dbf21316f4e8870538b492b5e02a3e0",
+      "name": "🇷🇺 Россия",
+      "protocol": "vless",
+      "server": "45.139.27.122",
+      "port": 443,
+      "password": "2c7462d2-127f-4887-bf06-4b30ea6d9832",
+      "network": "ws",
+      "host": "ru1.cdnconnect.org",
+      "path": "/",
+      "security": "tls",
+      "sni": "ru1.cdnconnect.org",
+      "fingerPrint": "edge"
     },
     {
       "id": "8dddc9749b24109657e2e4dc4847620e",
@@ -72,52 +75,36 @@
       "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
     },
     {
-      "id": "84773ad1c10e18a3406064088af2aa08",
+      "id": "c6aa2f7c76a9055a2a2f71346a7affe6",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "185.229.9.135",
-      "port": 443,
-      "password": "4df3e06b-85e9-4b69-b38a-be37bad2fe9d",
-      "network": "ws",
-      "host": "business.lesotorg-kirov.ru",
-      "path": "/chws",
-      "security": "tls",
-      "sni": "business.lesotorg-kirov.ru",
-      "fingerPrint": "qq",
-      "alpn": [
-        "http/1.1"
-      ]
+      "server": "178.236.242.254",
+      "port": 8443,
+      "password": "c05ec3c7-2784-da2b-aa98-a3c132860fcb",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "xnod13x.artemida.live",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU",
+      "shortId": "a1b2c3d4e5f6a7b8"
     },
     {
-      "id": "45d967494ef95814a978cd51f2c5dc9f",
+      "id": "ea95a1e0b3f158a83b22b0e1652b7936",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
       "server": "185.178.208.167",
       "port": 443,
-      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "password": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
       "network": "ws",
       "host": "lorettmay.top",
       "path": "/blog/posts",
       "security": "tls",
       "sni": "lorettmay.top",
-      "fingerPrint": "safari",
+      "fingerPrint": "firefox",
       "alpn": [
         "http/1.1"
       ]
-    },
-    {
-      "id": "301c170bbdc4ac5c519de83db532a6f2",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "194.55.237.30",
-      "port": 443,
-      "password": "eca1246a-358f-4ad5-be4c-849755ac6f14",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "api-maps.yandex.ru",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "xklZVcSla9QcuZsbNMjb1wbbpoRI-GuCzKxvVzEzKmE"
     }
   ],
   "poolUrltestIntervalSec": 120
