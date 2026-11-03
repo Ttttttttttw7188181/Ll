@@ -1,0 +1,35 @@
+{
+  "id": "bf1767ecf9a2d08fca62cca91f95f980",
+  "name": "Страна | Malaysia",
+  "protocol": "vless",
+  "server": "46.8.158.73",
+  "port": 34007,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "cosmos-reserve-225-7",
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "publicKey": "LUNWX6rmCr4TvHd47N2BAvHRpemjF5j9hwtlJXlFSi4",
+  "shortId": "ac1e420766df9e21",
+  "entryPool": [
+    {
+      "id": "bf1767ecf9a2d08fca62cca91f95f980",
+      "name": "Malaysia",
+      "protocol": "vless",
+      "server": "46.8.158.73",
+      "port": 34007,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-225-7",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "LUNWX6rmCr4TvHd47N2BAvHRpemjF5j9hwtlJXlFSi4",
+      "shortId": "ac1e420766df9e21"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

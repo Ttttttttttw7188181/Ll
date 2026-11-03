@@ -1,9 +1,9 @@
 {
-  "id": "f25d2886de2608eb2fdb1a258b570b53",
+  "id": "7f55604fe87d44487f6ebfb0da87f3ef",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "84.23.52.120",
-  "port": 28448,
+  "port": 28452,
   "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
   "network": "ws",
   "path": "/lovelive",
@@ -16,75 +16,7 @@
   ],
   "entryPool": [
     {
-      "id": "f25d2886de2608eb2fdb1a258b570b53",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28448,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "768e125e90769c53360c37b1468f4de0",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28449,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "b414250efa112654f55b167d7d4e9368",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28450,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "1da82956f1d0d1959df87271efcfc59e",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28447,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "ea6156c4541313a4f9a8233beaafe01f",
+      "id": "7f55604fe87d44487f6ebfb0da87f3ef",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "84.23.52.120",
@@ -101,11 +33,78 @@
       ]
     },
     {
-      "id": "1f7b3d102fe1a0022a55734064ba7cfe",
+      "id": "461e42ee44d89e1d550b9fd34bd82a1f",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "84.23.52.120",
       "port": 28453,
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "network": "ws",
+      "path": "/lovelive",
+      "security": "tls",
+      "sni": "pl.sparxiecn.com",
+      "fingerPrint": "ios",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "2f6be2215c1fd737cf4d2d113e386dbb",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "84.23.52.120",
+      "port": 28447,
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "network": "ws",
+      "path": "/lovelive",
+      "security": "tls",
+      "sni": "pl.sparxiecn.com",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "fa05ff23144e161b8477946715089d9a",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "84.23.52.120",
+      "port": 28448,
+      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "network": "ws",
+      "path": "/lovelive",
+      "security": "tls",
+      "sni": "pl.sparxiecn.com",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "78ceedf15a258894fcd1e37fed0e4d23",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "46.8.158.73",
+      "port": 34008,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-225-8",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "XT2NcsGDisZX-P6G2Lx2xtsUd-uYWYTlUGoiFWs-5T4",
+      "shortId": "6a07c97fe6caea50"
+    },
+    {
+      "id": "b414250efa112654f55b167d7d4e9368",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "84.23.52.120",
+      "port": 28450,
       "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "network": "ws",
       "path": "/lovelive",

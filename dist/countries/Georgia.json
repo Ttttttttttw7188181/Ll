@@ -1,0 +1,35 @@
+{
+  "id": "094a5ab50edc7c8d23b7e2f1b275b6cf",
+  "name": "Страна | Georgia",
+  "protocol": "vless",
+  "server": "46.8.158.53",
+  "port": 34004,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "cosmos-reserve-226-4",
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "publicKey": "EeYGm5I0teXj7Kh-IxD-0tFo1li32oXyUL_nG8sLnXE",
+  "shortId": "e73514c022b82f8f",
+  "entryPool": [
+    {
+      "id": "094a5ab50edc7c8d23b7e2f1b275b6cf",
+      "name": "Georgia",
+      "protocol": "vless",
+      "server": "46.8.158.53",
+      "port": 34004,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-226-4",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "EeYGm5I0teXj7Kh-IxD-0tFo1li32oXyUL_nG8sLnXE",
+      "shortId": "e73514c022b82f8f"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

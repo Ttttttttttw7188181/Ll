@@ -1,0 +1,35 @@
+{
+  "id": "7c025894895cbffdd2d239886d85920d",
+  "name": "Страна | Israel",
+  "protocol": "vless",
+  "server": "46.8.158.53",
+  "port": 34005,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "cosmos-reserve-226-5",
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "publicKey": "HfWUGfAcOcDYU0LT-LtqRNdPHn5FfJ8V7JnWdmgXyyU",
+  "shortId": "f7276a5da4701bbb",
+  "entryPool": [
+    {
+      "id": "7c025894895cbffdd2d239886d85920d",
+      "name": "Israel",
+      "protocol": "vless",
+      "server": "46.8.158.53",
+      "port": 34005,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-226-5",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "HfWUGfAcOcDYU0LT-LtqRNdPHn5FfJ8V7JnWdmgXyyU",
+      "shortId": "f7276a5da4701bbb"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

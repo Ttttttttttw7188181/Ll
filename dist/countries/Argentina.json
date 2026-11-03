@@ -1,0 +1,33 @@
+{
+  "id": "20e492af81c2f741eb8364995d5395cb",
+  "name": "Страна | Argentina",
+  "protocol": "vless",
+  "server": "46.8.158.68",
+  "port": 31037,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "LpvGlKoAQq63aXBFtDZA8wfRxoUJcmr6XmTp3nq3EWk",
+  "shortId": "5f13c946ed1420b9",
+  "entryPool": [
+    {
+      "id": "20e492af81c2f741eb8364995d5395cb",
+      "name": "Argentina",
+      "protocol": "vless",
+      "server": "46.8.158.68",
+      "port": 31037,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "LpvGlKoAQq63aXBFtDZA8wfRxoUJcmr6XmTp3nq3EWk",
+      "shortId": "5f13c946ed1420b9"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

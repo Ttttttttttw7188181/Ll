@@ -1,30 +1,63 @@
 {
-  "id": "da326759832c17c63d80b836907ad235",
+  "id": "d4b601272cfc6287ff3aef85fb056bde",
   "name": "Страна | Italy",
   "protocol": "vless",
-  "server": "87.242.119.253",
-  "port": 443,
-  "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+  "server": "46.8.158.64",
+  "port": 31060,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
   "network": "tcp",
-  "security": "tls",
-  "sni": "hvtlr-ru-47sb.fade.mom",
-  "alpn": [
-    "[\"http/1.1"
-  ],
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "TfK-Nynk6bvDTbpXK593-F-hydqfXUyTgEcNlNlNyX0",
+  "shortId": "ce3a1a6f798b1a3c",
   "entryPool": [
     {
-      "id": "da326759832c17c63d80b836907ad235",
+      "id": "d4b601272cfc6287ff3aef85fb056bde",
       "name": "Italy",
       "protocol": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "password": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
+      "server": "46.8.158.64",
+      "port": 31060,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
       "network": "tcp",
-      "security": "tls",
-      "sni": "hvtlr-ru-47sb.fade.mom",
-      "alpn": [
-        "[\"http/1.1"
-      ]
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "TfK-Nynk6bvDTbpXK593-F-hydqfXUyTgEcNlNlNyX0",
+      "shortId": "ce3a1a6f798b1a3c"
+    },
+    {
+      "id": "d1f19da1e313eec4437fdb78e5db2ee6",
+      "name": "Italy",
+      "protocol": "vless",
+      "server": "46.8.158.64",
+      "port": 31066,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "KIwQh0n77JPYbo-tG-iA2JMe95yxTcDzpTGr-PkUy2c",
+      "shortId": "0c4866bd4872af33"
+    },
+    {
+      "id": "dbd9f3bb3945d82baf34d321cd802b01",
+      "name": "Italy",
+      "protocol": "vless",
+      "server": "46.8.158.73",
+      "port": 34006,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-225-6",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "VqCkwyM-Gf3yhvAPflGl-7pMs9Xw3QyxM_FUEkvCUy0",
+      "shortId": "3df2a1e184f4043f"
     }
   ],
   "poolUrltestIntervalSec": 120

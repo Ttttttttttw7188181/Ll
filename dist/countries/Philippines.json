@@ -1,0 +1,35 @@
+{
+  "id": "bc2a150c421912e6568eee87b75b58b6",
+  "name": "Страна | Philippines",
+  "protocol": "vless",
+  "server": "46.8.158.53",
+  "port": 34007,
+  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "cosmos-reserve-226-7",
+  "security": "reality",
+  "sni": "usher.ttvnw.net",
+  "fingerPrint": "edge",
+  "publicKey": "UX1mjDHoCiv9TCBDjSltKs06Jl0iUjMeQB7sjzAiZgM",
+  "shortId": "ef58e54b112386b7",
+  "entryPool": [
+    {
+      "id": "bc2a150c421912e6568eee87b75b58b6",
+      "name": "Philippines",
+      "protocol": "vless",
+      "server": "46.8.158.53",
+      "port": 34007,
+      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "cosmos-reserve-226-7",
+      "security": "reality",
+      "sni": "usher.ttvnw.net",
+      "fingerPrint": "edge",
+      "publicKey": "UX1mjDHoCiv9TCBDjSltKs06Jl0iUjMeQB7sjzAiZgM",
+      "shortId": "ef58e54b112386b7"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}
