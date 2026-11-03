@@ -1,5 +1,5 @@
 {
-  "id": "b3e262c61c91f628dac29ea04bb86b7f",
+  "id": "ee717f6b90d50e74d65ecbcd5a890152",
   "name": "Страна | Switzerland",
   "protocol": "vless",
   "server": "ch2.h1cloud.net",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.bing.com",
-  "fingerPrint": "chrome",
+  "fingerPrint": "edge",
   "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
   "shortId": "f1a7a14461a3f389",
   "entryPool": [
     {
-      "id": "b3e262c61c91f628dac29ea04bb86b7f",
+      "id": "ee717f6b90d50e74d65ecbcd5a890152",
       "name": "Switzerland",
       "protocol": "vless",
       "server": "ch2.h1cloud.net",
@@ -22,7 +22,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.bing.com",
-      "fingerPrint": "chrome",
+      "fingerPrint": "edge",
       "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
       "shortId": "f1a7a14461a3f389"
     },
@@ -39,51 +39,6 @@
       "fingerPrint": "ios",
       "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
       "shortId": "f1a7a14461a3f389"
-    },
-    {
-      "id": "c97a24506e8492617b7d827b56a2bb97",
-      "name": "Switzerland",
-      "protocol": "vless",
-      "server": "ch2.h1cloud.net",
-      "port": 25879,
-      "password": "241306b3-9f27-4ed3-9524-6c0792c55856",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "www.bing.com",
-      "fingerPrint": "chrome",
-      "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
-      "shortId": "f1a7a14461a3f389"
-    },
-    {
-      "id": "f08260fd405ba6d759a111a0fc015ec1",
-      "name": "Switzerland",
-      "protocol": "vless",
-      "server": "46.8.158.68",
-      "port": 31061,
-      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "usher.ttvnw.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "IXPGkGANc5QbCcn8RhArK-YCbLa5djxi1x67dE8vNEc",
-      "shortId": "80bbcad157ed30cd"
-    },
-    {
-      "id": "34dd7a2e69604ad933f66be18c8e25b2",
-      "name": "Switzerland",
-      "protocol": "vless",
-      "server": "46.8.158.73",
-      "port": 34010,
-      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "cosmos-reserve-225-10",
-      "security": "reality",
-      "sni": "usher.ttvnw.net",
-      "fingerPrint": "edge",
-      "publicKey": "SiWN0ridMzu5aEkeQpvqfDngLFN7d_9cRtIoFnX0TU0",
-      "shortId": "7e0507a9fbd46802"
     }
   ],
   "poolUrltestIntervalSec": 120

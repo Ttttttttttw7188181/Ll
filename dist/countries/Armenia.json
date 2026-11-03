@@ -1,0 +1,29 @@
+{
+  "id": "e4fddb5d7edeb057127acdd08ad81ac0",
+  "name": "Страна | Armenia",
+  "protocol": "vless",
+  "server": "dep.slovarik.xyz",
+  "port": 10443,
+  "password": "613b64fe-b88d-42db-9d4f-26b8654d4060",
+  "network": "tcp",
+  "security": "tls",
+  "sni": "www.slovarik.xyz",
+  "fingerPrint": "edge",
+  "flow": "xtls-rprx-vision",
+  "entryPool": [
+    {
+      "id": "e4fddb5d7edeb057127acdd08ad81ac0",
+      "name": "Armenia",
+      "protocol": "vless",
+      "server": "dep.slovarik.xyz",
+      "port": 10443,
+      "password": "613b64fe-b88d-42db-9d4f-26b8654d4060",
+      "network": "tcp",
+      "security": "tls",
+      "sni": "www.slovarik.xyz",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

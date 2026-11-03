@@ -1,53 +1,52 @@
 {
-  "id": "9ef2aaf20b0a148d0744c1626efcaf8a",
+  "id": "e59c6734cd5f2140743b357730dfefee",
   "name": "Страна | Netherlands",
   "protocol": "vless",
-  "server": "46.8.158.53",
-  "port": 34001,
-  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-  "network": "grpc",
-  "mode": "gun",
-  "serviceName": "cosmos-reserve-226-1",
+  "server": "157.22.197.56",
+  "port": 443,
+  "password": "05e7c58f-4d16-4821-ba50-5cedbc735e16",
+  "network": "tcp",
   "security": "reality",
-  "sni": "usher.ttvnw.net",
-  "fingerPrint": "edge",
-  "publicKey": "D5ZBUPjgMoGfsvnShXpPEydgnbvVtS0nIfIqWC91gHs",
-  "shortId": "464742794d753e70",
+  "sni": "www.okko.tv",
+  "fingerPrint": "qq",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "pbO31C8T53OfUhnw152DBaQ0qRPPcStHth61s5OYdV4",
+  "shortId": "aabbccdd",
   "entryPool": [
     {
-      "id": "9ef2aaf20b0a148d0744c1626efcaf8a",
+      "id": "e59c6734cd5f2140743b357730dfefee",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "46.8.158.53",
-      "port": 34001,
-      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "cosmos-reserve-226-1",
+      "server": "157.22.197.56",
+      "port": 443,
+      "password": "05e7c58f-4d16-4821-ba50-5cedbc735e16",
+      "network": "tcp",
       "security": "reality",
-      "sni": "usher.ttvnw.net",
-      "fingerPrint": "edge",
-      "publicKey": "D5ZBUPjgMoGfsvnShXpPEydgnbvVtS0nIfIqWC91gHs",
-      "shortId": "464742794d753e70"
+      "sni": "www.okko.tv",
+      "fingerPrint": "qq",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "pbO31C8T53OfUhnw152DBaQ0qRPPcStHth61s5OYdV4",
+      "shortId": "aabbccdd"
     },
     {
-      "id": "38268389afa6bb9fa61391adb10ddb2d",
+      "id": "75fc21d98740b20ff12fe04ec4149e10",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
-      "server": "46.8.158.56",
-      "port": 34001,
-      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "cosmos-reserve-228-1",
-      "security": "reality",
-      "sni": "usher.ttvnw.net",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "135aa7e5-87af-4df2-a9f0-0c4eaea0c492",
+      "network": "ws",
+      "host": "rar.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "rar.rtkdvbr.cc",
       "fingerPrint": "edge",
-      "publicKey": "zVlObuRGnJO0Vx7u2VkaCWLuLk7Pvs0D3D2a3nXI5Ew",
-      "shortId": "ae310a905e132a28"
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
-      "id": "493cddc26c82ca24581836e9fafd193e",
+      "id": "32f67d1de09c7a623ac2be1bc2025a0a",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "91.185.83.44",
@@ -61,7 +60,7 @@
       "fingerPrint": "firefox"
     },
     {
-      "id": "8102376fa69c7d733e5da036d8103338",
+      "id": "3b7a838115967fb2a460c4f5329b738f",
       "name": "🇳🇱 Нидерланды",
       "protocol": "vless",
       "server": "91.185.83.44",
@@ -73,6 +72,23 @@
       "security": "tls",
       "sni": "nguyxejonb.rucdncomp.pro",
       "fingerPrint": "firefox",
+      "alpn": [
+        "http/1.1"
+      ]
+    },
+    {
+      "id": "df3c646eaa1eeea411185339250df263",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "185.86.145.37",
+      "port": 443,
+      "password": "135aa7e5-87af-4df2-a9f0-0c4eaea0c492",
+      "network": "ws",
+      "host": "rar.rtkdvbr.cc",
+      "path": "/amws",
+      "security": "tls",
+      "sni": "rar.rtkdvbr.cc",
+      "fingerPrint": "edge",
       "alpn": [
         "http/1.1"
       ]
@@ -106,6 +122,19 @@
       "path": "/service/telemetry/0294da469190/",
       "security": "tls",
       "sni": "nguyxejonb.rucdncomp.pro",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "368566cd688bca4ee5076627c021898f",
+      "name": "🇳🇱 Нидерланды",
+      "protocol": "vless",
+      "server": "46.243.205.243",
+      "port": 443,
+      "password": "03248cf9-cbcb-4718-a11d-35b499978d27",
+      "network": "ws",
+      "path": "/api/v2/session/i65Im0MTYWVC",
+      "security": "tls",
+      "sni": "krepmet.site",
       "fingerPrint": "firefox"
     }
   ],
