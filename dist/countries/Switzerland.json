@@ -1,5 +1,5 @@
 {
-  "id": "ee717f6b90d50e74d65ecbcd5a890152",
+  "id": "b3e262c61c91f628dac29ea04bb86b7f",
   "name": "Страна | Switzerland",
   "protocol": "vless",
   "server": "ch2.h1cloud.net",
@@ -8,12 +8,12 @@
   "network": "tcp",
   "security": "reality",
   "sni": "www.bing.com",
-  "fingerPrint": "edge",
+  "fingerPrint": "chrome",
   "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
   "shortId": "f1a7a14461a3f389",
   "entryPool": [
     {
-      "id": "ee717f6b90d50e74d65ecbcd5a890152",
+      "id": "b3e262c61c91f628dac29ea04bb86b7f",
       "name": "Switzerland",
       "protocol": "vless",
       "server": "ch2.h1cloud.net",
@@ -22,12 +22,12 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.bing.com",
-      "fingerPrint": "edge",
+      "fingerPrint": "chrome",
       "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
       "shortId": "f1a7a14461a3f389"
     },
     {
-      "id": "21bb8679b5387f8b5b5a441a8dc2f103",
+      "id": "f1363be3b115b899661bc09190a6f319",
       "name": "Switzerland",
       "protocol": "vless",
       "server": "ch2.h1cloud.net",
@@ -36,7 +36,7 @@
       "network": "tcp",
       "security": "reality",
       "sni": "www.bing.com",
-      "fingerPrint": "ios",
+      "fingerPrint": "chrome",
       "publicKey": "XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU",
       "shortId": "f1a7a14461a3f389"
     }

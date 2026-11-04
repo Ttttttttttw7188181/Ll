@@ -1,37 +1,17 @@
 {
-  "id": "d884aa9af7247b0b6a975238a50fb4a3",
+  "id": "8dddc9749b24109657e2e4dc4847620e",
   "name": "Страна | Russia",
   "protocol": "vless",
-  "server": "185.229.9.135",
+  "server": "85.193.85.231",
   "port": 443,
-  "password": "03c478b6-93fb-43aa-9fa1-73ced8a13caf",
-  "network": "ws",
-  "host": "lesotorg-kirov.ru",
-  "path": "/chws",
-  "security": "tls",
-  "sni": "lesotorg-kirov.ru",
-  "fingerPrint": "qq",
-  "alpn": [
-    "http/1.1"
-  ],
+  "password": "3bb97d46-789b-4229-88f6-9beb222a4137",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "yoy-api.bachidze.com",
+  "fingerPrint": "firefox",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI",
   "entryPool": [
-    {
-      "id": "d884aa9af7247b0b6a975238a50fb4a3",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "185.229.9.135",
-      "port": 443,
-      "password": "03c478b6-93fb-43aa-9fa1-73ced8a13caf",
-      "network": "ws",
-      "host": "lesotorg-kirov.ru",
-      "path": "/chws",
-      "security": "tls",
-      "sni": "lesotorg-kirov.ru",
-      "fingerPrint": "qq",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
     {
       "id": "8dddc9749b24109657e2e4dc4847620e",
       "name": "🇷🇺 Россия",
@@ -61,91 +41,19 @@
       "publicKey": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
     },
     {
-      "id": "848e0490b0efce7fa570527a3304ae6c",
+      "id": "2e31d3ee4a61da8b03d8c662f3d8a7bf",
       "name": "🇷🇺 Россия",
       "protocol": "vless",
-      "server": "185.229.9.135",
+      "server": "201.51.29.153",
       "port": 443,
-      "password": "03c478b6-93fb-43aa-9fa1-73ced8a13caf",
-      "network": "ws",
-      "host": "lesotorg-kirov.ru",
-      "path": "/chws",
-      "security": "tls",
-      "sni": "lesotorg-kirov.ru",
+      "password": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "db-23.topp-con.xyz",
       "fingerPrint": "qq",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "d41689339dac9075c6b83ac15b6c8990",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "147.45.110.236",
-      "port": 443,
-      "password": "f935f257-1878-4656-8149-4e7737e2ff7d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ru-manager.nodexphere.net",
-      "fingerPrint": "firefox",
       "flow": "xtls-rprx-vision",
-      "publicKey": "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
-    },
-    {
-      "id": "7278d8a1f6d2a9614decb2e0dacb1bc9",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "194.187.122.111",
-      "port": 443,
-      "password": "f935f257-1878-4656-8149-4e7737e2ff7d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ru-manager.nodexphere.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
-    },
-    {
-      "id": "3b8d2042649462b98ef0a9d7c02fe949",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "193.164.149.131",
-      "port": 443,
-      "password": "f935f257-1878-4656-8149-4e7737e2ff7d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ru-manager.nodexphere.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
-    },
-    {
-      "id": "85cc5d1cf1974df0873dd45cb9d50266",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "85.193.88.121",
-      "port": 443,
-      "password": "f935f257-1878-4656-8149-4e7737e2ff7d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ru-manager.nodexphere.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
-    },
-    {
-      "id": "b3d12c1f91a5e49d02b2d851dc3bdd8c",
-      "name": "🇷🇺 Россия",
-      "protocol": "vless",
-      "server": "85.193.89.19",
-      "port": 443,
-      "password": "f935f257-1878-4656-8149-4e7737e2ff7d",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "ru-manager.nodexphere.net",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "lDbTuU4-pEAkxizbdrurcjz3eXq0AgECd0hEh0sL0zM"
+      "publicKey": "Elmq7GhYEGaiujWnLYeK3HidTkZV6JYH-aYJXBG9iwc",
+      "shortId": "20b37477b1d93f7e"
     }
   ],
   "poolUrltestIntervalSec": 120

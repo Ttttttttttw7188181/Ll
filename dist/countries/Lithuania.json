@@ -1,5 +1,5 @@
 {
-  "id": "a8b2d6ffec6cd797dfad860f3ad86368",
+  "id": "fd458cb3c296ef1c9952c05865e98fdd",
   "name": "Страна | Lithuania",
   "protocol": "vless",
   "server": "lorettmay.top",
@@ -9,9 +9,10 @@
   "path": "/blog/posts",
   "security": "tls",
   "sni": "lorettmay.top",
+  "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "a8b2d6ffec6cd797dfad860f3ad86368",
+      "id": "fd458cb3c296ef1c9952c05865e98fdd",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "lorettmay.top",
@@ -20,53 +21,22 @@
       "network": "ws",
       "path": "/blog/posts",
       "security": "tls",
-      "sni": "lorettmay.top"
-    },
-    {
-      "id": "e289810bda6055a38f31db26e1535a63",
-      "name": "Lithuania",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
-      "network": "ws",
-      "host": "lorettmay.top",
-      "path": "/blog/posts",
-      "security": "tls",
       "sni": "lorettmay.top",
-      "fingerPrint": "chrome",
-      "alpn": [
-        "http/1.1"
-      ]
+      "fingerPrint": "chrome"
     },
     {
-      "id": "18ede88b3ebc842a4aa8d6553e77eb86",
+      "id": "e11c45d13e0a6b401824235e674437b4",
       "name": "Lithuania",
       "protocol": "vless",
-      "server": "185.178.208.167",
+      "server": "185.178.208.140",
       "port": 443,
       "password": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
       "network": "ws",
-      "host": "lorettmay.top",
-      "path": "/blog/posts",
+      "host": "marshalltmp.top",
+      "path": "/shop/catalog",
       "security": "tls",
-      "sni": "lorettmay.top",
+      "sni": "marshalltmp.top",
       "fingerPrint": "firefox",
-      "alpn": [
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "d871780638c30c5a2dfa099bac663aa5",
-      "name": "Lithuania",
-      "protocol": "vless",
-      "server": "185.178.208.167",
-      "port": 443,
-      "password": "2232d904-8e6a-4202-8240-6efd8aec02e9",
-      "network": "ws",
-      "path": "/blog/posts",
-      "security": "tls",
-      "sni": "lorettmay.top",
       "alpn": [
         "http/1.1"
       ]
