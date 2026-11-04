@@ -1,5 +1,5 @@
 {
-  "id": "a1ca31b10935ad24554346677a82360f",
+  "id": "9c6862d1ad4cc7e6082b809e4fff4d22",
   "name": "Страна | Poland",
   "protocol": "vless",
   "server": "217.19.122.170",
@@ -14,7 +14,7 @@
   "shortId": "2a096f7b298d0aba",
   "entryPool": [
     {
-      "id": "a1ca31b10935ad24554346677a82360f",
+      "id": "9c6862d1ad4cc7e6082b809e4fff4d22",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
       "server": "217.19.122.170",
@@ -27,20 +27,6 @@
       "flow": "xtls-rprx-vision",
       "publicKey": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
       "shortId": "2a096f7b298d0aba"
-    },
-    {
-      "id": "9031106339538ed78b4ed4e525533030",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "31.177.111.236",
-      "port": 443,
-      "password": "03929684-0dcf-4add-bb02-2b2ba09d10a2",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "tfhx4tjzmy39benjh0hg.sellerape.cc",
-      "fingerPrint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0"
     },
     {
       "id": "f25d2886de2608eb2fdb1a258b570b53",
@@ -143,20 +129,6 @@
         "h2",
         "http/1.1"
       ]
-    },
-    {
-      "id": "d8634e65215dd86c21ba9c1b77ad20c4",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "212.60.4.134",
-      "port": 443,
-      "password": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
-      "network": "ws",
-      "host": "vp4.1145678.xyz",
-      "path": "/wenku/comics",
-      "security": "tls",
-      "sni": "vp4.1145678.xyz",
-      "fingerPrint": "firefox"
     },
     {
       "id": "cb6e111e51bc1af98c451391b005aca7",

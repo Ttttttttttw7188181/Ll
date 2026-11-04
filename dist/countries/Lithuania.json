@@ -25,7 +25,7 @@
       "fingerPrint": "chrome"
     },
     {
-      "id": "e11c45d13e0a6b401824235e674437b4",
+      "id": "c479e9ed504f700c7bbb117db4fd2504",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "185.178.208.140",
@@ -36,7 +36,7 @@
       "path": "/shop/catalog",
       "security": "tls",
       "sni": "marshalltmp.top",
-      "fingerPrint": "firefox",
+      "fingerPrint": "ios",
       "alpn": [
         "http/1.1"
       ]
