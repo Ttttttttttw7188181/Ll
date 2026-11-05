@@ -1,5 +1,5 @@
 {
-  "id": "fd458cb3c296ef1c9952c05865e98fdd",
+  "id": "a8b2d6ffec6cd797dfad860f3ad86368",
   "name": "Страна | Lithuania",
   "protocol": "vless",
   "server": "lorettmay.top",
@@ -9,10 +9,9 @@
   "path": "/blog/posts",
   "security": "tls",
   "sni": "lorettmay.top",
-  "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "fd458cb3c296ef1c9952c05865e98fdd",
+      "id": "a8b2d6ffec6cd797dfad860f3ad86368",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "lorettmay.top",
@@ -21,11 +20,10 @@
       "network": "ws",
       "path": "/blog/posts",
       "security": "tls",
-      "sni": "lorettmay.top",
-      "fingerPrint": "chrome"
+      "sni": "lorettmay.top"
     },
     {
-      "id": "c479e9ed504f700c7bbb117db4fd2504",
+      "id": "9206e22800409e7e8602f982e1727fed",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "185.178.208.140",
@@ -36,7 +34,7 @@
       "path": "/shop/catalog",
       "security": "tls",
       "sni": "marshalltmp.top",
-      "fingerPrint": "ios",
+      "fingerPrint": "chrome",
       "alpn": [
         "http/1.1"
       ]

@@ -1,0 +1,48 @@
+{
+  "id": "450b5f1b1ec294ec0a008573a92be18b",
+  "name": "Страна | North Macedonia",
+  "protocol": "vless",
+  "server": "connect.accessgate.link",
+  "port": 2084,
+  "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "unpkg.com",
+  "fingerPrint": "chrome",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+  "shortId": "b0d8c9a285c70f6f",
+  "entryPool": [
+    {
+      "id": "450b5f1b1ec294ec0a008573a92be18b",
+      "name": "North Macedonia",
+      "protocol": "vless",
+      "server": "connect.accessgate.link",
+      "port": 2084,
+      "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "unpkg.com",
+      "fingerPrint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+      "shortId": "b0d8c9a285c70f6f"
+    },
+    {
+      "id": "85acb0e20d91c8a3043ca8522965bf5c",
+      "name": "North Macedonia",
+      "protocol": "vless",
+      "server": "connect.accessgate.link",
+      "port": 2084,
+      "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "unpkg.com",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+      "shortId": "b0d8c9a285c70f6f"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

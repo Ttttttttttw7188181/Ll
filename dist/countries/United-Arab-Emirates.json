@@ -1,5 +1,5 @@
 {
-  "id": "64565a6d6ac05077a1f1d90e296375c0",
+  "id": "783eb03a6e60d01e13c6ea59c13cf03f",
   "name": "Страна | United Arab Emirates",
   "protocol": "vless",
   "server": "217.19.122.170",
@@ -14,7 +14,7 @@
   "shortId": "38560e0003d69843",
   "entryPool": [
     {
-      "id": "64565a6d6ac05077a1f1d90e296375c0",
+      "id": "783eb03a6e60d01e13c6ea59c13cf03f",
       "name": "United Arab Emirates",
       "protocol": "vless",
       "server": "217.19.122.170",
@@ -27,6 +27,21 @@
       "flow": "xtls-rprx-vision",
       "publicKey": "GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M",
       "shortId": "38560e0003d69843"
+    },
+    {
+      "id": "25fca5ce722d1200cee8a712df4268d5",
+      "name": "United Arab Emirates",
+      "protocol": "vless",
+      "server": "217.19.122.170",
+      "port": 2083,
+      "password": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "bm6.hat.onl",
+      "fingerPrint": "qq",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "Zy-GGHQ4J0M5RtpGPF7MUabmQo8nNr9iohVfyrmSGEY",
+      "shortId": "7e704e370213f498"
     }
   ],
   "poolUrltestIntervalSec": 120
