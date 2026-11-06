@@ -1,0 +1,51 @@
+{
+  "id": "ebe2bf653038157a24ea5a323135f811",
+  "name": "Страна | South Africa",
+  "protocol": "vless",
+  "server": "95.143.188.113",
+  "port": 443,
+  "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "sync.v1",
+  "security": "tls",
+  "sni": "g5j6r0l5i9.j.cloudfront.hls.vodcdn-edge.net",
+  "fingerPrint": "safari",
+  "alpn": [
+    "h2"
+  ],
+  "entryPool": [
+    {
+      "id": "ebe2bf653038157a24ea5a323135f811",
+      "name": "South Africa",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "g5j6r0l5i9.j.cloudfront.hls.vodcdn-edge.net",
+      "fingerPrint": "safari",
+      "alpn": [
+        "h2"
+      ]
+    },
+    {
+      "id": "e8dbbd8077be74f23a6626f51d56efc2",
+      "name": "South Africa",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "g5j6r0l5i9.j.cloudfront.hls.vodcdn-edge.net",
+      "fingerPrint": "firefox"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

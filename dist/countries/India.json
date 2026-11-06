@@ -1,0 +1,62 @@
+{
+  "id": "f4c4cd9e81c3506c08e8bccff9a28846",
+  "name": "Страна | India",
+  "protocol": "vless",
+  "server": "95.143.188.113",
+  "port": 443,
+  "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "sync.v1",
+  "security": "tls",
+  "sni": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
+  "fingerPrint": "safari",
+  "entryPool": [
+    {
+      "id": "f4c4cd9e81c3506c08e8bccff9a28846",
+      "name": "India",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "safari"
+    },
+    {
+      "id": "57d71e70c169244ce77f77fbaac72096",
+      "name": "India",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "safari",
+      "alpn": [
+        "h2"
+      ]
+    },
+    {
+      "id": "a258b37814c4eef83997c6492234b24f",
+      "name": "India",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "firefox"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

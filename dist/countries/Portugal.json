@@ -1,0 +1,51 @@
+{
+  "id": "3760dcb438b6af51ae3f2df20e5d8d12",
+  "name": "Страна | Portugal",
+  "protocol": "vless",
+  "server": "95.143.188.113",
+  "port": 443,
+  "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "sync.v1",
+  "security": "tls",
+  "sni": "ekkgkmfqm9.j.cloudfront.hls.edgehls.net",
+  "fingerPrint": "safari",
+  "alpn": [
+    "h2"
+  ],
+  "entryPool": [
+    {
+      "id": "3760dcb438b6af51ae3f2df20e5d8d12",
+      "name": "Portugal",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "ekkgkmfqm9.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "safari",
+      "alpn": [
+        "h2"
+      ]
+    },
+    {
+      "id": "b3bfc07952a3c99f0eb25bea1929f2be",
+      "name": "Portugal",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "ekkgkmfqm9.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "firefox"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

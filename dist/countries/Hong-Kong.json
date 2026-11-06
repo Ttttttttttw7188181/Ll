@@ -1,0 +1,51 @@
+{
+  "id": "1030d3da7800658e78b42653bbd73bb3",
+  "name": "Страна | Hong Kong",
+  "protocol": "vless",
+  "server": "95.143.188.113",
+  "port": 443,
+  "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "sync.v1",
+  "security": "tls",
+  "sni": "pqlaxiq96l.j.cloudfront.hls.hlsnode.net",
+  "fingerPrint": "safari",
+  "alpn": [
+    "h2"
+  ],
+  "entryPool": [
+    {
+      "id": "1030d3da7800658e78b42653bbd73bb3",
+      "name": "Hong Kong",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "pqlaxiq96l.j.cloudfront.hls.hlsnode.net",
+      "fingerPrint": "safari",
+      "alpn": [
+        "h2"
+      ]
+    },
+    {
+      "id": "abe81c571d0dffc184d648f576219564",
+      "name": "Hong Kong",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "pqlaxiq96l.j.cloudfront.hls.hlsnode.net",
+      "fingerPrint": "firefox"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

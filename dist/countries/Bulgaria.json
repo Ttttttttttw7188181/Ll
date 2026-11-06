@@ -1,0 +1,45 @@
+{
+  "id": "d4ed7904ae71fdea8cef0948f74f96fd",
+  "name": "Страна | Bulgaria",
+  "protocol": "vless",
+  "server": "176.124.218.80",
+  "port": 443,
+  "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+  "network": "ws",
+  "host": "bg2-ws.gacvpn.site",
+  "path": "/static/js/vendor.f857f795.js",
+  "security": "tls",
+  "sni": "bg2-ws.gacvpn.site",
+  "fingerPrint": "firefox",
+  "entryPool": [
+    {
+      "id": "d4ed7904ae71fdea8cef0948f74f96fd",
+      "name": "Bulgaria",
+      "protocol": "vless",
+      "server": "176.124.218.80",
+      "port": 443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "host": "bg2-ws.gacvpn.site",
+      "path": "/static/js/vendor.f857f795.js",
+      "security": "tls",
+      "sni": "bg2-ws.gacvpn.site",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "ca5895caadf60f44b771244d0ddd08c7",
+      "name": "Bulgaria",
+      "protocol": "vless",
+      "server": "176.124.218.80",
+      "port": 443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "host": "bg2-ws.gacvpn.site",
+      "path": "/static/js/vendor.f857f795.js",
+      "security": "tls",
+      "sni": "bg2-ws.gacvpn.site",
+      "fingerPrint": "firefox"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

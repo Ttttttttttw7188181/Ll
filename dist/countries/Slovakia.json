@@ -1,0 +1,31 @@
+{
+  "id": "20d5c74ff538edfc59380cf7316f9024",
+  "name": "Страна | Slovakia",
+  "protocol": "vless",
+  "server": "62.113.42.147",
+  "port": 995,
+  "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+  "network": "ws",
+  "host": "fi.gacvpn.site",
+  "path": "/static/js/runtime.6dc28486.js",
+  "security": "tls",
+  "sni": "fi.gacvpn.site",
+  "fingerPrint": "chrome",
+  "entryPool": [
+    {
+      "id": "20d5c74ff538edfc59380cf7316f9024",
+      "name": "Slovakia",
+      "protocol": "vless",
+      "server": "62.113.42.147",
+      "port": 995,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "host": "fi.gacvpn.site",
+      "path": "/static/js/runtime.6dc28486.js",
+      "security": "tls",
+      "sni": "fi.gacvpn.site",
+      "fingerPrint": "chrome"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

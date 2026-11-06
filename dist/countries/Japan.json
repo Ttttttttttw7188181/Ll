@@ -1,32 +1,50 @@
 {
-  "id": "cd48e3e8ca39f1da27b0bf98f3d448ff",
+  "id": "8a118b08bf1f33b47bccb95f8e589872",
   "name": "Страна | Japan",
   "protocol": "vless",
-  "server": "46.8.158.64",
-  "port": 31068,
-  "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "usher.ttvnw.net",
-  "fingerPrint": "edge",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "45id_WQxLcM5dw2TNRFqyxD91_56mcsjXYVkVjJZ4hY",
-  "shortId": "6329ffecc88d4b2e",
+  "server": "95.143.188.113",
+  "port": 443,
+  "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+  "network": "grpc",
+  "mode": "gun",
+  "serviceName": "sync.v1",
+  "security": "tls",
+  "sni": "xa69h5ofn2.j.cloudfront.hls.edgehls.net",
+  "fingerPrint": "safari",
+  "alpn": [
+    "h2"
+  ],
   "entryPool": [
     {
-      "id": "cd48e3e8ca39f1da27b0bf98f3d448ff",
+      "id": "8a118b08bf1f33b47bccb95f8e589872",
       "name": "🇯🇵 Япония",
       "protocol": "vless",
-      "server": "46.8.158.64",
-      "port": 31068,
-      "password": "c9c029e2-5d7a-490a-89ad-298e05182dc3",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "usher.ttvnw.net",
-      "fingerPrint": "edge",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "45id_WQxLcM5dw2TNRFqyxD91_56mcsjXYVkVjJZ4hY",
-      "shortId": "6329ffecc88d4b2e"
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "xa69h5ofn2.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "safari",
+      "alpn": [
+        "h2"
+      ]
+    },
+    {
+      "id": "cadba2f94a47c444d85e122c33a7c90c",
+      "name": "🇯🇵 Япония",
+      "protocol": "vless",
+      "server": "95.143.188.113",
+      "port": 443,
+      "password": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "network": "grpc",
+      "mode": "gun",
+      "serviceName": "sync.v1",
+      "security": "tls",
+      "sni": "xa69h5ofn2.j.cloudfront.hls.edgehls.net",
+      "fingerPrint": "firefox"
     }
   ],
   "poolUrltestIntervalSec": 120

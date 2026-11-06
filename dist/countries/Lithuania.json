@@ -1,5 +1,5 @@
 {
-  "id": "a8b2d6ffec6cd797dfad860f3ad86368",
+  "id": "fd458cb3c296ef1c9952c05865e98fdd",
   "name": "Страна | Lithuania",
   "protocol": "vless",
   "server": "lorettmay.top",
@@ -9,9 +9,10 @@
   "path": "/blog/posts",
   "security": "tls",
   "sni": "lorettmay.top",
+  "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "a8b2d6ffec6cd797dfad860f3ad86368",
+      "id": "fd458cb3c296ef1c9952c05865e98fdd",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "lorettmay.top",
@@ -20,7 +21,8 @@
       "network": "ws",
       "path": "/blog/posts",
       "security": "tls",
-      "sni": "lorettmay.top"
+      "sni": "lorettmay.top",
+      "fingerPrint": "chrome"
     }
   ],
   "poolUrltestIntervalSec": 120
