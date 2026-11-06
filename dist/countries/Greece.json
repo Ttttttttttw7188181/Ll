@@ -1,0 +1,48 @@
+{
+  "id": "632648e2bc9bec00ce33ac50eab0999f",
+  "name": "Страна | Greece",
+  "protocol": "vless",
+  "server": "connect.accessgate.link",
+  "port": 2081,
+  "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+  "network": "tcp",
+  "security": "reality",
+  "sni": "unpkg.com",
+  "fingerPrint": "edge",
+  "flow": "xtls-rprx-vision",
+  "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+  "shortId": "b0d8c9a285c70f6f",
+  "entryPool": [
+    {
+      "id": "632648e2bc9bec00ce33ac50eab0999f",
+      "name": "Greece",
+      "protocol": "vless",
+      "server": "connect.accessgate.link",
+      "port": 2081,
+      "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "unpkg.com",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+      "shortId": "b0d8c9a285c70f6f"
+    },
+    {
+      "id": "5823d15983f7dc195cf16d27d61de3f7",
+      "name": "Greece",
+      "protocol": "vless",
+      "server": "160.5.219.101",
+      "port": 2081,
+      "password": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
+      "network": "tcp",
+      "security": "reality",
+      "sni": "unpkg.com",
+      "fingerPrint": "edge",
+      "flow": "xtls-rprx-vision",
+      "publicKey": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+      "shortId": "b0d8c9a285c70f6f"
+    }
+  ],
+  "poolUrltestIntervalSec": 120
+}

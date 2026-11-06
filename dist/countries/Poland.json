@@ -1,266 +1,96 @@
 {
-  "id": "48e228e761f50a4d78c3a852d3406e02",
+  "id": "19bfc4c5e1ea57d40dd3c0a6c6cf6549",
   "name": "Страна | Poland",
   "protocol": "vless",
-  "server": "217.19.122.170",
-  "port": 2096,
-  "password": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
-  "network": "tcp",
-  "security": "reality",
-  "sni": "bm8.hat.onl",
-  "fingerPrint": "qq",
-  "flow": "xtls-rprx-vision",
-  "publicKey": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
-  "shortId": "2a096f7b298d0aba",
+  "server": "72.56.233.10",
+  "port": 8443,
+  "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+  "network": "ws",
+  "path": "/static/js/runtime.9d03c7.js",
+  "security": "tls",
+  "sni": "lte-v2-ws.gacvpn.site",
+  "fingerPrint": "firefox",
   "entryPool": [
     {
-      "id": "48e228e761f50a4d78c3a852d3406e02",
+      "id": "19bfc4c5e1ea57d40dd3c0a6c6cf6549",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "217.19.122.170",
-      "port": 2096,
-      "password": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "bm8.hat.onl",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
-      "shortId": "2a096f7b298d0aba"
-    },
-    {
-      "id": "1a99897d658627983ece20f6d0496989",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "217.19.122.170",
+      "server": "72.56.233.10",
       "port": 8443,
-      "password": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "path": "/static/js/runtime.9d03c7.js",
+      "security": "tls",
+      "sni": "lte-v2-ws.gacvpn.site",
+      "fingerPrint": "firefox"
+    },
+    {
+      "id": "5656a7ec2308340bd45a10e543bf8c15",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "72.56.233.10",
+      "port": 8443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "host": "lte-v2-ws.gacvpn.site",
+      "path": "/static/js/runtime.9d03c7.js",
+      "security": "tls",
+      "sni": "lte-v2-ws.gacvpn.site"
+    },
+    {
+      "id": "2bd0da7cfaf695ff576584879f81fee7",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "lte-v2-ws.gacvpn.site",
+      "port": 8443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "network": "ws",
+      "path": "/static/js/runtime.9d03c7.js",
+      "security": "tls",
+      "sni": "lte-v2-ws.gacvpn.site",
+      "fingerPrint": "ios"
+    },
+    {
+      "id": "02d2467236c24860f187b0c1fde966a6",
+      "name": "🇵🇱 Польша",
+      "protocol": "vless",
+      "server": "37.9.4.108",
+      "port": 8443,
+      "password": "02e7f01e-c9cf-4f96-816d-3b7cb97b289b",
       "network": "tcp",
       "security": "reality",
-      "sni": "bm9.hat.onl",
+      "sni": "warthunder.com",
       "fingerPrint": "qq",
       "flow": "xtls-rprx-vision",
-      "publicKey": "Dx5aV0n9e1j_YDhVk8Z4O9HPrg1HLAuGKlmQpgERgDo",
-      "shortId": "8eeca41a32d1523d"
+      "publicKey": "-IKhpLdY0Xp8whf5GIZ8nLro_uDz9czGtkj1l2KWLVI",
+      "shortId": "ced56b8e28517367"
     },
     {
-      "id": "f40eadf3e7a2e30414e9c073fc0e2f21",
+      "id": "eb97e07c64fbce58be662c85898e156b",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "217.19.122.170",
-      "port": 2087,
-      "password": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "bm7.hat.onl",
-      "fingerPrint": "qq",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "WL9GPq_lRWgT2lNCnDGSSU9GB9LghVKZ7nUrHAS5Pw8",
-      "shortId": "6f009fe1fab1d42e"
-    },
-    {
-      "id": "f25d2886de2608eb2fdb1a258b570b53",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28448,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "server": "72.56.233.10",
+      "port": 8443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
       "network": "ws",
-      "path": "/lovelive",
+      "path": "/static/js/runtime.9d03c7.js",
       "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "sni": "lte-v2-ws.gacvpn.site",
+      "fingerPrint": "firefox"
     },
     {
-      "id": "768e125e90769c53360c37b1468f4de0",
+      "id": "3eecd1b2c3800441cc78835e62da4134",
       "name": "🇵🇱 Польша",
       "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28449,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "server": "72.56.233.10",
+      "port": 8443,
+      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
       "network": "ws",
-      "path": "/lovelive",
+      "host": "72.56.233.10",
+      "path": "/static/js/runtime.9d03c7.js",
       "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "b414250efa112654f55b167d7d4e9368",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28450,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "1da82956f1d0d1959df87271efcfc59e",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28447,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "ea6156c4541313a4f9a8233beaafe01f",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28452,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "1f7b3d102fe1a0022a55734064ba7cfe",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28453,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "99ff1d4be23c575f518681145a0cd948",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28447,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "efcd36a3f1c41d86d0090f92b730794c",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28449,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "ffc1b99f4f52893e0c765874c6aa70a6",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28453,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "ios",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "cb6e111e51bc1af98c451391b005aca7",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28450,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "7acd9b6bb34d0c9d63ceb3517ebdb37f",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28452,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "id": "3a7faf419948edcaa3fa23e25830caa7",
-      "name": "🇵🇱 Польша",
-      "protocol": "vless",
-      "server": "84.23.52.120",
-      "port": 28448,
-      "password": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "network": "ws",
-      "path": "/lovelive",
-      "security": "tls",
-      "sni": "pl.sparxiecn.com",
-      "fingerPrint": "firefox",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "sni": "lte-v2-ws.gacvpn.site",
+      "fingerPrint": "firefox"
     }
   ],
   "poolUrltestIntervalSec": 120

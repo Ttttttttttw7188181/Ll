@@ -1,5 +1,5 @@
 {
-  "id": "fd458cb3c296ef1c9952c05865e98fdd",
+  "id": "a8b2d6ffec6cd797dfad860f3ad86368",
   "name": "Страна | Lithuania",
   "protocol": "vless",
   "server": "lorettmay.top",
@@ -9,10 +9,9 @@
   "path": "/blog/posts",
   "security": "tls",
   "sni": "lorettmay.top",
-  "fingerPrint": "chrome",
   "entryPool": [
     {
-      "id": "fd458cb3c296ef1c9952c05865e98fdd",
+      "id": "a8b2d6ffec6cd797dfad860f3ad86368",
       "name": "Lithuania",
       "protocol": "vless",
       "server": "lorettmay.top",
@@ -21,39 +20,7 @@
       "network": "ws",
       "path": "/blog/posts",
       "security": "tls",
-      "sni": "lorettmay.top",
-      "fingerPrint": "chrome"
-    },
-    {
-      "id": "70f54b8534c32a7ee30e7392d177202f",
-      "name": "Lithuania",
-      "protocol": "vless",
-      "server": "162afct.lt2.h1clayd.click",
-      "port": 443,
-      "password": "1fc053ed-e9e8-49f2-b7c1-fde68d722dff",
-      "network": "tcp",
-      "security": "reality",
-      "sni": "162afct.lt2.h1clayd.click",
-      "fingerPrint": "android",
-      "flow": "xtls-rprx-vision",
-      "publicKey": "y_pzv7NPwU8d4gAC3r6f6FZN5vFmaKJK9YPEGOjSYB0",
-      "shortId": "51e7ad7303dba560"
-    },
-    {
-      "id": "3727b5c198f340b109c453e351b93ed1",
-      "name": "Lithuania",
-      "protocol": "vless",
-      "server": "5a873ag.lt2.h1clayd.click",
-      "port": 443,
-      "password": "1fc053ed-e9e8-49f2-b7c1-fde68d722dff",
-      "network": "grpc",
-      "mode": "gun",
-      "serviceName": "8fcf9a0ebfb7",
-      "security": "reality",
-      "sni": "5a873ag.lt2.h1clayd.click",
-      "fingerPrint": "edge",
-      "publicKey": "-7jCGkgrVLVo1DgJrvOT_erdlIRf2IyVu1KGS409eBc",
-      "shortId": "40cdf901244028cb"
+      "sni": "lorettmay.top"
     }
   ],
   "poolUrltestIntervalSec": 120
