@@ -35,15 +35,15 @@
       "type": "urltest",
       "tag": "Авто",
       "outbounds": [
-        "Azerbaijan 001",
-        "Azerbaijan 002",
-        "Azerbaijan 003",
-        "Bulgaria 004",
-        "Bulgaria 005",
-        "Finland 006",
-        "Finland 007",
-        "Finland 008",
-        "Finland 009",
+        "Bulgaria 001",
+        "Germany 002",
+        "Germany 003",
+        "Germany 004",
+        "Germany 005",
+        "Germany 006",
+        "Germany 007",
+        "Germany 008",
+        "Germany 009",
         "Germany 010",
         "Germany 011",
         "Germany 012",
@@ -52,51 +52,12 @@
         "Germany 015",
         "Germany 016",
         "Germany 017",
-        "Germany 018",
-        "Germany 019",
-        "Germany 020",
-        "Germany 021",
-        "Germany 022",
-        "Hong Kong 023",
-        "Hong Kong 024",
-        "India 025",
-        "India 026",
-        "India 027",
-        "Japan 028",
-        "Japan 029",
-        "Kazakhstan 030",
-        "Kazakhstan 031",
-        "Kazakhstan 032",
-        "Kazakhstan 033",
-        "Kazakhstan 034",
-        "Latvia 035",
-        "Latvia 036",
-        "Lithuania 037",
-        "Luxembourg 038",
-        "Luxembourg 039",
-        "Netherlands 040",
-        "Netherlands 041",
-        "Netherlands 042",
-        "Netherlands 043",
-        "Poland 044",
-        "Poland 045",
-        "Poland 046",
-        "Portugal 047",
-        "Portugal 048",
-        "Russia 049",
-        "Russia 050",
-        "Russia 051",
-        "Russia 052",
-        "Russia 053",
-        "Russia 054",
-        "Russia 055",
-        "Russia 056",
-        "Slovakia 057",
-        "South Africa 058",
-        "South Africa 059",
-        "Sweden 060",
-        "United States 061",
-        "United States 062"
+        "Lithuania 018",
+        "Poland 019",
+        "Russia 020",
+        "Russia 021",
+        "Russia 022",
+        "Russia 023"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -105,38 +66,24 @@
     },
     {
       "type": "selector",
-      "tag": "Страна | Azerbaijan",
-      "outbounds": [
-        "Azerbaijan 001",
-        "Azerbaijan 002",
-        "Azerbaijan 003"
-      ],
-      "default": "Azerbaijan 001"
-    },
-    {
-      "type": "selector",
       "tag": "Страна | Bulgaria",
       "outbounds": [
-        "Bulgaria 004",
-        "Bulgaria 005"
+        "Bulgaria 001"
       ],
-      "default": "Bulgaria 004"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Finland",
-      "outbounds": [
-        "Finland 006",
-        "Finland 007",
-        "Finland 008",
-        "Finland 009"
-      ],
-      "default": "Finland 006"
+      "default": "Bulgaria 001"
     },
     {
       "type": "selector",
       "tag": "Страна | Germany",
       "outbounds": [
+        "Germany 002",
+        "Germany 003",
+        "Germany 004",
+        "Germany 005",
+        "Germany 006",
+        "Germany 007",
+        "Germany 008",
+        "Germany 009",
         "Germany 010",
         "Germany 011",
         "Germany 012",
@@ -144,394 +91,110 @@
         "Germany 014",
         "Germany 015",
         "Germany 016",
-        "Germany 017",
-        "Germany 018",
-        "Germany 019",
-        "Germany 020",
-        "Germany 021",
-        "Germany 022"
+        "Germany 017"
       ],
-      "default": "Germany 010"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Hong Kong",
-      "outbounds": [
-        "Hong Kong 023",
-        "Hong Kong 024"
-      ],
-      "default": "Hong Kong 023"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | India",
-      "outbounds": [
-        "India 025",
-        "India 026",
-        "India 027"
-      ],
-      "default": "India 025"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Japan",
-      "outbounds": [
-        "Japan 028",
-        "Japan 029"
-      ],
-      "default": "Japan 028"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Kazakhstan",
-      "outbounds": [
-        "Kazakhstan 030",
-        "Kazakhstan 031",
-        "Kazakhstan 032",
-        "Kazakhstan 033",
-        "Kazakhstan 034"
-      ],
-      "default": "Kazakhstan 030"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Latvia",
-      "outbounds": [
-        "Latvia 035",
-        "Latvia 036"
-      ],
-      "default": "Latvia 035"
+      "default": "Germany 002"
     },
     {
       "type": "selector",
       "tag": "Страна | Lithuania",
       "outbounds": [
-        "Lithuania 037"
+        "Lithuania 018"
       ],
-      "default": "Lithuania 037"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Luxembourg",
-      "outbounds": [
-        "Luxembourg 038",
-        "Luxembourg 039"
-      ],
-      "default": "Luxembourg 038"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Netherlands",
-      "outbounds": [
-        "Netherlands 040",
-        "Netherlands 041",
-        "Netherlands 042",
-        "Netherlands 043"
-      ],
-      "default": "Netherlands 040"
+      "default": "Lithuania 018"
     },
     {
       "type": "selector",
       "tag": "Страна | Poland",
       "outbounds": [
-        "Poland 044",
-        "Poland 045",
-        "Poland 046"
+        "Poland 019"
       ],
-      "default": "Poland 044"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Portugal",
-      "outbounds": [
-        "Portugal 047",
-        "Portugal 048"
-      ],
-      "default": "Portugal 047"
+      "default": "Poland 019"
     },
     {
       "type": "selector",
       "tag": "Страна | Russia",
       "outbounds": [
-        "Russia 049",
-        "Russia 050",
-        "Russia 051",
-        "Russia 052",
-        "Russia 053",
-        "Russia 054",
-        "Russia 055",
-        "Russia 056"
+        "Russia 020",
+        "Russia 021",
+        "Russia 022",
+        "Russia 023"
       ],
-      "default": "Russia 049"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Slovakia",
-      "outbounds": [
-        "Slovakia 057"
-      ],
-      "default": "Slovakia 057"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | South Africa",
-      "outbounds": [
-        "South Africa 058",
-        "South Africa 059"
-      ],
-      "default": "South Africa 058"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | Sweden",
-      "outbounds": [
-        "Sweden 060"
-      ],
-      "default": "Sweden 060"
-    },
-    {
-      "type": "selector",
-      "tag": "Страна | United States",
-      "outbounds": [
-        "United States 061",
-        "United States 062"
-      ],
-      "default": "United States 061"
+      "default": "Russia 020"
     },
     {
       "type": "vless",
-      "tag": "Azerbaijan 001",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "tag": "Bulgaria 001",
+      "server": "168.113.128.70",
+      "server_port": 20105,
+      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "jagamsrxd6.j.cloudfront.hls.vodcdn-edge.net",
+        "server_name": "ripelever.net",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
       }
     },
     {
       "type": "vless",
-      "tag": "Azerbaijan 002",
-      "server": "95.143.188.113",
+      "tag": "Germany 002",
+      "server": "147.45.153.134",
       "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "jagamsrxd6.j.cloudfront.hls.vodcdn-edge.net",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "alpn": [
           "h2"
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Azerbaijan 003",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "jagamsrxd6.j.cloudfront.hls.vodcdn-edge.net",
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "grpc",
-        "service_name": "sync.v1"
+        "service_name": "VideoRenderer"
       }
     },
     {
       "type": "vless",
-      "tag": "Bulgaria 004",
-      "server": "176.124.218.80",
+      "tag": "Germany 003",
+      "server": "renderer-bridge-2-133.mirra.now",
       "server_port": 443,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "bg2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "bg2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.f857f795.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Bulgaria 005",
-      "server": "176.124.218.80",
-      "server_port": 443,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bg2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "bg2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.f857f795.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 006",
-      "server": "103.74.93.240",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk2.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk2.gacvpn.site"
-        },
-        "path": "/static/js/vendor.549bd856.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 007",
-      "server": "103.74.93.240",
-      "server_port": 995,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk2.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk2.gacvpn.site"
-        },
-        "path": "/static/js/app.5b8e2c41.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 008",
-      "server": "103.74.93.240",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk2.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk2.gacvpn.site"
-        },
-        "path": "/static/js/vendor.549bd856.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Finland 009",
-      "server": "103.74.93.240",
-      "server_port": 995,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk2.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk2.gacvpn.site"
-        },
-        "path": "/static/js/app.5b8e2c41.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 010",
-      "server": "falmero.store",
-      "server_port": 443,
-      "uuid": "8fb19a9e-ca2b-433a-8469-e4c7796033b2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "falmero.store",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "alpn": [
           "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        ]
       },
       "transport": {
         "type": "grpc",
-        "service_name": "glush.de1.v1"
+        "service_name": "VideoRenderer"
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 011",
-      "server": "falmero.store",
+      "tag": "Germany 004",
+      "server": "renderer-bridge-2-133.mirra.now",
       "server_port": 443,
-      "uuid": "8fb19a9e-ca2b-433a-8469-e4c7796033b2",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "falmero.store",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -539,13 +202,33 @@
       },
       "transport": {
         "type": "grpc",
-        "service_name": "glush.de1.v1"
+        "service_name": "VideoRenderer"
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 012",
-      "server": "186.246.4.49",
+      "tag": "Germany 005",
+      "server": "renderer-bridge-2-133.mirra.now",
+      "server_port": 443,
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "renderer-bridge-2-133.mirra.now",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "VideoRenderer"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 006",
+      "server": "201.51.0.7",
       "server_port": 993,
       "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
       "packet_encoding": "xudp",
@@ -554,7 +237,7 @@
         "server_name": "msk5.gacvpn.site",
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -567,7 +250,7 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 013",
+      "tag": "Germany 007",
       "server": "46.254.19.138",
       "server_port": 30055,
       "uuid": "c97c95c8-41c8-4dc7-be21-c745c9dbd6c1",
@@ -589,32 +272,10 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 014",
-      "server": "188.225.78.228",
-      "server_port": 443,
-      "uuid": "bb190cdb-82ae-4212-b6cd-8ae9e6b768dd",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "music.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aV_BHCeZ30y4-5rpUIHaWHMYAgogLsw4AE06Rw2X4WE",
-          "short_id": "e202a94ad1711af2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 015",
-      "server": "185.86.145.112",
-      "server_port": 10452,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
+      "tag": "Germany 008",
+      "server": "185.86.147.143",
+      "server_port": 7443,
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -626,17 +287,39 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
-          "short_id": "c8a79c7b64adca2a"
+          "public_key": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+          "short_id": "190c27ae5f2e4d2c"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Germany 016",
+      "tag": "Germany 009",
+      "server": "185.86.147.184",
+      "server_port": 9449,
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
+          "short_id": "62002c0a685ac208"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 010",
       "server": "185.86.145.216",
       "server_port": 32944,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -655,10 +338,10 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 017",
+      "tag": "Germany 011",
       "server": "95.129.236.149",
       "server_port": 443,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -678,54 +361,10 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 018",
-      "server": "185.86.147.143",
-      "server_port": 7443,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "passport.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
-          "short_id": "190c27ae5f2e4d2c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 019",
-      "server": "185.86.147.184",
-      "server_port": 9449,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "passport.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
-          "short_id": "62002c0a685ac208"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Germany 020",
+      "tag": "Germany 012",
       "server": "91.185.83.105",
       "server_port": 9443,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -744,10 +383,32 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 021",
+      "tag": "Germany 013",
+      "server": "185.86.145.112",
+      "server_port": 10452,
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
+          "short_id": "c8a79c7b64adca2a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 014",
       "server": "87.242.127.51",
       "server_port": 7452,
-      "uuid": "fac6cc72-cf61-468c-9afe-0bf7ce8db382",
+      "uuid": "ce51a7e3-988d-4f57-8758-3d5892053fec",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -766,8 +427,54 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 022",
-      "server": "186.246.4.49",
+      "tag": "Germany 015",
+      "server": "147.45.153.134",
+      "server_port": 443,
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "renderer-bridge-2-133.mirra.now",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "VideoRenderer"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 016",
+      "server": "147.45.153.134",
+      "server_port": 443,
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "renderer-bridge-2-133.mirra.now",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "VideoRenderer"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 017",
+      "server": "201.51.0.7",
       "server_port": 993,
       "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
       "packet_encoding": "xudp",
@@ -789,305 +496,7 @@
     },
     {
       "type": "vless",
-      "tag": "Hong Kong 023",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pqlaxiq96l.j.cloudfront.hls.hlsnode.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Hong Kong 024",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pqlaxiq96l.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "India 025",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "India 026",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "India 027",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ce3fp598gr.j.cloudfront.hls.edgehls.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Japan 028",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "xa69h5ofn2.j.cloudfront.hls.edgehls.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Japan 029",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "xa69h5ofn2.j.cloudfront.hls.edgehls.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Kazakhstan 030",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tz5gtjwlki.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Kazakhstan 031",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tz5gtjwlki.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Kazakhstan 032",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tz5gtjwlki.j.cloudfront.hls.hlsnode.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Kazakhstan 033",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tz5gtjwlki.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Kazakhstan 034",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tz5gtjwlki.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Latvia 035",
-      "server": "176.124.218.80",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "lv.gacvpn.site"
-        },
-        "path": "/static/js/vendor.448f02e7.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Latvia 036",
-      "server": "176.124.218.80",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "lv.gacvpn.site"
-        },
-        "path": "/static/js/vendor.448f02e7.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Lithuania 037",
+      "tag": "Lithuania 018",
       "server": "lorettmay.top",
       "server_port": 443,
       "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
@@ -1107,188 +516,7 @@
     },
     {
       "type": "vless",
-      "tag": "Luxembourg 038",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "k5s6n5ql4d.j.cloudfront.hls.hlsnode.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Luxembourg 039",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "k5s6n5ql4d.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Netherlands 040",
-      "server": "62.113.42.147",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fi.gacvpn.site"
-        },
-        "path": "/static/js/vendor.63a45d33.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Netherlands 041",
-      "server": "201.24.113.108",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fr2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.61db254e.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Netherlands 042",
-      "server": "201.24.113.108",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fr2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.61db254e.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Netherlands 043",
-      "server": "62.113.42.147",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fi.gacvpn.site"
-        },
-        "path": "/static/js/vendor.63a45d33.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Poland 044",
-      "server": "77.233.222.33",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk6.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk6.gacvpn.site"
-        },
-        "path": "/static/js/vendor.32acab26.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Poland 045",
-      "server": "77.233.222.33",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk6.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk6.gacvpn.site"
-        },
-        "path": "/static/js/vendor.32acab26.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Poland 046",
+      "tag": "Poland 019",
       "server": "185.86.147.175",
       "server_port": 443,
       "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
@@ -1311,349 +539,89 @@
     },
     {
       "type": "vless",
-      "tag": "Portugal 047",
-      "server": "95.143.188.113",
+      "tag": "Russia 020",
+      "server": "217.25.93.165",
       "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "uuid": "3bb97d46-789b-4229-88f6-9beb222a4137",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ekkgkmfqm9.j.cloudfront.hls.edgehls.net",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Portugal 048",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ekkgkmfqm9.j.cloudfront.hls.edgehls.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 049",
-      "server": "185.147.27.92",
-      "server_port": 443,
-      "uuid": "1d690248-024b-4923-aab2-0abebe0688d3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fotaku.xyz",
+        "server_name": "yoy-api.bachidze.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "dMy6EEwckj-LDysvKx0HflY60Z3YiuGD7D7UeJjItDA"
+          "public_key": "ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "Russia 050",
-      "server": "62.113.42.147",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk4.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk4.gacvpn.site"
-        },
-        "path": "/static/js/chunk.cc795b0d.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 051",
-      "server": "62.113.42.147",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk4.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "msk4.gacvpn.site"
-        },
-        "path": "/static/js/chunk.cc795b0d.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 052",
-      "server": "95.143.188.113",
+      "tag": "Russia 021",
+      "server": "renderer-bridge-2-133.mirra.now",
       "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 053",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 054",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "alpn": [
           "h2"
         ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 055",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Russia 056",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ar5v3uc2o9.j.cloudfront.hls.hlsnode.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Slovakia 057",
-      "server": "62.113.42.147",
-      "server_port": 995,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.gacvpn.site",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fi.gacvpn.site"
-        },
-        "path": "/static/js/runtime.6dc28486.js"
+        "type": "grpc",
+        "service_name": "VideoRenderer"
       }
     },
     {
       "type": "vless",
-      "tag": "South Africa 058",
-      "server": "95.143.188.113",
+      "tag": "Russia 022",
+      "server": "renderer-bridge-2-133.mirra.now",
       "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "uuid": "27653b37-603c-4c90-b1f5-25c4d23f8932",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "g5j6r0l5i9.j.cloudfront.hls.vodcdn-edge.net",
+        "server_name": "renderer-bridge-2-133.mirra.now",
         "alpn": [
           "h2"
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "ios"
         }
       },
       "transport": {
         "type": "grpc",
-        "service_name": "sync.v1"
+        "service_name": "VideoRenderer"
       }
     },
     {
       "type": "vless",
-      "tag": "South Africa 059",
-      "server": "95.143.188.113",
-      "server_port": 443,
-      "uuid": "c47159bb-2c15-440d-b239-8594d7e7efbb",
+      "tag": "Russia 023",
+      "server": "168.113.128.70",
+      "server_port": 20105,
+      "uuid": "9aff658c-1f80-4c82-9213-48ca26996142",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g5j6r0l5i9.j.cloudfront.hls.vodcdn-edge.net",
+        "server_name": "ripelever.net",
+        "alpn": [
+          "[h2%2Chttp%2F1.1]"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "sync.v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Sweden 060",
-      "server": "62.113.42.147",
-      "server_port": 995,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "fi.gacvpn.site"
-        },
-        "path": "/static/js/runtime.6dc28486.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "United States 061",
-      "server": "194.87.118.232",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "us2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "us2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.2e12e7f4.js"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "United States 062",
-      "server": "194.87.118.232",
-      "server_port": 993,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "us2-ws.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "us2-ws.gacvpn.site"
-        },
-        "path": "/static/js/vendor.2e12e7f4.js"
       }
     },
     {

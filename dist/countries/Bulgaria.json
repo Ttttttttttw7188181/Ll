@@ -1,44 +1,36 @@
 {
-  "id": "d4ed7904ae71fdea8cef0948f74f96fd",
+  "id": "2e1abcddd61d2b02800e317a34f71045",
   "name": "Страна | Bulgaria",
   "protocol": "vless",
-  "server": "176.124.218.80",
-  "port": 443,
-  "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-  "network": "ws",
-  "host": "bg2-ws.gacvpn.site",
-  "path": "/static/js/vendor.f857f795.js",
+  "server": "168.113.128.70",
+  "port": 20105,
+  "password": "9aff658c-1f80-4c82-9213-48ca26996142",
+  "network": "tcp",
   "security": "tls",
-  "sni": "bg2-ws.gacvpn.site",
+  "sni": "ripelever.net",
   "fingerPrint": "firefox",
+  "alpn": [
+    "h2",
+    "http/1.1"
+  ],
+  "flow": "xtls-rprx-vision",
   "entryPool": [
     {
-      "id": "d4ed7904ae71fdea8cef0948f74f96fd",
+      "id": "2e1abcddd61d2b02800e317a34f71045",
       "name": "Bulgaria",
       "protocol": "vless",
-      "server": "176.124.218.80",
-      "port": 443,
-      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "network": "ws",
-      "host": "bg2-ws.gacvpn.site",
-      "path": "/static/js/vendor.f857f795.js",
+      "server": "168.113.128.70",
+      "port": 20105,
+      "password": "9aff658c-1f80-4c82-9213-48ca26996142",
+      "network": "tcp",
       "security": "tls",
-      "sni": "bg2-ws.gacvpn.site",
-      "fingerPrint": "firefox"
-    },
-    {
-      "id": "ca5895caadf60f44b771244d0ddd08c7",
-      "name": "Bulgaria",
-      "protocol": "vless",
-      "server": "176.124.218.80",
-      "port": 443,
-      "password": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "network": "ws",
-      "host": "bg2-ws.gacvpn.site",
-      "path": "/static/js/vendor.f857f795.js",
-      "security": "tls",
-      "sni": "bg2-ws.gacvpn.site",
-      "fingerPrint": "firefox"
+      "sni": "ripelever.net",
+      "fingerPrint": "firefox",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "flow": "xtls-rprx-vision"
     }
   ],
   "poolUrltestIntervalSec": 120
